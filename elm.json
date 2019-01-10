@@ -1,7 +1,7 @@
 {
     "type": "package",
     "name": "afidegnum/elm-tailwind",
-    "summary": "Bulma HTML/CSS Framework for Elm 0.19",
+    "summary": "Tailwind  HTML/CSS Framework for Elm 0.19",
     "license": "MIT",
     "version": "1.0.0",
     "exposed-modules": [
