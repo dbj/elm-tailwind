@@ -112,10 +112,34 @@ root.walkRules((rule) => {
   elmName = elmName.replace(':hover', '');
 
   //
-  // Before using "name", but after basing elmName on it, escape the backslack in the Elm string
+  // Before using "name", but after basing elmName on it, do the following:
+  //
+
+  //
+  // Escape the backslack in the Elm string
   //
   name = name.replace(/\\\//g, '/');
   name = name.replace(/\\/g, '\\\\');
+
+  //
+  // Replace focus\\: with focus:
+  //
+  name = name.replace('focus\\\\:', 'focus:');
+
+  //
+  // Remove :focus
+  //
+  name = name.replace(':focus', '');
+
+  //
+  // Replace hover\\: with hover:
+  //
+  name = name.replace('hover\\\\:', 'hover:')
+
+  //
+  // Remove :hover
+  //
+  name = name.replace(':hover', '');
 
   const obj = {
     name,

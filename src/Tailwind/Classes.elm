@@ -1,5 +1,5 @@
 
-module Tailwind.Classes exposing (TailwindClass(..), sm, md, lg, xl, negm_0, negm_1, negm_10, negm_12, negm_16, negm_2, negm_20, negm_24, negm_3, negm_32, negm_4, negm_5, negm_6, negm_8, negm_px, neg_mb_0, neg_mb_1, neg_mb_10, neg_mb_12, neg_mb_16, neg_mb_2, neg_mb_20, neg_mb_24, neg_mb_3, neg_mb_32, neg_mb_4, neg_mb_5, neg_mb_6, neg_mb_8, neg_mb_px, neg_ml_0, neg_ml_1, neg_ml_10, neg_ml_12, neg_ml_16, neg_ml_2, neg_ml_20, neg_ml_24, neg_ml_3, neg_ml_32, neg_ml_4, neg_ml_5, neg_ml_6, neg_ml_8, neg_ml_px, neg_mr_0, neg_mr_1, neg_mr_10, neg_mr_12, neg_mr_16, neg_mr_2, neg_mr_20, neg_mr_24, neg_mr_3, neg_mr_32, neg_mr_4, neg_mr_5, neg_mr_6, neg_mr_8, neg_mr_px, neg_mt_0, neg_mt_1, neg_mt_10, neg_mt_12, neg_mt_16, neg_mt_2, neg_mt_20, neg_mt_24, neg_mt_3, neg_mt_32, neg_mt_4, neg_mt_5, neg_mt_6, neg_mt_8, neg_mt_px, neg_mx_0, neg_mx_1, neg_mx_10, neg_mx_12, neg_mx_16, neg_mx_2, neg_mx_20, neg_mx_24, neg_mx_3, neg_mx_32, neg_mx_4, neg_mx_5, neg_mx_6, neg_mx_8, neg_mx_px, neg_my_0, neg_my_1, neg_my_10, neg_my_12, neg_my_16, neg_my_2, neg_my_20, neg_my_24, neg_my_3, neg_my_32, neg_my_4, neg_my_5, neg_my_6, neg_my_8, neg_my_px, absolute, align_baseline, align_bottom, align_middle, align_text_bottom, align_text_top, align_top, antialiased, appearance_none, bg_auto, bg_black, bg_blue, bg_blue_dark, bg_blue_darker, bg_blue_darkest, bg_blue_light, bg_blue_lighter, bg_blue_lightest, bg_bottom, bg_center, bg_contain, bg_cover, bg_fixed, bg_green, bg_green_dark, bg_green_darker, bg_green_darkest, bg_green_light, bg_green_lighter, bg_green_lightest, bg_grey, bg_grey_dark, bg_grey_darker, bg_grey_darkest, bg_grey_light, bg_grey_lighter, bg_grey_lightest, bg_indigo, bg_indigo_dark, bg_indigo_darker, bg_indigo_darkest, bg_indigo_light, bg_indigo_lighter, bg_indigo_lightest, bg_left, bg_left_bottom, bg_left_top, bg_local, bg_no_repeat, bg_orange, bg_orange_dark, bg_orange_darker, bg_orange_darkest, bg_orange_light, bg_orange_lighter, bg_orange_lightest, bg_pink, bg_pink_dark, bg_pink_darker, bg_pink_darkest, bg_pink_light, bg_pink_lighter, bg_pink_lightest, bg_purple, bg_purple_dark, bg_purple_darker, bg_purple_darkest, bg_purple_light, bg_purple_lighter, bg_purple_lightest, bg_red, bg_red_dark, bg_red_darker, bg_red_darkest, bg_red_light, bg_red_lighter, bg_red_lightest, bg_repeat, bg_repeat_x, bg_repeat_y, bg_right, bg_right_bottom, bg_right_top, bg_scroll, bg_teal, bg_teal_dark, bg_teal_darker, bg_teal_darkest, bg_teal_light, bg_teal_lighter, bg_teal_lightest, bg_top, bg_transparent, bg_white, bg_yellow, bg_yellow_dark, bg_yellow_darker, bg_yellow_darkest, bg_yellow_light, bg_yellow_lighter, bg_yellow_lightest, block, border, border_0, border_2, border_4, border_8, border_b, border_b_0, border_b_2, border_b_4, border_b_8, border_black, border_blue, border_blue_dark, border_blue_darker, border_blue_darkest, border_blue_light, border_blue_lighter, border_blue_lightest, border_collapse, border_dashed, border_dotted, border_green, border_green_dark, border_green_darker, border_green_darkest, border_green_light, border_green_lighter, border_green_lightest, border_grey, border_grey_dark, border_grey_darker, border_grey_darkest, border_grey_light, border_grey_lighter, border_grey_lightest, border_indigo, border_indigo_dark, border_indigo_darker, border_indigo_darkest, border_indigo_light, border_indigo_lighter, border_indigo_lightest, border_l, border_l_0, border_l_2, border_l_4, border_l_8, border_none, border_orange, border_orange_dark, border_orange_darker, border_orange_darkest, border_orange_light, border_orange_lighter, border_orange_lightest, border_pink, border_pink_dark, border_pink_darker, border_pink_darkest, border_pink_light, border_pink_lighter, border_pink_lightest, border_purple, border_purple_dark, border_purple_darker, border_purple_darkest, border_purple_light, border_purple_lighter, border_purple_lightest, border_r, border_r_0, border_r_2, border_r_4, border_r_8, border_red, border_red_dark, border_red_darker, border_red_darkest, border_red_light, border_red_lighter, border_red_lightest, border_separate, border_solid, border_t, border_t_0, border_t_2, border_t_4, border_t_8, border_teal, border_teal_dark, border_teal_darker, border_teal_darkest, border_teal_light, border_teal_lighter, border_teal_lightest, border_transparent, border_white, border_yellow, border_yellow_dark, border_yellow_darker, border_yellow_darkest, border_yellow_light, border_yellow_lighter, border_yellow_lightest, break_normal, break_words, capitalize, container, content_around, content_between, content_center, content_end, content_start, cursor_auto, cursor_default, cursor_move, cursor_not_allowed, cursor_pointer, cursor_wait, fill_current, fixed, flex, flex_1, flex_auto, flex_col, flex_col_reverse, flex_grow, flex_initial, flex_no_grow, flex_no_shrink, flex_no_wrap, flex_none, flex_row, flex_row_reverse, flex_shrink, flex_wrap, flex_wrap_reverse, float_left, float_none, float_right, focus__antialiased, focus__bg_black, focus__bg_blue_dark, focus__bg_blue_darker, focus__bg_blue_darkest, focus__bg_blue_light, focus__bg_blue_lighter, focus__bg_blue_lightest, focus__bg_blue, focus__bg_green_dark, focus__bg_green_darker, focus__bg_green_darkest, focus__bg_green_light, focus__bg_green_lighter, focus__bg_green_lightest, focus__bg_green, focus__bg_grey_dark, focus__bg_grey_darker, focus__bg_grey_darkest, focus__bg_grey_light, focus__bg_grey_lighter, focus__bg_grey_lightest, focus__bg_grey, focus__bg_indigo_dark, focus__bg_indigo_darker, focus__bg_indigo_darkest, focus__bg_indigo_light, focus__bg_indigo_lighter, focus__bg_indigo_lightest, focus__bg_indigo, focus__bg_orange_dark, focus__bg_orange_darker, focus__bg_orange_darkest, focus__bg_orange_light, focus__bg_orange_lighter, focus__bg_orange_lightest, focus__bg_orange, focus__bg_pink_dark, focus__bg_pink_darker, focus__bg_pink_darkest, focus__bg_pink_light, focus__bg_pink_lighter, focus__bg_pink_lightest, focus__bg_pink, focus__bg_purple_dark, focus__bg_purple_darker, focus__bg_purple_darkest, focus__bg_purple_light, focus__bg_purple_lighter, focus__bg_purple_lightest, focus__bg_purple, focus__bg_red_dark, focus__bg_red_darker, focus__bg_red_darkest, focus__bg_red_light, focus__bg_red_lighter, focus__bg_red_lightest, focus__bg_red, focus__bg_teal_dark, focus__bg_teal_darker, focus__bg_teal_darkest, focus__bg_teal_light, focus__bg_teal_lighter, focus__bg_teal_lightest, focus__bg_teal, focus__bg_transparent, focus__bg_white, focus__bg_yellow_dark, focus__bg_yellow_darker, focus__bg_yellow_darkest, focus__bg_yellow_light, focus__bg_yellow_lighter, focus__bg_yellow_lightest, focus__bg_yellow, focus__border_black, focus__border_blue_dark, focus__border_blue_darker, focus__border_blue_darkest, focus__border_blue_light, focus__border_blue_lighter, focus__border_blue_lightest, focus__border_blue, focus__border_green_dark, focus__border_green_darker, focus__border_green_darkest, focus__border_green_light, focus__border_green_lighter, focus__border_green_lightest, focus__border_green, focus__border_grey_dark, focus__border_grey_darker, focus__border_grey_darkest, focus__border_grey_light, focus__border_grey_lighter, focus__border_grey_lightest, focus__border_grey, focus__border_indigo_dark, focus__border_indigo_darker, focus__border_indigo_darkest, focus__border_indigo_light, focus__border_indigo_lighter, focus__border_indigo_lightest, focus__border_indigo, focus__border_orange_dark, focus__border_orange_darker, focus__border_orange_darkest, focus__border_orange_light, focus__border_orange_lighter, focus__border_orange_lightest, focus__border_orange, focus__border_pink_dark, focus__border_pink_darker, focus__border_pink_darkest, focus__border_pink_light, focus__border_pink_lighter, focus__border_pink_lightest, focus__border_pink, focus__border_purple_dark, focus__border_purple_darker, focus__border_purple_darkest, focus__border_purple_light, focus__border_purple_lighter, focus__border_purple_lightest, focus__border_purple, focus__border_red_dark, focus__border_red_darker, focus__border_red_darkest, focus__border_red_light, focus__border_red_lighter, focus__border_red_lightest, focus__border_red, focus__border_teal_dark, focus__border_teal_darker, focus__border_teal_darkest, focus__border_teal_light, focus__border_teal_lighter, focus__border_teal_lightest, focus__border_teal, focus__border_transparent, focus__border_white, focus__border_yellow_dark, focus__border_yellow_darker, focus__border_yellow_darkest, focus__border_yellow_light, focus__border_yellow_lighter, focus__border_yellow_lightest, focus__border_yellow, focus__capitalize, focus__font_black, focus__font_bold, focus__font_extrabold, focus__font_hairline, focus__font_light, focus__font_medium, focus__font_normal, focus__font_semibold, focus__font_thin, focus__italic, focus__line_through, focus__lowercase, focus__no_underline, focus__normal_case, focus__outline_none, focus__roman, focus__shadow_inner, focus__shadow_lg, focus__shadow_md, focus__shadow_none, focus__shadow_outline, focus__shadow, focus__subpixel_antialiased, focus__text_black, focus__text_blue_dark, focus__text_blue_darker, focus__text_blue_darkest, focus__text_blue_light, focus__text_blue_lighter, focus__text_blue_lightest, focus__text_blue, focus__text_green_dark, focus__text_green_darker, focus__text_green_darkest, focus__text_green_light, focus__text_green_lighter, focus__text_green_lightest, focus__text_green, focus__text_grey_dark, focus__text_grey_darker, focus__text_grey_darkest, focus__text_grey_light, focus__text_grey_lighter, focus__text_grey_lightest, focus__text_grey, focus__text_indigo_dark, focus__text_indigo_darker, focus__text_indigo_darkest, focus__text_indigo_light, focus__text_indigo_lighter, focus__text_indigo_lightest, focus__text_indigo, focus__text_orange_dark, focus__text_orange_darker, focus__text_orange_darkest, focus__text_orange_light, focus__text_orange_lighter, focus__text_orange_lightest, focus__text_orange, focus__text_pink_dark, focus__text_pink_darker, focus__text_pink_darkest, focus__text_pink_light, focus__text_pink_lighter, focus__text_pink_lightest, focus__text_pink, focus__text_purple_dark, focus__text_purple_darker, focus__text_purple_darkest, focus__text_purple_light, focus__text_purple_lighter, focus__text_purple_lightest, focus__text_purple, focus__text_red_dark, focus__text_red_darker, focus__text_red_darkest, focus__text_red_light, focus__text_red_lighter, focus__text_red_lightest, focus__text_red, focus__text_teal_dark, focus__text_teal_darker, focus__text_teal_darkest, focus__text_teal_light, focus__text_teal_lighter, focus__text_teal_lightest, focus__text_teal, focus__text_transparent, focus__text_white, focus__text_yellow_dark, focus__text_yellow_darker, focus__text_yellow_darkest, focus__text_yellow_light, focus__text_yellow_lighter, focus__text_yellow_lightest, focus__text_yellow, focus__underline, focus__uppercase, font_black, font_bold, font_extrabold, font_hairline, font_light, font_medium, font_mono, font_normal, font_sans, font_semibold, font_serif, font_thin, h_1, h_10, h_12, h_16, h_2, h_24, h_3, h_32, h_4, h_48, h_5, h_6, h_64, h_8, h_auto, h_full, h_px, h_screen, hidden, hover__antialiased, hover__bg_black, hover__bg_blue_dark, hover__bg_blue_darker, hover__bg_blue_darkest, hover__bg_blue_light, hover__bg_blue_lighter, hover__bg_blue_lightest, hover__bg_blue, hover__bg_green_dark, hover__bg_green_darker, hover__bg_green_darkest, hover__bg_green_light, hover__bg_green_lighter, hover__bg_green_lightest, hover__bg_green, hover__bg_grey_dark, hover__bg_grey_darker, hover__bg_grey_darkest, hover__bg_grey_light, hover__bg_grey_lighter, hover__bg_grey_lightest, hover__bg_grey, hover__bg_indigo_dark, hover__bg_indigo_darker, hover__bg_indigo_darkest, hover__bg_indigo_light, hover__bg_indigo_lighter, hover__bg_indigo_lightest, hover__bg_indigo, hover__bg_orange_dark, hover__bg_orange_darker, hover__bg_orange_darkest, hover__bg_orange_light, hover__bg_orange_lighter, hover__bg_orange_lightest, hover__bg_orange, hover__bg_pink_dark, hover__bg_pink_darker, hover__bg_pink_darkest, hover__bg_pink_light, hover__bg_pink_lighter, hover__bg_pink_lightest, hover__bg_pink, hover__bg_purple_dark, hover__bg_purple_darker, hover__bg_purple_darkest, hover__bg_purple_light, hover__bg_purple_lighter, hover__bg_purple_lightest, hover__bg_purple, hover__bg_red_dark, hover__bg_red_darker, hover__bg_red_darkest, hover__bg_red_light, hover__bg_red_lighter, hover__bg_red_lightest, hover__bg_red, hover__bg_teal_dark, hover__bg_teal_darker, hover__bg_teal_darkest, hover__bg_teal_light, hover__bg_teal_lighter, hover__bg_teal_lightest, hover__bg_teal, hover__bg_transparent, hover__bg_white, hover__bg_yellow_dark, hover__bg_yellow_darker, hover__bg_yellow_darkest, hover__bg_yellow_light, hover__bg_yellow_lighter, hover__bg_yellow_lightest, hover__bg_yellow, hover__border_black, hover__border_blue_dark, hover__border_blue_darker, hover__border_blue_darkest, hover__border_blue_light, hover__border_blue_lighter, hover__border_blue_lightest, hover__border_blue, hover__border_green_dark, hover__border_green_darker, hover__border_green_darkest, hover__border_green_light, hover__border_green_lighter, hover__border_green_lightest, hover__border_green, hover__border_grey_dark, hover__border_grey_darker, hover__border_grey_darkest, hover__border_grey_light, hover__border_grey_lighter, hover__border_grey_lightest, hover__border_grey, hover__border_indigo_dark, hover__border_indigo_darker, hover__border_indigo_darkest, hover__border_indigo_light, hover__border_indigo_lighter, hover__border_indigo_lightest, hover__border_indigo, hover__border_orange_dark, hover__border_orange_darker, hover__border_orange_darkest, hover__border_orange_light, hover__border_orange_lighter, hover__border_orange_lightest, hover__border_orange, hover__border_pink_dark, hover__border_pink_darker, hover__border_pink_darkest, hover__border_pink_light, hover__border_pink_lighter, hover__border_pink_lightest, hover__border_pink, hover__border_purple_dark, hover__border_purple_darker, hover__border_purple_darkest, hover__border_purple_light, hover__border_purple_lighter, hover__border_purple_lightest, hover__border_purple, hover__border_red_dark, hover__border_red_darker, hover__border_red_darkest, hover__border_red_light, hover__border_red_lighter, hover__border_red_lightest, hover__border_red, hover__border_teal_dark, hover__border_teal_darker, hover__border_teal_darkest, hover__border_teal_light, hover__border_teal_lighter, hover__border_teal_lightest, hover__border_teal, hover__border_transparent, hover__border_white, hover__border_yellow_dark, hover__border_yellow_darker, hover__border_yellow_darkest, hover__border_yellow_light, hover__border_yellow_lighter, hover__border_yellow_lightest, hover__border_yellow, hover__capitalize, hover__font_black, hover__font_bold, hover__font_extrabold, hover__font_hairline, hover__font_light, hover__font_medium, hover__font_normal, hover__font_semibold, hover__font_thin, hover__italic, hover__line_through, hover__lowercase, hover__no_underline, hover__normal_case, hover__roman, hover__shadow_inner, hover__shadow_lg, hover__shadow_md, hover__shadow_none, hover__shadow_outline, hover__shadow, hover__subpixel_antialiased, hover__text_black, hover__text_blue_dark, hover__text_blue_darker, hover__text_blue_darkest, hover__text_blue_light, hover__text_blue_lighter, hover__text_blue_lightest, hover__text_blue, hover__text_green_dark, hover__text_green_darker, hover__text_green_darkest, hover__text_green_light, hover__text_green_lighter, hover__text_green_lightest, hover__text_green, hover__text_grey_dark, hover__text_grey_darker, hover__text_grey_darkest, hover__text_grey_light, hover__text_grey_lighter, hover__text_grey_lightest, hover__text_grey, hover__text_indigo_dark, hover__text_indigo_darker, hover__text_indigo_darkest, hover__text_indigo_light, hover__text_indigo_lighter, hover__text_indigo_lightest, hover__text_indigo, hover__text_orange_dark, hover__text_orange_darker, hover__text_orange_darkest, hover__text_orange_light, hover__text_orange_lighter, hover__text_orange_lightest, hover__text_orange, hover__text_pink_dark, hover__text_pink_darker, hover__text_pink_darkest, hover__text_pink_light, hover__text_pink_lighter, hover__text_pink_lightest, hover__text_pink, hover__text_purple_dark, hover__text_purple_darker, hover__text_purple_darkest, hover__text_purple_light, hover__text_purple_lighter, hover__text_purple_lightest, hover__text_purple, hover__text_red_dark, hover__text_red_darker, hover__text_red_darkest, hover__text_red_light, hover__text_red_lighter, hover__text_red_lightest, hover__text_red, hover__text_teal_dark, hover__text_teal_darker, hover__text_teal_darkest, hover__text_teal_light, hover__text_teal_lighter, hover__text_teal_lightest, hover__text_teal, hover__text_transparent, hover__text_white, hover__text_yellow_dark, hover__text_yellow_darker, hover__text_yellow_darkest, hover__text_yellow_light, hover__text_yellow_lighter, hover__text_yellow_lightest, hover__text_yellow, hover__underline, hover__uppercase, inline, inline_block, inline_flex, invisible, italic, items_baseline, items_center, items_end, items_start, items_stretch, justify_around, justify_between, justify_center, justify_end, justify_start, leading_loose, leading_none, leading_normal, leading_tight, line_through, list_reset, lowercase, m_0, m_1, m_10, m_12, m_16, m_2, m_20, m_24, m_3, m_32, m_4, m_5, m_6, m_8, m_auto, m_px, max_h_full, max_h_screen, max_w_2xl, max_w_3xl, max_w_4xl, max_w_5xl, max_w_full, max_w_lg, max_w_md, max_w_sm, max_w_xl, max_w_xs, mb_0, mb_1, mb_10, mb_12, mb_16, mb_2, mb_20, mb_24, mb_3, mb_32, mb_4, mb_5, mb_6, mb_8, mb_auto, mb_px, min_h_0, min_h_full, min_h_screen, min_w_0, min_w_full, ml_0, ml_1, ml_10, ml_12, ml_16, ml_2, ml_20, ml_24, ml_3, ml_32, ml_4, ml_5, ml_6, ml_8, ml_auto, ml_px, mr_0, mr_1, mr_10, mr_12, mr_16, mr_2, mr_20, mr_24, mr_3, mr_32, mr_4, mr_5, mr_6, mr_8, mr_auto, mr_px, mt_0, mt_1, mt_10, mt_12, mt_16, mt_2, mt_20, mt_24, mt_3, mt_32, mt_4, mt_5, mt_6, mt_8, mt_auto, mt_px, mx_0, mx_1, mx_10, mx_12, mx_16, mx_2, mx_20, mx_24, mx_3, mx_32, mx_4, mx_5, mx_6, mx_8, mx_auto, mx_px, my_0, my_1, my_10, my_12, my_16, my_2, my_20, my_24, my_3, my_32, my_4, my_5, my_6, my_8, my_auto, my_px, no_underline, normal_case, opacity_0, opacity_100, opacity_25, opacity_50, opacity_75, outline_none, overflow_auto, overflow_hidden, overflow_scroll, overflow_visible, overflow_x_auto, overflow_x_hidden, overflow_x_scroll, overflow_x_visible, overflow_y_auto, overflow_y_hidden, overflow_y_scroll, overflow_y_visible, p_0, p_1, p_10, p_12, p_16, p_2, p_20, p_24, p_3, p_32, p_4, p_5, p_6, p_8, p_px, pb_0, pb_1, pb_10, pb_12, pb_16, pb_2, pb_20, pb_24, pb_3, pb_32, pb_4, pb_5, pb_6, pb_8, pb_px, pin, pin_b, pin_l, pin_none, pin_r, pin_t, pin_x, pin_y, pl_0, pl_1, pl_10, pl_12, pl_16, pl_2, pl_20, pl_24, pl_3, pl_32, pl_4, pl_5, pl_6, pl_8, pl_px, pointer_events_auto, pointer_events_none, pr_0, pr_1, pr_10, pr_12, pr_16, pr_2, pr_20, pr_24, pr_3, pr_32, pr_4, pr_5, pr_6, pr_8, pr_px, pt_0, pt_1, pt_10, pt_12, pt_16, pt_2, pt_20, pt_24, pt_3, pt_32, pt_4, pt_5, pt_6, pt_8, pt_px, px_0, px_1, px_10, px_12, px_16, px_2, px_20, px_24, px_3, px_32, px_4, px_5, px_6, px_8, px_px, py_0, py_1, py_10, py_12, py_16, py_2, py_20, py_24, py_3, py_32, py_4, py_5, py_6, py_8, py_px, relative, resize, resize_none, resize_x, resize_y, roman, rounded, rounded_b, rounded_b_full, rounded_b_lg, rounded_b_none, rounded_b_sm, rounded_bl, rounded_bl_full, rounded_bl_lg, rounded_bl_none, rounded_bl_sm, rounded_br, rounded_br_full, rounded_br_lg, rounded_br_none, rounded_br_sm, rounded_full, rounded_l, rounded_l_full, rounded_l_lg, rounded_l_none, rounded_l_sm, rounded_lg, rounded_none, rounded_r, rounded_r_full, rounded_r_lg, rounded_r_none, rounded_r_sm, rounded_sm, rounded_t, rounded_t_full, rounded_t_lg, rounded_t_none, rounded_t_sm, rounded_tl, rounded_tl_full, rounded_tl_lg, rounded_tl_none, rounded_tl_sm, rounded_tr, rounded_tr_full, rounded_tr_lg, rounded_tr_none, rounded_tr_sm, scrolling_auto, scrolling_touch, select_none, select_text, self_auto, self_center, self_end, self_start, self_stretch, shadow, shadow_inner, shadow_lg, shadow_md, shadow_none, shadow_outline, static, sticky, stroke_current, subpixel_antialiased, table, table_cell, table_row, text_2xl, text_3xl, text_4xl, text_5xl, text_base, text_black, text_blue, text_blue_dark, text_blue_darker, text_blue_darkest, text_blue_light, text_blue_lighter, text_blue_lightest, text_center, text_green, text_green_dark, text_green_darker, text_green_darkest, text_green_light, text_green_lighter, text_green_lightest, text_grey, text_grey_dark, text_grey_darker, text_grey_darkest, text_grey_light, text_grey_lighter, text_grey_lightest, text_indigo, text_indigo_dark, text_indigo_darker, text_indigo_darkest, text_indigo_light, text_indigo_lighter, text_indigo_lightest, text_justify, text_left, text_lg, text_orange, text_orange_dark, text_orange_darker, text_orange_darkest, text_orange_light, text_orange_lighter, text_orange_lightest, text_pink, text_pink_dark, text_pink_darker, text_pink_darkest, text_pink_light, text_pink_lighter, text_pink_lightest, text_purple, text_purple_dark, text_purple_darker, text_purple_darkest, text_purple_light, text_purple_lighter, text_purple_lightest, text_red, text_red_dark, text_red_darker, text_red_darkest, text_red_light, text_red_lighter, text_red_lightest, text_right, text_sm, text_teal, text_teal_dark, text_teal_darker, text_teal_darkest, text_teal_light, text_teal_lighter, text_teal_lightest, text_transparent, text_white, text_xl, text_xs, text_yellow, text_yellow_dark, text_yellow_darker, text_yellow_darkest, text_yellow_light, text_yellow_lighter, text_yellow_lightest, tracking_normal, tracking_tight, tracking_wide, truncate, underline, uppercase, visible, w_1, w_1over2, w_1over3, w_1over4, w_1over5, w_1over6, w_10, w_12, w_16, w_2, w_2over3, w_2over5, w_24, w_3, w_3over4, w_3over5, w_32, w_4, w_4over5, w_48, w_5, w_5over6, w_6, w_64, w_8, w_auto, w_full, w_px, w_screen, whitespace_no_wrap, whitespace_normal, whitespace_pre, whitespace_pre_line, whitespace_pre_wrap, z_0, z_10, z_20, z_30, z_40, z_50, z_auto)
+module Tailwind.Classes exposing (..)
 
 {-|
 
@@ -21,7 +21,7 @@ They do however show the minifed css definition as their comment.
 
 # Classes and their Definitions
 
-@docs negm_0, negm_1, negm_10, negm_12, negm_16, negm_2, negm_20, negm_24, negm_3, negm_32, negm_4, negm_5, negm_6, negm_8, negm_px, neg_mb_0, neg_mb_1, neg_mb_10, neg_mb_12, neg_mb_16, neg_mb_2, neg_mb_20, neg_mb_24, neg_mb_3, neg_mb_32, neg_mb_4, neg_mb_5, neg_mb_6, neg_mb_8, neg_mb_px, neg_ml_0, neg_ml_1, neg_ml_10, neg_ml_12, neg_ml_16, neg_ml_2, neg_ml_20, neg_ml_24, neg_ml_3, neg_ml_32, neg_ml_4, neg_ml_5, neg_ml_6, neg_ml_8, neg_ml_px, neg_mr_0, neg_mr_1, neg_mr_10, neg_mr_12, neg_mr_16, neg_mr_2, neg_mr_20, neg_mr_24, neg_mr_3, neg_mr_32, neg_mr_4, neg_mr_5, neg_mr_6, neg_mr_8, neg_mr_px, neg_mt_0, neg_mt_1, neg_mt_10, neg_mt_12, neg_mt_16, neg_mt_2, neg_mt_20, neg_mt_24, neg_mt_3, neg_mt_32, neg_mt_4, neg_mt_5, neg_mt_6, neg_mt_8, neg_mt_px, neg_mx_0, neg_mx_1, neg_mx_10, neg_mx_12, neg_mx_16, neg_mx_2, neg_mx_20, neg_mx_24, neg_mx_3, neg_mx_32, neg_mx_4, neg_mx_5, neg_mx_6, neg_mx_8, neg_mx_px, neg_my_0, neg_my_1, neg_my_10, neg_my_12, neg_my_16, neg_my_2, neg_my_20, neg_my_24, neg_my_3, neg_my_32, neg_my_4, neg_my_5, neg_my_6, neg_my_8, neg_my_px, absolute, align_baseline, align_bottom, align_middle, align_text_bottom, align_text_top, align_top, antialiased, appearance_none, bg_auto, bg_black, bg_blue, bg_blue_dark, bg_blue_darker, bg_blue_darkest, bg_blue_light, bg_blue_lighter, bg_blue_lightest, bg_bottom, bg_center, bg_contain, bg_cover, bg_fixed, bg_green, bg_green_dark, bg_green_darker, bg_green_darkest, bg_green_light, bg_green_lighter, bg_green_lightest, bg_grey, bg_grey_dark, bg_grey_darker, bg_grey_darkest, bg_grey_light, bg_grey_lighter, bg_grey_lightest, bg_indigo, bg_indigo_dark, bg_indigo_darker, bg_indigo_darkest, bg_indigo_light, bg_indigo_lighter, bg_indigo_lightest, bg_left, bg_left_bottom, bg_left_top, bg_local, bg_no_repeat, bg_orange, bg_orange_dark, bg_orange_darker, bg_orange_darkest, bg_orange_light, bg_orange_lighter, bg_orange_lightest, bg_pink, bg_pink_dark, bg_pink_darker, bg_pink_darkest, bg_pink_light, bg_pink_lighter, bg_pink_lightest, bg_purple, bg_purple_dark, bg_purple_darker, bg_purple_darkest, bg_purple_light, bg_purple_lighter, bg_purple_lightest, bg_red, bg_red_dark, bg_red_darker, bg_red_darkest, bg_red_light, bg_red_lighter, bg_red_lightest, bg_repeat, bg_repeat_x, bg_repeat_y, bg_right, bg_right_bottom, bg_right_top, bg_scroll, bg_teal, bg_teal_dark, bg_teal_darker, bg_teal_darkest, bg_teal_light, bg_teal_lighter, bg_teal_lightest, bg_top, bg_transparent, bg_white, bg_yellow, bg_yellow_dark, bg_yellow_darker, bg_yellow_darkest, bg_yellow_light, bg_yellow_lighter, bg_yellow_lightest, block, border, border_0, border_2, border_4, border_8, border_b, border_b_0, border_b_2, border_b_4, border_b_8, border_black, border_blue, border_blue_dark, border_blue_darker, border_blue_darkest, border_blue_light, border_blue_lighter, border_blue_lightest, border_collapse, border_dashed, border_dotted, border_green, border_green_dark, border_green_darker, border_green_darkest, border_green_light, border_green_lighter, border_green_lightest, border_grey, border_grey_dark, border_grey_darker, border_grey_darkest, border_grey_light, border_grey_lighter, border_grey_lightest, border_indigo, border_indigo_dark, border_indigo_darker, border_indigo_darkest, border_indigo_light, border_indigo_lighter, border_indigo_lightest, border_l, border_l_0, border_l_2, border_l_4, border_l_8, border_none, border_orange, border_orange_dark, border_orange_darker, border_orange_darkest, border_orange_light, border_orange_lighter, border_orange_lightest, border_pink, border_pink_dark, border_pink_darker, border_pink_darkest, border_pink_light, border_pink_lighter, border_pink_lightest, border_purple, border_purple_dark, border_purple_darker, border_purple_darkest, border_purple_light, border_purple_lighter, border_purple_lightest, border_r, border_r_0, border_r_2, border_r_4, border_r_8, border_red, border_red_dark, border_red_darker, border_red_darkest, border_red_light, border_red_lighter, border_red_lightest, border_separate, border_solid, border_t, border_t_0, border_t_2, border_t_4, border_t_8, border_teal, border_teal_dark, border_teal_darker, border_teal_darkest, border_teal_light, border_teal_lighter, border_teal_lightest, border_transparent, border_white, border_yellow, border_yellow_dark, border_yellow_darker, border_yellow_darkest, border_yellow_light, border_yellow_lighter, border_yellow_lightest, break_normal, break_words, capitalize, container, content_around, content_between, content_center, content_end, content_start, cursor_auto, cursor_default, cursor_move, cursor_not_allowed, cursor_pointer, cursor_wait, fill_current, fixed, flex, flex_1, flex_auto, flex_col, flex_col_reverse, flex_grow, flex_initial, flex_no_grow, flex_no_shrink, flex_no_wrap, flex_none, flex_row, flex_row_reverse, flex_shrink, flex_wrap, flex_wrap_reverse, float_left, float_none, float_right, focus__antialiased, focus__bg_black, focus__bg_blue_dark, focus__bg_blue_darker, focus__bg_blue_darkest, focus__bg_blue_light, focus__bg_blue_lighter, focus__bg_blue_lightest, focus__bg_blue, focus__bg_green_dark, focus__bg_green_darker, focus__bg_green_darkest, focus__bg_green_light, focus__bg_green_lighter, focus__bg_green_lightest, focus__bg_green, focus__bg_grey_dark, focus__bg_grey_darker, focus__bg_grey_darkest, focus__bg_grey_light, focus__bg_grey_lighter, focus__bg_grey_lightest, focus__bg_grey, focus__bg_indigo_dark, focus__bg_indigo_darker, focus__bg_indigo_darkest, focus__bg_indigo_light, focus__bg_indigo_lighter, focus__bg_indigo_lightest, focus__bg_indigo, focus__bg_orange_dark, focus__bg_orange_darker, focus__bg_orange_darkest, focus__bg_orange_light, focus__bg_orange_lighter, focus__bg_orange_lightest, focus__bg_orange, focus__bg_pink_dark, focus__bg_pink_darker, focus__bg_pink_darkest, focus__bg_pink_light, focus__bg_pink_lighter, focus__bg_pink_lightest, focus__bg_pink, focus__bg_purple_dark, focus__bg_purple_darker, focus__bg_purple_darkest, focus__bg_purple_light, focus__bg_purple_lighter, focus__bg_purple_lightest, focus__bg_purple, focus__bg_red_dark, focus__bg_red_darker, focus__bg_red_darkest, focus__bg_red_light, focus__bg_red_lighter, focus__bg_red_lightest, focus__bg_red, focus__bg_teal_dark, focus__bg_teal_darker, focus__bg_teal_darkest, focus__bg_teal_light, focus__bg_teal_lighter, focus__bg_teal_lightest, focus__bg_teal, focus__bg_transparent, focus__bg_white, focus__bg_yellow_dark, focus__bg_yellow_darker, focus__bg_yellow_darkest, focus__bg_yellow_light, focus__bg_yellow_lighter, focus__bg_yellow_lightest, focus__bg_yellow, focus__border_black, focus__border_blue_dark, focus__border_blue_darker, focus__border_blue_darkest, focus__border_blue_light, focus__border_blue_lighter, focus__border_blue_lightest, focus__border_blue, focus__border_green_dark, focus__border_green_darker, focus__border_green_darkest, focus__border_green_light, focus__border_green_lighter, focus__border_green_lightest, focus__border_green, focus__border_grey_dark, focus__border_grey_darker, focus__border_grey_darkest, focus__border_grey_light, focus__border_grey_lighter, focus__border_grey_lightest, focus__border_grey, focus__border_indigo_dark, focus__border_indigo_darker, focus__border_indigo_darkest, focus__border_indigo_light, focus__border_indigo_lighter, focus__border_indigo_lightest, focus__border_indigo, focus__border_orange_dark, focus__border_orange_darker, focus__border_orange_darkest, focus__border_orange_light, focus__border_orange_lighter, focus__border_orange_lightest, focus__border_orange, focus__border_pink_dark, focus__border_pink_darker, focus__border_pink_darkest, focus__border_pink_light, focus__border_pink_lighter, focus__border_pink_lightest, focus__border_pink, focus__border_purple_dark, focus__border_purple_darker, focus__border_purple_darkest, focus__border_purple_light, focus__border_purple_lighter, focus__border_purple_lightest, focus__border_purple, focus__border_red_dark, focus__border_red_darker, focus__border_red_darkest, focus__border_red_light, focus__border_red_lighter, focus__border_red_lightest, focus__border_red, focus__border_teal_dark, focus__border_teal_darker, focus__border_teal_darkest, focus__border_teal_light, focus__border_teal_lighter, focus__border_teal_lightest, focus__border_teal, focus__border_transparent, focus__border_white, focus__border_yellow_dark, focus__border_yellow_darker, focus__border_yellow_darkest, focus__border_yellow_light, focus__border_yellow_lighter, focus__border_yellow_lightest, focus__border_yellow, focus__capitalize, focus__font_black, focus__font_bold, focus__font_extrabold, focus__font_hairline, focus__font_light, focus__font_medium, focus__font_normal, focus__font_semibold, focus__font_thin, focus__italic, focus__line_through, focus__lowercase, focus__no_underline, focus__normal_case, focus__outline_none, focus__roman, focus__shadow_inner, focus__shadow_lg, focus__shadow_md, focus__shadow_none, focus__shadow_outline, focus__shadow, focus__subpixel_antialiased, focus__text_black, focus__text_blue_dark, focus__text_blue_darker, focus__text_blue_darkest, focus__text_blue_light, focus__text_blue_lighter, focus__text_blue_lightest, focus__text_blue, focus__text_green_dark, focus__text_green_darker, focus__text_green_darkest, focus__text_green_light, focus__text_green_lighter, focus__text_green_lightest, focus__text_green, focus__text_grey_dark, focus__text_grey_darker, focus__text_grey_darkest, focus__text_grey_light, focus__text_grey_lighter, focus__text_grey_lightest, focus__text_grey, focus__text_indigo_dark, focus__text_indigo_darker, focus__text_indigo_darkest, focus__text_indigo_light, focus__text_indigo_lighter, focus__text_indigo_lightest, focus__text_indigo, focus__text_orange_dark, focus__text_orange_darker, focus__text_orange_darkest, focus__text_orange_light, focus__text_orange_lighter, focus__text_orange_lightest, focus__text_orange, focus__text_pink_dark, focus__text_pink_darker, focus__text_pink_darkest, focus__text_pink_light, focus__text_pink_lighter, focus__text_pink_lightest, focus__text_pink, focus__text_purple_dark, focus__text_purple_darker, focus__text_purple_darkest, focus__text_purple_light, focus__text_purple_lighter, focus__text_purple_lightest, focus__text_purple, focus__text_red_dark, focus__text_red_darker, focus__text_red_darkest, focus__text_red_light, focus__text_red_lighter, focus__text_red_lightest, focus__text_red, focus__text_teal_dark, focus__text_teal_darker, focus__text_teal_darkest, focus__text_teal_light, focus__text_teal_lighter, focus__text_teal_lightest, focus__text_teal, focus__text_transparent, focus__text_white, focus__text_yellow_dark, focus__text_yellow_darker, focus__text_yellow_darkest, focus__text_yellow_light, focus__text_yellow_lighter, focus__text_yellow_lightest, focus__text_yellow, focus__underline, focus__uppercase, font_black, font_bold, font_extrabold, font_hairline, font_light, font_medium, font_mono, font_normal, font_sans, font_semibold, font_serif, font_thin, h_1, h_10, h_12, h_16, h_2, h_24, h_3, h_32, h_4, h_48, h_5, h_6, h_64, h_8, h_auto, h_full, h_px, h_screen, hidden, hover__antialiased, hover__bg_black, hover__bg_blue_dark, hover__bg_blue_darker, hover__bg_blue_darkest, hover__bg_blue_light, hover__bg_blue_lighter, hover__bg_blue_lightest, hover__bg_blue, hover__bg_green_dark, hover__bg_green_darker, hover__bg_green_darkest, hover__bg_green_light, hover__bg_green_lighter, hover__bg_green_lightest, hover__bg_green, hover__bg_grey_dark, hover__bg_grey_darker, hover__bg_grey_darkest, hover__bg_grey_light, hover__bg_grey_lighter, hover__bg_grey_lightest, hover__bg_grey, hover__bg_indigo_dark, hover__bg_indigo_darker, hover__bg_indigo_darkest, hover__bg_indigo_light, hover__bg_indigo_lighter, hover__bg_indigo_lightest, hover__bg_indigo, hover__bg_orange_dark, hover__bg_orange_darker, hover__bg_orange_darkest, hover__bg_orange_light, hover__bg_orange_lighter, hover__bg_orange_lightest, hover__bg_orange, hover__bg_pink_dark, hover__bg_pink_darker, hover__bg_pink_darkest, hover__bg_pink_light, hover__bg_pink_lighter, hover__bg_pink_lightest, hover__bg_pink, hover__bg_purple_dark, hover__bg_purple_darker, hover__bg_purple_darkest, hover__bg_purple_light, hover__bg_purple_lighter, hover__bg_purple_lightest, hover__bg_purple, hover__bg_red_dark, hover__bg_red_darker, hover__bg_red_darkest, hover__bg_red_light, hover__bg_red_lighter, hover__bg_red_lightest, hover__bg_red, hover__bg_teal_dark, hover__bg_teal_darker, hover__bg_teal_darkest, hover__bg_teal_light, hover__bg_teal_lighter, hover__bg_teal_lightest, hover__bg_teal, hover__bg_transparent, hover__bg_white, hover__bg_yellow_dark, hover__bg_yellow_darker, hover__bg_yellow_darkest, hover__bg_yellow_light, hover__bg_yellow_lighter, hover__bg_yellow_lightest, hover__bg_yellow, hover__border_black, hover__border_blue_dark, hover__border_blue_darker, hover__border_blue_darkest, hover__border_blue_light, hover__border_blue_lighter, hover__border_blue_lightest, hover__border_blue, hover__border_green_dark, hover__border_green_darker, hover__border_green_darkest, hover__border_green_light, hover__border_green_lighter, hover__border_green_lightest, hover__border_green, hover__border_grey_dark, hover__border_grey_darker, hover__border_grey_darkest, hover__border_grey_light, hover__border_grey_lighter, hover__border_grey_lightest, hover__border_grey, hover__border_indigo_dark, hover__border_indigo_darker, hover__border_indigo_darkest, hover__border_indigo_light, hover__border_indigo_lighter, hover__border_indigo_lightest, hover__border_indigo, hover__border_orange_dark, hover__border_orange_darker, hover__border_orange_darkest, hover__border_orange_light, hover__border_orange_lighter, hover__border_orange_lightest, hover__border_orange, hover__border_pink_dark, hover__border_pink_darker, hover__border_pink_darkest, hover__border_pink_light, hover__border_pink_lighter, hover__border_pink_lightest, hover__border_pink, hover__border_purple_dark, hover__border_purple_darker, hover__border_purple_darkest, hover__border_purple_light, hover__border_purple_lighter, hover__border_purple_lightest, hover__border_purple, hover__border_red_dark, hover__border_red_darker, hover__border_red_darkest, hover__border_red_light, hover__border_red_lighter, hover__border_red_lightest, hover__border_red, hover__border_teal_dark, hover__border_teal_darker, hover__border_teal_darkest, hover__border_teal_light, hover__border_teal_lighter, hover__border_teal_lightest, hover__border_teal, hover__border_transparent, hover__border_white, hover__border_yellow_dark, hover__border_yellow_darker, hover__border_yellow_darkest, hover__border_yellow_light, hover__border_yellow_lighter, hover__border_yellow_lightest, hover__border_yellow, hover__capitalize, hover__font_black, hover__font_bold, hover__font_extrabold, hover__font_hairline, hover__font_light, hover__font_medium, hover__font_normal, hover__font_semibold, hover__font_thin, hover__italic, hover__line_through, hover__lowercase, hover__no_underline, hover__normal_case, hover__roman, hover__shadow_inner, hover__shadow_lg, hover__shadow_md, hover__shadow_none, hover__shadow_outline, hover__shadow, hover__subpixel_antialiased, hover__text_black, hover__text_blue_dark, hover__text_blue_darker, hover__text_blue_darkest, hover__text_blue_light, hover__text_blue_lighter, hover__text_blue_lightest, hover__text_blue, hover__text_green_dark, hover__text_green_darker, hover__text_green_darkest, hover__text_green_light, hover__text_green_lighter, hover__text_green_lightest, hover__text_green, hover__text_grey_dark, hover__text_grey_darker, hover__text_grey_darkest, hover__text_grey_light, hover__text_grey_lighter, hover__text_grey_lightest, hover__text_grey, hover__text_indigo_dark, hover__text_indigo_darker, hover__text_indigo_darkest, hover__text_indigo_light, hover__text_indigo_lighter, hover__text_indigo_lightest, hover__text_indigo, hover__text_orange_dark, hover__text_orange_darker, hover__text_orange_darkest, hover__text_orange_light, hover__text_orange_lighter, hover__text_orange_lightest, hover__text_orange, hover__text_pink_dark, hover__text_pink_darker, hover__text_pink_darkest, hover__text_pink_light, hover__text_pink_lighter, hover__text_pink_lightest, hover__text_pink, hover__text_purple_dark, hover__text_purple_darker, hover__text_purple_darkest, hover__text_purple_light, hover__text_purple_lighter, hover__text_purple_lightest, hover__text_purple, hover__text_red_dark, hover__text_red_darker, hover__text_red_darkest, hover__text_red_light, hover__text_red_lighter, hover__text_red_lightest, hover__text_red, hover__text_teal_dark, hover__text_teal_darker, hover__text_teal_darkest, hover__text_teal_light, hover__text_teal_lighter, hover__text_teal_lightest, hover__text_teal, hover__text_transparent, hover__text_white, hover__text_yellow_dark, hover__text_yellow_darker, hover__text_yellow_darkest, hover__text_yellow_light, hover__text_yellow_lighter, hover__text_yellow_lightest, hover__text_yellow, hover__underline, hover__uppercase, inline, inline_block, inline_flex, invisible, italic, items_baseline, items_center, items_end, items_start, items_stretch, justify_around, justify_between, justify_center, justify_end, justify_start, leading_loose, leading_none, leading_normal, leading_tight, line_through, list_reset, lowercase, m_0, m_1, m_10, m_12, m_16, m_2, m_20, m_24, m_3, m_32, m_4, m_5, m_6, m_8, m_auto, m_px, max_h_full, max_h_screen, max_w_2xl, max_w_3xl, max_w_4xl, max_w_5xl, max_w_full, max_w_lg, max_w_md, max_w_sm, max_w_xl, max_w_xs, mb_0, mb_1, mb_10, mb_12, mb_16, mb_2, mb_20, mb_24, mb_3, mb_32, mb_4, mb_5, mb_6, mb_8, mb_auto, mb_px, min_h_0, min_h_full, min_h_screen, min_w_0, min_w_full, ml_0, ml_1, ml_10, ml_12, ml_16, ml_2, ml_20, ml_24, ml_3, ml_32, ml_4, ml_5, ml_6, ml_8, ml_auto, ml_px, mr_0, mr_1, mr_10, mr_12, mr_16, mr_2, mr_20, mr_24, mr_3, mr_32, mr_4, mr_5, mr_6, mr_8, mr_auto, mr_px, mt_0, mt_1, mt_10, mt_12, mt_16, mt_2, mt_20, mt_24, mt_3, mt_32, mt_4, mt_5, mt_6, mt_8, mt_auto, mt_px, mx_0, mx_1, mx_10, mx_12, mx_16, mx_2, mx_20, mx_24, mx_3, mx_32, mx_4, mx_5, mx_6, mx_8, mx_auto, mx_px, my_0, my_1, my_10, my_12, my_16, my_2, my_20, my_24, my_3, my_32, my_4, my_5, my_6, my_8, my_auto, my_px, no_underline, normal_case, opacity_0, opacity_100, opacity_25, opacity_50, opacity_75, outline_none, overflow_auto, overflow_hidden, overflow_scroll, overflow_visible, overflow_x_auto, overflow_x_hidden, overflow_x_scroll, overflow_x_visible, overflow_y_auto, overflow_y_hidden, overflow_y_scroll, overflow_y_visible, p_0, p_1, p_10, p_12, p_16, p_2, p_20, p_24, p_3, p_32, p_4, p_5, p_6, p_8, p_px, pb_0, pb_1, pb_10, pb_12, pb_16, pb_2, pb_20, pb_24, pb_3, pb_32, pb_4, pb_5, pb_6, pb_8, pb_px, pin, pin_b, pin_l, pin_none, pin_r, pin_t, pin_x, pin_y, pl_0, pl_1, pl_10, pl_12, pl_16, pl_2, pl_20, pl_24, pl_3, pl_32, pl_4, pl_5, pl_6, pl_8, pl_px, pointer_events_auto, pointer_events_none, pr_0, pr_1, pr_10, pr_12, pr_16, pr_2, pr_20, pr_24, pr_3, pr_32, pr_4, pr_5, pr_6, pr_8, pr_px, pt_0, pt_1, pt_10, pt_12, pt_16, pt_2, pt_20, pt_24, pt_3, pt_32, pt_4, pt_5, pt_6, pt_8, pt_px, px_0, px_1, px_10, px_12, px_16, px_2, px_20, px_24, px_3, px_32, px_4, px_5, px_6, px_8, px_px, py_0, py_1, py_10, py_12, py_16, py_2, py_20, py_24, py_3, py_32, py_4, py_5, py_6, py_8, py_px, relative, resize, resize_none, resize_x, resize_y, roman, rounded, rounded_b, rounded_b_full, rounded_b_lg, rounded_b_none, rounded_b_sm, rounded_bl, rounded_bl_full, rounded_bl_lg, rounded_bl_none, rounded_bl_sm, rounded_br, rounded_br_full, rounded_br_lg, rounded_br_none, rounded_br_sm, rounded_full, rounded_l, rounded_l_full, rounded_l_lg, rounded_l_none, rounded_l_sm, rounded_lg, rounded_none, rounded_r, rounded_r_full, rounded_r_lg, rounded_r_none, rounded_r_sm, rounded_sm, rounded_t, rounded_t_full, rounded_t_lg, rounded_t_none, rounded_t_sm, rounded_tl, rounded_tl_full, rounded_tl_lg, rounded_tl_none, rounded_tl_sm, rounded_tr, rounded_tr_full, rounded_tr_lg, rounded_tr_none, rounded_tr_sm, scrolling_auto, scrolling_touch, select_none, select_text, self_auto, self_center, self_end, self_start, self_stretch, shadow, shadow_inner, shadow_lg, shadow_md, shadow_none, shadow_outline, static, sticky, stroke_current, subpixel_antialiased, table, table_cell, table_row, text_2xl, text_3xl, text_4xl, text_5xl, text_base, text_black, text_blue, text_blue_dark, text_blue_darker, text_blue_darkest, text_blue_light, text_blue_lighter, text_blue_lightest, text_center, text_green, text_green_dark, text_green_darker, text_green_darkest, text_green_light, text_green_lighter, text_green_lightest, text_grey, text_grey_dark, text_grey_darker, text_grey_darkest, text_grey_light, text_grey_lighter, text_grey_lightest, text_indigo, text_indigo_dark, text_indigo_darker, text_indigo_darkest, text_indigo_light, text_indigo_lighter, text_indigo_lightest, text_justify, text_left, text_lg, text_orange, text_orange_dark, text_orange_darker, text_orange_darkest, text_orange_light, text_orange_lighter, text_orange_lightest, text_pink, text_pink_dark, text_pink_darker, text_pink_darkest, text_pink_light, text_pink_lighter, text_pink_lightest, text_purple, text_purple_dark, text_purple_darker, text_purple_darkest, text_purple_light, text_purple_lighter, text_purple_lightest, text_red, text_red_dark, text_red_darker, text_red_darkest, text_red_light, text_red_lighter, text_red_lightest, text_right, text_sm, text_teal, text_teal_dark, text_teal_darker, text_teal_darkest, text_teal_light, text_teal_lighter, text_teal_lightest, text_transparent, text_white, text_xl, text_xs, text_yellow, text_yellow_dark, text_yellow_darker, text_yellow_darkest, text_yellow_light, text_yellow_lighter, text_yellow_lightest, tracking_normal, tracking_tight, tracking_wide, truncate, underline, uppercase, visible, w_1, w_1over2, w_1over3, w_1over4, w_1over5, w_1over6, w_10, w_12, w_16, w_2, w_2over3, w_2over5, w_24, w_3, w_3over4, w_3over5, w_32, w_4, w_4over5, w_48, w_5, w_5over6, w_6, w_64, w_8, w_auto, w_full, w_px, w_screen, whitespace_no_wrap, whitespace_normal, whitespace_pre, whitespace_pre_line, whitespace_pre_wrap, z_0, z_10, z_20, z_30, z_40, z_50, z_auto
+@docs negm_0, negm_1, negm_10, negm_12, negm_16, negm_2, negm_20, negm_24, negm_3, negm_32, negm_4, negm_5, negm_6, negm_8, negm_px, neg_mb_0, neg_mb_1, neg_mb_10, neg_mb_12, neg_mb_16, neg_mb_2, neg_mb_20, neg_mb_24, neg_mb_3, neg_mb_32, neg_mb_4, neg_mb_5, neg_mb_6, neg_mb_8, neg_mb_px, neg_ml_0, neg_ml_1, neg_ml_10, neg_ml_12, neg_ml_16, neg_ml_2, neg_ml_20, neg_ml_24, neg_ml_3, neg_ml_32, neg_ml_4, neg_ml_5, neg_ml_6, neg_ml_8, neg_ml_px, neg_mr_0, neg_mr_1, neg_mr_10, neg_mr_12, neg_mr_16, neg_mr_2, neg_mr_20, neg_mr_24, neg_mr_3, neg_mr_32, neg_mr_4, neg_mr_5, neg_mr_6, neg_mr_8, neg_mr_px, neg_mt_0, neg_mt_1, neg_mt_10, neg_mt_12, neg_mt_16, neg_mt_2, neg_mt_20, neg_mt_24, neg_mt_3, neg_mt_32, neg_mt_4, neg_mt_5, neg_mt_6, neg_mt_8, neg_mt_px, neg_mx_0, neg_mx_1, neg_mx_10, neg_mx_12, neg_mx_16, neg_mx_2, neg_mx_20, neg_mx_24, neg_mx_3, neg_mx_32, neg_mx_4, neg_mx_5, neg_mx_6, neg_mx_8, neg_mx_px, neg_my_0, neg_my_1, neg_my_10, neg_my_12, neg_my_16, neg_my_2, neg_my_20, neg_my_24, neg_my_3, neg_my_32, neg_my_4, neg_my_5, neg_my_6, neg_my_8, neg_my_px, absolute, align_baseline, align_bottom, align_middle, align_text_bottom, align_text_top, align_top, antialiased, appearance_none, bg_auto, bg_black, bg_blue, bg_blue_dark, bg_blue_darker, bg_blue_darkest, bg_blue_light, bg_blue_lighter, bg_blue_lightest, bg_bottom, bg_center, bg_contain, bg_cover, bg_fixed, bg_green, bg_green_dark, bg_green_darker, bg_green_darkest, bg_green_light, bg_green_lighter, bg_green_lightest, bg_grey, bg_grey_dark, bg_grey_darker, bg_grey_darkest, bg_grey_light, bg_grey_lighter, bg_grey_lightest, bg_indigo, bg_indigo_dark, bg_indigo_darker, bg_indigo_darkest, bg_indigo_light, bg_indigo_lighter, bg_indigo_lightest, bg_left, bg_left_bottom, bg_left_top, bg_local, bg_no_repeat, bg_orange, bg_orange_dark, bg_orange_darker, bg_orange_darkest, bg_orange_light, bg_orange_lighter, bg_orange_lightest, bg_pink, bg_pink_dark, bg_pink_darker, bg_pink_darkest, bg_pink_light, bg_pink_lighter, bg_pink_lightest, bg_purple, bg_purple_dark, bg_purple_darker, bg_purple_darkest, bg_purple_light, bg_purple_lighter, bg_purple_lightest, bg_red, bg_red_dark, bg_red_darker, bg_red_darkest, bg_red_light, bg_red_lighter, bg_red_lightest, bg_repeat, bg_repeat_x, bg_repeat_y, bg_right, bg_right_bottom, bg_right_top, bg_scroll, bg_teal, bg_teal_dark, bg_teal_darker, bg_teal_darkest, bg_teal_light, bg_teal_lighter, bg_teal_lightest, bg_top, bg_transparent, bg_white, bg_yellow, bg_yellow_dark, bg_yellow_darker, bg_yellow_darkest, bg_yellow_light, bg_yellow_lighter, bg_yellow_lightest, block, border, border_0, border_2, border_4, border_8, border_b, border_b_0, border_b_2, border_b_4, border_b_8, border_black, border_blue, border_blue_dark, border_blue_darker, border_blue_darkest, border_blue_light, border_blue_lighter, border_blue_lightest, border_collapse, border_dashed, border_dotted, border_green, border_green_dark, border_green_darker, border_green_darkest, border_green_light, border_green_lighter, border_green_lightest, border_grey, border_grey_dark, border_grey_darker, border_grey_darkest, border_grey_light, border_grey_lighter, border_grey_lightest, border_indigo, border_indigo_dark, border_indigo_darker, border_indigo_darkest, border_indigo_light, border_indigo_lighter, border_indigo_lightest, border_l, border_l_0, border_l_2, border_l_4, border_l_8, border_none, border_orange, border_orange_dark, border_orange_darker, border_orange_darkest, border_orange_light, border_orange_lighter, border_orange_lightest, border_pink, border_pink_dark, border_pink_darker, border_pink_darkest, border_pink_light, border_pink_lighter, border_pink_lightest, border_purple, border_purple_dark, border_purple_darker, border_purple_darkest, border_purple_light, border_purple_lighter, border_purple_lightest, border_r, border_r_0, border_r_2, border_r_4, border_r_8, border_red, border_red_dark, border_red_darker, border_red_darkest, border_red_light, border_red_lighter, border_red_lightest, border_separate, border_solid, border_t, border_t_0, border_t_2, border_t_4, border_t_8, border_teal, border_teal_dark, border_teal_darker, border_teal_darkest, border_teal_light, border_teal_lighter, border_teal_lightest, border_transparent, border_white, border_yellow, border_yellow_dark, border_yellow_darker, border_yellow_darkest, border_yellow_light, border_yellow_lighter, border_yellow_lightest, break_normal, break_words, capitalize, container, content_around, content_between, content_center, content_end, content_start, cursor_auto, cursor_default, cursor_move, cursor_not_allowed, cursor_pointer, cursor_wait, fill_current, fixed, flex, flex_1, flex_auto, flex_col, flex_col_reverse, flex_grow, flex_initial, flex_no_grow, flex_no_shrink, flex_no_wrap, flex_none, flex_row, flex_row_reverse, flex_shrink, flex_wrap, flex_wrap_reverse, float_left, float_none, float_right, focus__antialiased, focus__bg_black, focus__bg_blue, focus__bg_blue_dark, focus__bg_blue_darker, focus__bg_blue_darkest, focus__bg_blue_light, focus__bg_blue_lighter, focus__bg_blue_lightest, focus__bg_green, focus__bg_green_dark, focus__bg_green_darker, focus__bg_green_darkest, focus__bg_green_light, focus__bg_green_lighter, focus__bg_green_lightest, focus__bg_grey, focus__bg_grey_dark, focus__bg_grey_darker, focus__bg_grey_darkest, focus__bg_grey_light, focus__bg_grey_lighter, focus__bg_grey_lightest, focus__bg_indigo, focus__bg_indigo_dark, focus__bg_indigo_darker, focus__bg_indigo_darkest, focus__bg_indigo_light, focus__bg_indigo_lighter, focus__bg_indigo_lightest, focus__bg_orange, focus__bg_orange_dark, focus__bg_orange_darker, focus__bg_orange_darkest, focus__bg_orange_light, focus__bg_orange_lighter, focus__bg_orange_lightest, focus__bg_pink, focus__bg_pink_dark, focus__bg_pink_darker, focus__bg_pink_darkest, focus__bg_pink_light, focus__bg_pink_lighter, focus__bg_pink_lightest, focus__bg_purple, focus__bg_purple_dark, focus__bg_purple_darker, focus__bg_purple_darkest, focus__bg_purple_light, focus__bg_purple_lighter, focus__bg_purple_lightest, focus__bg_red, focus__bg_red_dark, focus__bg_red_darker, focus__bg_red_darkest, focus__bg_red_light, focus__bg_red_lighter, focus__bg_red_lightest, focus__bg_teal, focus__bg_teal_dark, focus__bg_teal_darker, focus__bg_teal_darkest, focus__bg_teal_light, focus__bg_teal_lighter, focus__bg_teal_lightest, focus__bg_transparent, focus__bg_white, focus__bg_yellow, focus__bg_yellow_dark, focus__bg_yellow_darker, focus__bg_yellow_darkest, focus__bg_yellow_light, focus__bg_yellow_lighter, focus__bg_yellow_lightest, focus__border_black, focus__border_blue, focus__border_blue_dark, focus__border_blue_darker, focus__border_blue_darkest, focus__border_blue_light, focus__border_blue_lighter, focus__border_blue_lightest, focus__border_green, focus__border_green_dark, focus__border_green_darker, focus__border_green_darkest, focus__border_green_light, focus__border_green_lighter, focus__border_green_lightest, focus__border_grey, focus__border_grey_dark, focus__border_grey_darker, focus__border_grey_darkest, focus__border_grey_light, focus__border_grey_lighter, focus__border_grey_lightest, focus__border_indigo, focus__border_indigo_dark, focus__border_indigo_darker, focus__border_indigo_darkest, focus__border_indigo_light, focus__border_indigo_lighter, focus__border_indigo_lightest, focus__border_orange, focus__border_orange_dark, focus__border_orange_darker, focus__border_orange_darkest, focus__border_orange_light, focus__border_orange_lighter, focus__border_orange_lightest, focus__border_pink, focus__border_pink_dark, focus__border_pink_darker, focus__border_pink_darkest, focus__border_pink_light, focus__border_pink_lighter, focus__border_pink_lightest, focus__border_purple, focus__border_purple_dark, focus__border_purple_darker, focus__border_purple_darkest, focus__border_purple_light, focus__border_purple_lighter, focus__border_purple_lightest, focus__border_red, focus__border_red_dark, focus__border_red_darker, focus__border_red_darkest, focus__border_red_light, focus__border_red_lighter, focus__border_red_lightest, focus__border_teal, focus__border_teal_dark, focus__border_teal_darker, focus__border_teal_darkest, focus__border_teal_light, focus__border_teal_lighter, focus__border_teal_lightest, focus__border_transparent, focus__border_white, focus__border_yellow, focus__border_yellow_dark, focus__border_yellow_darker, focus__border_yellow_darkest, focus__border_yellow_light, focus__border_yellow_lighter, focus__border_yellow_lightest, focus__capitalize, focus__font_black, focus__font_bold, focus__font_extrabold, focus__font_hairline, focus__font_light, focus__font_medium, focus__font_normal, focus__font_semibold, focus__font_thin, focus__italic, focus__line_through, focus__lowercase, focus__no_underline, focus__normal_case, focus__outline_none, focus__roman, focus__shadow, focus__shadow_inner, focus__shadow_lg, focus__shadow_md, focus__shadow_none, focus__shadow_outline, focus__subpixel_antialiased, focus__text_black, focus__text_blue, focus__text_blue_dark, focus__text_blue_darker, focus__text_blue_darkest, focus__text_blue_light, focus__text_blue_lighter, focus__text_blue_lightest, focus__text_green, focus__text_green_dark, focus__text_green_darker, focus__text_green_darkest, focus__text_green_light, focus__text_green_lighter, focus__text_green_lightest, focus__text_grey, focus__text_grey_dark, focus__text_grey_darker, focus__text_grey_darkest, focus__text_grey_light, focus__text_grey_lighter, focus__text_grey_lightest, focus__text_indigo, focus__text_indigo_dark, focus__text_indigo_darker, focus__text_indigo_darkest, focus__text_indigo_light, focus__text_indigo_lighter, focus__text_indigo_lightest, focus__text_orange, focus__text_orange_dark, focus__text_orange_darker, focus__text_orange_darkest, focus__text_orange_light, focus__text_orange_lighter, focus__text_orange_lightest, focus__text_pink, focus__text_pink_dark, focus__text_pink_darker, focus__text_pink_darkest, focus__text_pink_light, focus__text_pink_lighter, focus__text_pink_lightest, focus__text_purple, focus__text_purple_dark, focus__text_purple_darker, focus__text_purple_darkest, focus__text_purple_light, focus__text_purple_lighter, focus__text_purple_lightest, focus__text_red, focus__text_red_dark, focus__text_red_darker, focus__text_red_darkest, focus__text_red_light, focus__text_red_lighter, focus__text_red_lightest, focus__text_teal, focus__text_teal_dark, focus__text_teal_darker, focus__text_teal_darkest, focus__text_teal_light, focus__text_teal_lighter, focus__text_teal_lightest, focus__text_transparent, focus__text_white, focus__text_yellow, focus__text_yellow_dark, focus__text_yellow_darker, focus__text_yellow_darkest, focus__text_yellow_light, focus__text_yellow_lighter, focus__text_yellow_lightest, focus__underline, focus__uppercase, font_black, font_bold, font_extrabold, font_hairline, font_light, font_medium, font_mono, font_normal, font_sans, font_semibold, font_serif, font_thin, h_1, h_10, h_12, h_16, h_2, h_24, h_3, h_32, h_4, h_48, h_5, h_6, h_64, h_8, h_auto, h_full, h_px, h_screen, hidden, hover__antialiased, hover__bg_black, hover__bg_blue, hover__bg_blue_dark, hover__bg_blue_darker, hover__bg_blue_darkest, hover__bg_blue_light, hover__bg_blue_lighter, hover__bg_blue_lightest, hover__bg_green, hover__bg_green_dark, hover__bg_green_darker, hover__bg_green_darkest, hover__bg_green_light, hover__bg_green_lighter, hover__bg_green_lightest, hover__bg_grey, hover__bg_grey_dark, hover__bg_grey_darker, hover__bg_grey_darkest, hover__bg_grey_light, hover__bg_grey_lighter, hover__bg_grey_lightest, hover__bg_indigo, hover__bg_indigo_dark, hover__bg_indigo_darker, hover__bg_indigo_darkest, hover__bg_indigo_light, hover__bg_indigo_lighter, hover__bg_indigo_lightest, hover__bg_orange, hover__bg_orange_dark, hover__bg_orange_darker, hover__bg_orange_darkest, hover__bg_orange_light, hover__bg_orange_lighter, hover__bg_orange_lightest, hover__bg_pink, hover__bg_pink_dark, hover__bg_pink_darker, hover__bg_pink_darkest, hover__bg_pink_light, hover__bg_pink_lighter, hover__bg_pink_lightest, hover__bg_purple, hover__bg_purple_dark, hover__bg_purple_darker, hover__bg_purple_darkest, hover__bg_purple_light, hover__bg_purple_lighter, hover__bg_purple_lightest, hover__bg_red, hover__bg_red_dark, hover__bg_red_darker, hover__bg_red_darkest, hover__bg_red_light, hover__bg_red_lighter, hover__bg_red_lightest, hover__bg_teal, hover__bg_teal_dark, hover__bg_teal_darker, hover__bg_teal_darkest, hover__bg_teal_light, hover__bg_teal_lighter, hover__bg_teal_lightest, hover__bg_transparent, hover__bg_white, hover__bg_yellow, hover__bg_yellow_dark, hover__bg_yellow_darker, hover__bg_yellow_darkest, hover__bg_yellow_light, hover__bg_yellow_lighter, hover__bg_yellow_lightest, hover__border_black, hover__border_blue, hover__border_blue_dark, hover__border_blue_darker, hover__border_blue_darkest, hover__border_blue_light, hover__border_blue_lighter, hover__border_blue_lightest, hover__border_green, hover__border_green_dark, hover__border_green_darker, hover__border_green_darkest, hover__border_green_light, hover__border_green_lighter, hover__border_green_lightest, hover__border_grey, hover__border_grey_dark, hover__border_grey_darker, hover__border_grey_darkest, hover__border_grey_light, hover__border_grey_lighter, hover__border_grey_lightest, hover__border_indigo, hover__border_indigo_dark, hover__border_indigo_darker, hover__border_indigo_darkest, hover__border_indigo_light, hover__border_indigo_lighter, hover__border_indigo_lightest, hover__border_orange, hover__border_orange_dark, hover__border_orange_darker, hover__border_orange_darkest, hover__border_orange_light, hover__border_orange_lighter, hover__border_orange_lightest, hover__border_pink, hover__border_pink_dark, hover__border_pink_darker, hover__border_pink_darkest, hover__border_pink_light, hover__border_pink_lighter, hover__border_pink_lightest, hover__border_purple, hover__border_purple_dark, hover__border_purple_darker, hover__border_purple_darkest, hover__border_purple_light, hover__border_purple_lighter, hover__border_purple_lightest, hover__border_red, hover__border_red_dark, hover__border_red_darker, hover__border_red_darkest, hover__border_red_light, hover__border_red_lighter, hover__border_red_lightest, hover__border_teal, hover__border_teal_dark, hover__border_teal_darker, hover__border_teal_darkest, hover__border_teal_light, hover__border_teal_lighter, hover__border_teal_lightest, hover__border_transparent, hover__border_white, hover__border_yellow, hover__border_yellow_dark, hover__border_yellow_darker, hover__border_yellow_darkest, hover__border_yellow_light, hover__border_yellow_lighter, hover__border_yellow_lightest, hover__capitalize, hover__font_black, hover__font_bold, hover__font_extrabold, hover__font_hairline, hover__font_light, hover__font_medium, hover__font_normal, hover__font_semibold, hover__font_thin, hover__italic, hover__line_through, hover__lowercase, hover__no_underline, hover__normal_case, hover__roman, hover__shadow, hover__shadow_inner, hover__shadow_lg, hover__shadow_md, hover__shadow_none, hover__shadow_outline, hover__subpixel_antialiased, hover__text_black, hover__text_blue, hover__text_blue_dark, hover__text_blue_darker, hover__text_blue_darkest, hover__text_blue_light, hover__text_blue_lighter, hover__text_blue_lightest, hover__text_green, hover__text_green_dark, hover__text_green_darker, hover__text_green_darkest, hover__text_green_light, hover__text_green_lighter, hover__text_green_lightest, hover__text_grey, hover__text_grey_dark, hover__text_grey_darker, hover__text_grey_darkest, hover__text_grey_light, hover__text_grey_lighter, hover__text_grey_lightest, hover__text_indigo, hover__text_indigo_dark, hover__text_indigo_darker, hover__text_indigo_darkest, hover__text_indigo_light, hover__text_indigo_lighter, hover__text_indigo_lightest, hover__text_orange, hover__text_orange_dark, hover__text_orange_darker, hover__text_orange_darkest, hover__text_orange_light, hover__text_orange_lighter, hover__text_orange_lightest, hover__text_pink, hover__text_pink_dark, hover__text_pink_darker, hover__text_pink_darkest, hover__text_pink_light, hover__text_pink_lighter, hover__text_pink_lightest, hover__text_purple, hover__text_purple_dark, hover__text_purple_darker, hover__text_purple_darkest, hover__text_purple_light, hover__text_purple_lighter, hover__text_purple_lightest, hover__text_red, hover__text_red_dark, hover__text_red_darker, hover__text_red_darkest, hover__text_red_light, hover__text_red_lighter, hover__text_red_lightest, hover__text_teal, hover__text_teal_dark, hover__text_teal_darker, hover__text_teal_darkest, hover__text_teal_light, hover__text_teal_lighter, hover__text_teal_lightest, hover__text_transparent, hover__text_white, hover__text_yellow, hover__text_yellow_dark, hover__text_yellow_darker, hover__text_yellow_darkest, hover__text_yellow_light, hover__text_yellow_lighter, hover__text_yellow_lightest, hover__underline, hover__uppercase, inline, inline_block, inline_flex, invisible, italic, items_baseline, items_center, items_end, items_start, items_stretch, justify_around, justify_between, justify_center, justify_end, justify_start, leading_loose, leading_none, leading_normal, leading_tight, line_through, list_reset, lowercase, m_0, m_1, m_10, m_12, m_16, m_2, m_20, m_24, m_3, m_32, m_4, m_5, m_6, m_8, m_auto, m_px, max_h_full, max_h_screen, max_w_2xl, max_w_3xl, max_w_4xl, max_w_5xl, max_w_full, max_w_lg, max_w_md, max_w_sm, max_w_xl, max_w_xs, mb_0, mb_1, mb_10, mb_12, mb_16, mb_2, mb_20, mb_24, mb_3, mb_32, mb_4, mb_5, mb_6, mb_8, mb_auto, mb_px, min_h_0, min_h_full, min_h_screen, min_w_0, min_w_full, ml_0, ml_1, ml_10, ml_12, ml_16, ml_2, ml_20, ml_24, ml_3, ml_32, ml_4, ml_5, ml_6, ml_8, ml_auto, ml_px, mr_0, mr_1, mr_10, mr_12, mr_16, mr_2, mr_20, mr_24, mr_3, mr_32, mr_4, mr_5, mr_6, mr_8, mr_auto, mr_px, mt_0, mt_1, mt_10, mt_12, mt_16, mt_2, mt_20, mt_24, mt_3, mt_32, mt_4, mt_5, mt_6, mt_8, mt_auto, mt_px, mx_0, mx_1, mx_10, mx_12, mx_16, mx_2, mx_20, mx_24, mx_3, mx_32, mx_4, mx_5, mx_6, mx_8, mx_auto, mx_px, my_0, my_1, my_10, my_12, my_16, my_2, my_20, my_24, my_3, my_32, my_4, my_5, my_6, my_8, my_auto, my_px, no_underline, normal_case, opacity_0, opacity_100, opacity_25, opacity_50, opacity_75, outline_none, overflow_auto, overflow_hidden, overflow_scroll, overflow_visible, overflow_x_auto, overflow_x_hidden, overflow_x_scroll, overflow_x_visible, overflow_y_auto, overflow_y_hidden, overflow_y_scroll, overflow_y_visible, p_0, p_1, p_10, p_12, p_16, p_2, p_20, p_24, p_3, p_32, p_4, p_5, p_6, p_8, p_px, pb_0, pb_1, pb_10, pb_12, pb_16, pb_2, pb_20, pb_24, pb_3, pb_32, pb_4, pb_5, pb_6, pb_8, pb_px, pin, pin_b, pin_l, pin_none, pin_r, pin_t, pin_x, pin_y, pl_0, pl_1, pl_10, pl_12, pl_16, pl_2, pl_20, pl_24, pl_3, pl_32, pl_4, pl_5, pl_6, pl_8, pl_px, pointer_events_auto, pointer_events_none, pr_0, pr_1, pr_10, pr_12, pr_16, pr_2, pr_20, pr_24, pr_3, pr_32, pr_4, pr_5, pr_6, pr_8, pr_px, pt_0, pt_1, pt_10, pt_12, pt_16, pt_2, pt_20, pt_24, pt_3, pt_32, pt_4, pt_5, pt_6, pt_8, pt_px, px_0, px_1, px_10, px_12, px_16, px_2, px_20, px_24, px_3, px_32, px_4, px_5, px_6, px_8, px_px, py_0, py_1, py_10, py_12, py_16, py_2, py_20, py_24, py_3, py_32, py_4, py_5, py_6, py_8, py_px, relative, resize, resize_none, resize_x, resize_y, roman, rounded, rounded_b, rounded_b_full, rounded_b_lg, rounded_b_none, rounded_b_sm, rounded_bl, rounded_bl_full, rounded_bl_lg, rounded_bl_none, rounded_bl_sm, rounded_br, rounded_br_full, rounded_br_lg, rounded_br_none, rounded_br_sm, rounded_full, rounded_l, rounded_l_full, rounded_l_lg, rounded_l_none, rounded_l_sm, rounded_lg, rounded_none, rounded_r, rounded_r_full, rounded_r_lg, rounded_r_none, rounded_r_sm, rounded_sm, rounded_t, rounded_t_full, rounded_t_lg, rounded_t_none, rounded_t_sm, rounded_tl, rounded_tl_full, rounded_tl_lg, rounded_tl_none, rounded_tl_sm, rounded_tr, rounded_tr_full, rounded_tr_lg, rounded_tr_none, rounded_tr_sm, scrolling_auto, scrolling_touch, select_none, select_text, self_auto, self_center, self_end, self_start, self_stretch, shadow, shadow_inner, shadow_lg, shadow_md, shadow_none, shadow_outline, static, sticky, stroke_current, subpixel_antialiased, table, table_cell, table_row, text_2xl, text_3xl, text_4xl, text_5xl, text_base, text_black, text_blue, text_blue_dark, text_blue_darker, text_blue_darkest, text_blue_light, text_blue_lighter, text_blue_lightest, text_center, text_green, text_green_dark, text_green_darker, text_green_darkest, text_green_light, text_green_lighter, text_green_lightest, text_grey, text_grey_dark, text_grey_darker, text_grey_darkest, text_grey_light, text_grey_lighter, text_grey_lightest, text_indigo, text_indigo_dark, text_indigo_darker, text_indigo_darkest, text_indigo_light, text_indigo_lighter, text_indigo_lightest, text_justify, text_left, text_lg, text_orange, text_orange_dark, text_orange_darker, text_orange_darkest, text_orange_light, text_orange_lighter, text_orange_lightest, text_pink, text_pink_dark, text_pink_darker, text_pink_darkest, text_pink_light, text_pink_lighter, text_pink_lightest, text_purple, text_purple_dark, text_purple_darker, text_purple_darkest, text_purple_light, text_purple_lighter, text_purple_lightest, text_red, text_red_dark, text_red_darker, text_red_darkest, text_red_light, text_red_lighter, text_red_lightest, text_right, text_sm, text_teal, text_teal_dark, text_teal_darker, text_teal_darkest, text_teal_light, text_teal_lighter, text_teal_lightest, text_transparent, text_white, text_xl, text_xs, text_yellow, text_yellow_dark, text_yellow_darker, text_yellow_darkest, text_yellow_light, text_yellow_lighter, text_yellow_lightest, tracking_normal, tracking_tight, tracking_wide, truncate, underline, uppercase, visible, w_1, w_1over2, w_1over3, w_1over4, w_1over5, w_1over6, w_10, w_12, w_16, w_2, w_2over3, w_2over5, w_24, w_3, w_3over4, w_3over5, w_32, w_4, w_4over5, w_48, w_5, w_5over6, w_6, w_64, w_8, w_auto, w_full, w_px, w_screen, whitespace_no_wrap, whitespace_normal, whitespace_pre, whitespace_pre_line, whitespace_pre_wrap, z_0, z_10, z_20, z_30, z_40, z_50, z_auto
 
 -}
 
@@ -4627,7 +4627,7 @@ float_right =
 -}
 focus__antialiased : TailwindClass
 focus__antialiased =
-    TailwindClass "focus\\:antialiased:focus"
+    TailwindClass "focus:antialiased"
 
 
 
@@ -4640,85 +4640,7 @@ focus__antialiased =
 -}
 focus__bg_black : TailwindClass
 focus__bg_black =
-    TailwindClass "focus\\:bg-black:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:bg-blue-dark:focus {
-      background-color: #2779bd;
-    }
-
--}
-focus__bg_blue_dark : TailwindClass
-focus__bg_blue_dark =
-    TailwindClass "focus\\:bg-blue-dark:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:bg-blue-darker:focus {
-      background-color: #1c3d5a;
-    }
-
--}
-focus__bg_blue_darker : TailwindClass
-focus__bg_blue_darker =
-    TailwindClass "focus\\:bg-blue-darker:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:bg-blue-darkest:focus {
-      background-color: #12283a;
-    }
-
--}
-focus__bg_blue_darkest : TailwindClass
-focus__bg_blue_darkest =
-    TailwindClass "focus\\:bg-blue-darkest:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:bg-blue-light:focus {
-      background-color: #6cb2eb;
-    }
-
--}
-focus__bg_blue_light : TailwindClass
-focus__bg_blue_light =
-    TailwindClass "focus\\:bg-blue-light:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:bg-blue-lighter:focus {
-      background-color: #bcdefa;
-    }
-
--}
-focus__bg_blue_lighter : TailwindClass
-focus__bg_blue_lighter =
-    TailwindClass "focus\\:bg-blue-lighter:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:bg-blue-lightest:focus {
-      background-color: #eff8ff;
-    }
-
--}
-focus__bg_blue_lightest : TailwindClass
-focus__bg_blue_lightest =
-    TailwindClass "focus\\:bg-blue-lightest:focus"
+    TailwindClass "focus:bg-black"
 
 
 
@@ -4731,85 +4653,85 @@ focus__bg_blue_lightest =
 -}
 focus__bg_blue : TailwindClass
 focus__bg_blue =
-    TailwindClass "focus\\:bg-blue:focus"
+    TailwindClass "focus:bg-blue"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-green-dark:focus {
-      background-color: #1f9d55;
+    .focus\:bg-blue-dark:focus {
+      background-color: #2779bd;
     }
 
 -}
-focus__bg_green_dark : TailwindClass
-focus__bg_green_dark =
-    TailwindClass "focus\\:bg-green-dark:focus"
+focus__bg_blue_dark : TailwindClass
+focus__bg_blue_dark =
+    TailwindClass "focus:bg-blue-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-green-darker:focus {
-      background-color: #1a4731;
+    .focus\:bg-blue-darker:focus {
+      background-color: #1c3d5a;
     }
 
 -}
-focus__bg_green_darker : TailwindClass
-focus__bg_green_darker =
-    TailwindClass "focus\\:bg-green-darker:focus"
+focus__bg_blue_darker : TailwindClass
+focus__bg_blue_darker =
+    TailwindClass "focus:bg-blue-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-green-darkest:focus {
-      background-color: #0f2f21;
+    .focus\:bg-blue-darkest:focus {
+      background-color: #12283a;
     }
 
 -}
-focus__bg_green_darkest : TailwindClass
-focus__bg_green_darkest =
-    TailwindClass "focus\\:bg-green-darkest:focus"
+focus__bg_blue_darkest : TailwindClass
+focus__bg_blue_darkest =
+    TailwindClass "focus:bg-blue-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-green-light:focus {
-      background-color: #51d88a;
+    .focus\:bg-blue-light:focus {
+      background-color: #6cb2eb;
     }
 
 -}
-focus__bg_green_light : TailwindClass
-focus__bg_green_light =
-    TailwindClass "focus\\:bg-green-light:focus"
+focus__bg_blue_light : TailwindClass
+focus__bg_blue_light =
+    TailwindClass "focus:bg-blue-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-green-lighter:focus {
-      background-color: #a2f5bf;
+    .focus\:bg-blue-lighter:focus {
+      background-color: #bcdefa;
     }
 
 -}
-focus__bg_green_lighter : TailwindClass
-focus__bg_green_lighter =
-    TailwindClass "focus\\:bg-green-lighter:focus"
+focus__bg_blue_lighter : TailwindClass
+focus__bg_blue_lighter =
+    TailwindClass "focus:bg-blue-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-green-lightest:focus {
-      background-color: #e3fcec;
+    .focus\:bg-blue-lightest:focus {
+      background-color: #eff8ff;
     }
 
 -}
-focus__bg_green_lightest : TailwindClass
-focus__bg_green_lightest =
-    TailwindClass "focus\\:bg-green-lightest:focus"
+focus__bg_blue_lightest : TailwindClass
+focus__bg_blue_lightest =
+    TailwindClass "focus:bg-blue-lightest"
 
 
 
@@ -4822,85 +4744,85 @@ focus__bg_green_lightest =
 -}
 focus__bg_green : TailwindClass
 focus__bg_green =
-    TailwindClass "focus\\:bg-green:focus"
+    TailwindClass "focus:bg-green"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-grey-dark:focus {
-      background-color: #8795a1;
+    .focus\:bg-green-dark:focus {
+      background-color: #1f9d55;
     }
 
 -}
-focus__bg_grey_dark : TailwindClass
-focus__bg_grey_dark =
-    TailwindClass "focus\\:bg-grey-dark:focus"
+focus__bg_green_dark : TailwindClass
+focus__bg_green_dark =
+    TailwindClass "focus:bg-green-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-grey-darker:focus {
-      background-color: #606f7b;
+    .focus\:bg-green-darker:focus {
+      background-color: #1a4731;
     }
 
 -}
-focus__bg_grey_darker : TailwindClass
-focus__bg_grey_darker =
-    TailwindClass "focus\\:bg-grey-darker:focus"
+focus__bg_green_darker : TailwindClass
+focus__bg_green_darker =
+    TailwindClass "focus:bg-green-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-grey-darkest:focus {
-      background-color: #3d4852;
+    .focus\:bg-green-darkest:focus {
+      background-color: #0f2f21;
     }
 
 -}
-focus__bg_grey_darkest : TailwindClass
-focus__bg_grey_darkest =
-    TailwindClass "focus\\:bg-grey-darkest:focus"
+focus__bg_green_darkest : TailwindClass
+focus__bg_green_darkest =
+    TailwindClass "focus:bg-green-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-grey-light:focus {
-      background-color: #dae1e7;
+    .focus\:bg-green-light:focus {
+      background-color: #51d88a;
     }
 
 -}
-focus__bg_grey_light : TailwindClass
-focus__bg_grey_light =
-    TailwindClass "focus\\:bg-grey-light:focus"
+focus__bg_green_light : TailwindClass
+focus__bg_green_light =
+    TailwindClass "focus:bg-green-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-grey-lighter:focus {
-      background-color: #f1f5f8;
+    .focus\:bg-green-lighter:focus {
+      background-color: #a2f5bf;
     }
 
 -}
-focus__bg_grey_lighter : TailwindClass
-focus__bg_grey_lighter =
-    TailwindClass "focus\\:bg-grey-lighter:focus"
+focus__bg_green_lighter : TailwindClass
+focus__bg_green_lighter =
+    TailwindClass "focus:bg-green-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-grey-lightest:focus {
-      background-color: #f8fafc;
+    .focus\:bg-green-lightest:focus {
+      background-color: #e3fcec;
     }
 
 -}
-focus__bg_grey_lightest : TailwindClass
-focus__bg_grey_lightest =
-    TailwindClass "focus\\:bg-grey-lightest:focus"
+focus__bg_green_lightest : TailwindClass
+focus__bg_green_lightest =
+    TailwindClass "focus:bg-green-lightest"
 
 
 
@@ -4913,85 +4835,85 @@ focus__bg_grey_lightest =
 -}
 focus__bg_grey : TailwindClass
 focus__bg_grey =
-    TailwindClass "focus\\:bg-grey:focus"
+    TailwindClass "focus:bg-grey"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-indigo-dark:focus {
-      background-color: #5661b3;
+    .focus\:bg-grey-dark:focus {
+      background-color: #8795a1;
     }
 
 -}
-focus__bg_indigo_dark : TailwindClass
-focus__bg_indigo_dark =
-    TailwindClass "focus\\:bg-indigo-dark:focus"
+focus__bg_grey_dark : TailwindClass
+focus__bg_grey_dark =
+    TailwindClass "focus:bg-grey-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-indigo-darker:focus {
-      background-color: #2f365f;
+    .focus\:bg-grey-darker:focus {
+      background-color: #606f7b;
     }
 
 -}
-focus__bg_indigo_darker : TailwindClass
-focus__bg_indigo_darker =
-    TailwindClass "focus\\:bg-indigo-darker:focus"
+focus__bg_grey_darker : TailwindClass
+focus__bg_grey_darker =
+    TailwindClass "focus:bg-grey-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-indigo-darkest:focus {
-      background-color: #191e38;
+    .focus\:bg-grey-darkest:focus {
+      background-color: #3d4852;
     }
 
 -}
-focus__bg_indigo_darkest : TailwindClass
-focus__bg_indigo_darkest =
-    TailwindClass "focus\\:bg-indigo-darkest:focus"
+focus__bg_grey_darkest : TailwindClass
+focus__bg_grey_darkest =
+    TailwindClass "focus:bg-grey-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-indigo-light:focus {
-      background-color: #7886d7;
+    .focus\:bg-grey-light:focus {
+      background-color: #dae1e7;
     }
 
 -}
-focus__bg_indigo_light : TailwindClass
-focus__bg_indigo_light =
-    TailwindClass "focus\\:bg-indigo-light:focus"
+focus__bg_grey_light : TailwindClass
+focus__bg_grey_light =
+    TailwindClass "focus:bg-grey-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-indigo-lighter:focus {
-      background-color: #b2b7ff;
+    .focus\:bg-grey-lighter:focus {
+      background-color: #f1f5f8;
     }
 
 -}
-focus__bg_indigo_lighter : TailwindClass
-focus__bg_indigo_lighter =
-    TailwindClass "focus\\:bg-indigo-lighter:focus"
+focus__bg_grey_lighter : TailwindClass
+focus__bg_grey_lighter =
+    TailwindClass "focus:bg-grey-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-indigo-lightest:focus {
-      background-color: #e6e8ff;
+    .focus\:bg-grey-lightest:focus {
+      background-color: #f8fafc;
     }
 
 -}
-focus__bg_indigo_lightest : TailwindClass
-focus__bg_indigo_lightest =
-    TailwindClass "focus\\:bg-indigo-lightest:focus"
+focus__bg_grey_lightest : TailwindClass
+focus__bg_grey_lightest =
+    TailwindClass "focus:bg-grey-lightest"
 
 
 
@@ -5004,85 +4926,85 @@ focus__bg_indigo_lightest =
 -}
 focus__bg_indigo : TailwindClass
 focus__bg_indigo =
-    TailwindClass "focus\\:bg-indigo:focus"
+    TailwindClass "focus:bg-indigo"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-orange-dark:focus {
-      background-color: #de751f;
+    .focus\:bg-indigo-dark:focus {
+      background-color: #5661b3;
     }
 
 -}
-focus__bg_orange_dark : TailwindClass
-focus__bg_orange_dark =
-    TailwindClass "focus\\:bg-orange-dark:focus"
+focus__bg_indigo_dark : TailwindClass
+focus__bg_indigo_dark =
+    TailwindClass "focus:bg-indigo-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-orange-darker:focus {
-      background-color: #613b1f;
+    .focus\:bg-indigo-darker:focus {
+      background-color: #2f365f;
     }
 
 -}
-focus__bg_orange_darker : TailwindClass
-focus__bg_orange_darker =
-    TailwindClass "focus\\:bg-orange-darker:focus"
+focus__bg_indigo_darker : TailwindClass
+focus__bg_indigo_darker =
+    TailwindClass "focus:bg-indigo-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-orange-darkest:focus {
-      background-color: #462a16;
+    .focus\:bg-indigo-darkest:focus {
+      background-color: #191e38;
     }
 
 -}
-focus__bg_orange_darkest : TailwindClass
-focus__bg_orange_darkest =
-    TailwindClass "focus\\:bg-orange-darkest:focus"
+focus__bg_indigo_darkest : TailwindClass
+focus__bg_indigo_darkest =
+    TailwindClass "focus:bg-indigo-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-orange-light:focus {
-      background-color: #faad63;
+    .focus\:bg-indigo-light:focus {
+      background-color: #7886d7;
     }
 
 -}
-focus__bg_orange_light : TailwindClass
-focus__bg_orange_light =
-    TailwindClass "focus\\:bg-orange-light:focus"
+focus__bg_indigo_light : TailwindClass
+focus__bg_indigo_light =
+    TailwindClass "focus:bg-indigo-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-orange-lighter:focus {
-      background-color: #fcd9b6;
+    .focus\:bg-indigo-lighter:focus {
+      background-color: #b2b7ff;
     }
 
 -}
-focus__bg_orange_lighter : TailwindClass
-focus__bg_orange_lighter =
-    TailwindClass "focus\\:bg-orange-lighter:focus"
+focus__bg_indigo_lighter : TailwindClass
+focus__bg_indigo_lighter =
+    TailwindClass "focus:bg-indigo-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-orange-lightest:focus {
-      background-color: #fff5eb;
+    .focus\:bg-indigo-lightest:focus {
+      background-color: #e6e8ff;
     }
 
 -}
-focus__bg_orange_lightest : TailwindClass
-focus__bg_orange_lightest =
-    TailwindClass "focus\\:bg-orange-lightest:focus"
+focus__bg_indigo_lightest : TailwindClass
+focus__bg_indigo_lightest =
+    TailwindClass "focus:bg-indigo-lightest"
 
 
 
@@ -5095,85 +5017,85 @@ focus__bg_orange_lightest =
 -}
 focus__bg_orange : TailwindClass
 focus__bg_orange =
-    TailwindClass "focus\\:bg-orange:focus"
+    TailwindClass "focus:bg-orange"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-pink-dark:focus {
-      background-color: #eb5286;
+    .focus\:bg-orange-dark:focus {
+      background-color: #de751f;
     }
 
 -}
-focus__bg_pink_dark : TailwindClass
-focus__bg_pink_dark =
-    TailwindClass "focus\\:bg-pink-dark:focus"
+focus__bg_orange_dark : TailwindClass
+focus__bg_orange_dark =
+    TailwindClass "focus:bg-orange-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-pink-darker:focus {
-      background-color: #6f213f;
+    .focus\:bg-orange-darker:focus {
+      background-color: #613b1f;
     }
 
 -}
-focus__bg_pink_darker : TailwindClass
-focus__bg_pink_darker =
-    TailwindClass "focus\\:bg-pink-darker:focus"
+focus__bg_orange_darker : TailwindClass
+focus__bg_orange_darker =
+    TailwindClass "focus:bg-orange-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-pink-darkest:focus {
-      background-color: #451225;
+    .focus\:bg-orange-darkest:focus {
+      background-color: #462a16;
     }
 
 -}
-focus__bg_pink_darkest : TailwindClass
-focus__bg_pink_darkest =
-    TailwindClass "focus\\:bg-pink-darkest:focus"
+focus__bg_orange_darkest : TailwindClass
+focus__bg_orange_darkest =
+    TailwindClass "focus:bg-orange-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-pink-light:focus {
-      background-color: #fa7ea8;
+    .focus\:bg-orange-light:focus {
+      background-color: #faad63;
     }
 
 -}
-focus__bg_pink_light : TailwindClass
-focus__bg_pink_light =
-    TailwindClass "focus\\:bg-pink-light:focus"
+focus__bg_orange_light : TailwindClass
+focus__bg_orange_light =
+    TailwindClass "focus:bg-orange-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-pink-lighter:focus {
-      background-color: #ffbbca;
+    .focus\:bg-orange-lighter:focus {
+      background-color: #fcd9b6;
     }
 
 -}
-focus__bg_pink_lighter : TailwindClass
-focus__bg_pink_lighter =
-    TailwindClass "focus\\:bg-pink-lighter:focus"
+focus__bg_orange_lighter : TailwindClass
+focus__bg_orange_lighter =
+    TailwindClass "focus:bg-orange-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-pink-lightest:focus {
-      background-color: #ffebef;
+    .focus\:bg-orange-lightest:focus {
+      background-color: #fff5eb;
     }
 
 -}
-focus__bg_pink_lightest : TailwindClass
-focus__bg_pink_lightest =
-    TailwindClass "focus\\:bg-pink-lightest:focus"
+focus__bg_orange_lightest : TailwindClass
+focus__bg_orange_lightest =
+    TailwindClass "focus:bg-orange-lightest"
 
 
 
@@ -5186,85 +5108,85 @@ focus__bg_pink_lightest =
 -}
 focus__bg_pink : TailwindClass
 focus__bg_pink =
-    TailwindClass "focus\\:bg-pink:focus"
+    TailwindClass "focus:bg-pink"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-purple-dark:focus {
-      background-color: #794acf;
+    .focus\:bg-pink-dark:focus {
+      background-color: #eb5286;
     }
 
 -}
-focus__bg_purple_dark : TailwindClass
-focus__bg_purple_dark =
-    TailwindClass "focus\\:bg-purple-dark:focus"
+focus__bg_pink_dark : TailwindClass
+focus__bg_pink_dark =
+    TailwindClass "focus:bg-pink-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-purple-darker:focus {
-      background-color: #382b5f;
+    .focus\:bg-pink-darker:focus {
+      background-color: #6f213f;
     }
 
 -}
-focus__bg_purple_darker : TailwindClass
-focus__bg_purple_darker =
-    TailwindClass "focus\\:bg-purple-darker:focus"
+focus__bg_pink_darker : TailwindClass
+focus__bg_pink_darker =
+    TailwindClass "focus:bg-pink-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-purple-darkest:focus {
-      background-color: #21183c;
+    .focus\:bg-pink-darkest:focus {
+      background-color: #451225;
     }
 
 -}
-focus__bg_purple_darkest : TailwindClass
-focus__bg_purple_darkest =
-    TailwindClass "focus\\:bg-purple-darkest:focus"
+focus__bg_pink_darkest : TailwindClass
+focus__bg_pink_darkest =
+    TailwindClass "focus:bg-pink-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-purple-light:focus {
-      background-color: #a779e9;
+    .focus\:bg-pink-light:focus {
+      background-color: #fa7ea8;
     }
 
 -}
-focus__bg_purple_light : TailwindClass
-focus__bg_purple_light =
-    TailwindClass "focus\\:bg-purple-light:focus"
+focus__bg_pink_light : TailwindClass
+focus__bg_pink_light =
+    TailwindClass "focus:bg-pink-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-purple-lighter:focus {
-      background-color: #d6bbfc;
+    .focus\:bg-pink-lighter:focus {
+      background-color: #ffbbca;
     }
 
 -}
-focus__bg_purple_lighter : TailwindClass
-focus__bg_purple_lighter =
-    TailwindClass "focus\\:bg-purple-lighter:focus"
+focus__bg_pink_lighter : TailwindClass
+focus__bg_pink_lighter =
+    TailwindClass "focus:bg-pink-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-purple-lightest:focus {
-      background-color: #f3ebff;
+    .focus\:bg-pink-lightest:focus {
+      background-color: #ffebef;
     }
 
 -}
-focus__bg_purple_lightest : TailwindClass
-focus__bg_purple_lightest =
-    TailwindClass "focus\\:bg-purple-lightest:focus"
+focus__bg_pink_lightest : TailwindClass
+focus__bg_pink_lightest =
+    TailwindClass "focus:bg-pink-lightest"
 
 
 
@@ -5277,85 +5199,85 @@ focus__bg_purple_lightest =
 -}
 focus__bg_purple : TailwindClass
 focus__bg_purple =
-    TailwindClass "focus\\:bg-purple:focus"
+    TailwindClass "focus:bg-purple"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-red-dark:focus {
-      background-color: #cc1f1a;
+    .focus\:bg-purple-dark:focus {
+      background-color: #794acf;
     }
 
 -}
-focus__bg_red_dark : TailwindClass
-focus__bg_red_dark =
-    TailwindClass "focus\\:bg-red-dark:focus"
+focus__bg_purple_dark : TailwindClass
+focus__bg_purple_dark =
+    TailwindClass "focus:bg-purple-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-red-darker:focus {
-      background-color: #621b18;
+    .focus\:bg-purple-darker:focus {
+      background-color: #382b5f;
     }
 
 -}
-focus__bg_red_darker : TailwindClass
-focus__bg_red_darker =
-    TailwindClass "focus\\:bg-red-darker:focus"
+focus__bg_purple_darker : TailwindClass
+focus__bg_purple_darker =
+    TailwindClass "focus:bg-purple-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-red-darkest:focus {
-      background-color: #3b0d0c;
+    .focus\:bg-purple-darkest:focus {
+      background-color: #21183c;
     }
 
 -}
-focus__bg_red_darkest : TailwindClass
-focus__bg_red_darkest =
-    TailwindClass "focus\\:bg-red-darkest:focus"
+focus__bg_purple_darkest : TailwindClass
+focus__bg_purple_darkest =
+    TailwindClass "focus:bg-purple-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-red-light:focus {
-      background-color: #ef5753;
+    .focus\:bg-purple-light:focus {
+      background-color: #a779e9;
     }
 
 -}
-focus__bg_red_light : TailwindClass
-focus__bg_red_light =
-    TailwindClass "focus\\:bg-red-light:focus"
+focus__bg_purple_light : TailwindClass
+focus__bg_purple_light =
+    TailwindClass "focus:bg-purple-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-red-lighter:focus {
-      background-color: #f9acaa;
+    .focus\:bg-purple-lighter:focus {
+      background-color: #d6bbfc;
     }
 
 -}
-focus__bg_red_lighter : TailwindClass
-focus__bg_red_lighter =
-    TailwindClass "focus\\:bg-red-lighter:focus"
+focus__bg_purple_lighter : TailwindClass
+focus__bg_purple_lighter =
+    TailwindClass "focus:bg-purple-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-red-lightest:focus {
-      background-color: #fcebea;
+    .focus\:bg-purple-lightest:focus {
+      background-color: #f3ebff;
     }
 
 -}
-focus__bg_red_lightest : TailwindClass
-focus__bg_red_lightest =
-    TailwindClass "focus\\:bg-red-lightest:focus"
+focus__bg_purple_lightest : TailwindClass
+focus__bg_purple_lightest =
+    TailwindClass "focus:bg-purple-lightest"
 
 
 
@@ -5368,85 +5290,85 @@ focus__bg_red_lightest =
 -}
 focus__bg_red : TailwindClass
 focus__bg_red =
-    TailwindClass "focus\\:bg-red:focus"
+    TailwindClass "focus:bg-red"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-teal-dark:focus {
-      background-color: #38a89d;
+    .focus\:bg-red-dark:focus {
+      background-color: #cc1f1a;
     }
 
 -}
-focus__bg_teal_dark : TailwindClass
-focus__bg_teal_dark =
-    TailwindClass "focus\\:bg-teal-dark:focus"
+focus__bg_red_dark : TailwindClass
+focus__bg_red_dark =
+    TailwindClass "focus:bg-red-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-teal-darker:focus {
-      background-color: #20504f;
+    .focus\:bg-red-darker:focus {
+      background-color: #621b18;
     }
 
 -}
-focus__bg_teal_darker : TailwindClass
-focus__bg_teal_darker =
-    TailwindClass "focus\\:bg-teal-darker:focus"
+focus__bg_red_darker : TailwindClass
+focus__bg_red_darker =
+    TailwindClass "focus:bg-red-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-teal-darkest:focus {
-      background-color: #0d3331;
+    .focus\:bg-red-darkest:focus {
+      background-color: #3b0d0c;
     }
 
 -}
-focus__bg_teal_darkest : TailwindClass
-focus__bg_teal_darkest =
-    TailwindClass "focus\\:bg-teal-darkest:focus"
+focus__bg_red_darkest : TailwindClass
+focus__bg_red_darkest =
+    TailwindClass "focus:bg-red-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-teal-light:focus {
-      background-color: #64d5ca;
+    .focus\:bg-red-light:focus {
+      background-color: #ef5753;
     }
 
 -}
-focus__bg_teal_light : TailwindClass
-focus__bg_teal_light =
-    TailwindClass "focus\\:bg-teal-light:focus"
+focus__bg_red_light : TailwindClass
+focus__bg_red_light =
+    TailwindClass "focus:bg-red-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-teal-lighter:focus {
-      background-color: #a0f0ed;
+    .focus\:bg-red-lighter:focus {
+      background-color: #f9acaa;
     }
 
 -}
-focus__bg_teal_lighter : TailwindClass
-focus__bg_teal_lighter =
-    TailwindClass "focus\\:bg-teal-lighter:focus"
+focus__bg_red_lighter : TailwindClass
+focus__bg_red_lighter =
+    TailwindClass "focus:bg-red-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:bg-teal-lightest:focus {
-      background-color: #e8fffe;
+    .focus\:bg-red-lightest:focus {
+      background-color: #fcebea;
     }
 
 -}
-focus__bg_teal_lightest : TailwindClass
-focus__bg_teal_lightest =
-    TailwindClass "focus\\:bg-teal-lightest:focus"
+focus__bg_red_lightest : TailwindClass
+focus__bg_red_lightest =
+    TailwindClass "focus:bg-red-lightest"
 
 
 
@@ -5459,7 +5381,85 @@ focus__bg_teal_lightest =
 -}
 focus__bg_teal : TailwindClass
 focus__bg_teal =
-    TailwindClass "focus\\:bg-teal:focus"
+    TailwindClass "focus:bg-teal"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:bg-teal-dark:focus {
+      background-color: #38a89d;
+    }
+
+-}
+focus__bg_teal_dark : TailwindClass
+focus__bg_teal_dark =
+    TailwindClass "focus:bg-teal-dark"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:bg-teal-darker:focus {
+      background-color: #20504f;
+    }
+
+-}
+focus__bg_teal_darker : TailwindClass
+focus__bg_teal_darker =
+    TailwindClass "focus:bg-teal-darker"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:bg-teal-darkest:focus {
+      background-color: #0d3331;
+    }
+
+-}
+focus__bg_teal_darkest : TailwindClass
+focus__bg_teal_darkest =
+    TailwindClass "focus:bg-teal-darkest"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:bg-teal-light:focus {
+      background-color: #64d5ca;
+    }
+
+-}
+focus__bg_teal_light : TailwindClass
+focus__bg_teal_light =
+    TailwindClass "focus:bg-teal-light"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:bg-teal-lighter:focus {
+      background-color: #a0f0ed;
+    }
+
+-}
+focus__bg_teal_lighter : TailwindClass
+focus__bg_teal_lighter =
+    TailwindClass "focus:bg-teal-lighter"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:bg-teal-lightest:focus {
+      background-color: #e8fffe;
+    }
+
+-}
+focus__bg_teal_lightest : TailwindClass
+focus__bg_teal_lightest =
+    TailwindClass "focus:bg-teal-lightest"
 
 
 
@@ -5472,7 +5472,7 @@ focus__bg_teal =
 -}
 focus__bg_transparent : TailwindClass
 focus__bg_transparent =
-    TailwindClass "focus\\:bg-transparent:focus"
+    TailwindClass "focus:bg-transparent"
 
 
 
@@ -5485,85 +5485,7 @@ focus__bg_transparent =
 -}
 focus__bg_white : TailwindClass
 focus__bg_white =
-    TailwindClass "focus\\:bg-white:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:bg-yellow-dark:focus {
-      background-color: #f2d024;
-    }
-
--}
-focus__bg_yellow_dark : TailwindClass
-focus__bg_yellow_dark =
-    TailwindClass "focus\\:bg-yellow-dark:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:bg-yellow-darker:focus {
-      background-color: #684f1d;
-    }
-
--}
-focus__bg_yellow_darker : TailwindClass
-focus__bg_yellow_darker =
-    TailwindClass "focus\\:bg-yellow-darker:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:bg-yellow-darkest:focus {
-      background-color: #453411;
-    }
-
--}
-focus__bg_yellow_darkest : TailwindClass
-focus__bg_yellow_darkest =
-    TailwindClass "focus\\:bg-yellow-darkest:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:bg-yellow-light:focus {
-      background-color: #fff382;
-    }
-
--}
-focus__bg_yellow_light : TailwindClass
-focus__bg_yellow_light =
-    TailwindClass "focus\\:bg-yellow-light:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:bg-yellow-lighter:focus {
-      background-color: #fff9c2;
-    }
-
--}
-focus__bg_yellow_lighter : TailwindClass
-focus__bg_yellow_lighter =
-    TailwindClass "focus\\:bg-yellow-lighter:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:bg-yellow-lightest:focus {
-      background-color: #fcfbeb;
-    }
-
--}
-focus__bg_yellow_lightest : TailwindClass
-focus__bg_yellow_lightest =
-    TailwindClass "focus\\:bg-yellow-lightest:focus"
+    TailwindClass "focus:bg-white"
 
 
 
@@ -5576,7 +5498,85 @@ focus__bg_yellow_lightest =
 -}
 focus__bg_yellow : TailwindClass
 focus__bg_yellow =
-    TailwindClass "focus\\:bg-yellow:focus"
+    TailwindClass "focus:bg-yellow"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:bg-yellow-dark:focus {
+      background-color: #f2d024;
+    }
+
+-}
+focus__bg_yellow_dark : TailwindClass
+focus__bg_yellow_dark =
+    TailwindClass "focus:bg-yellow-dark"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:bg-yellow-darker:focus {
+      background-color: #684f1d;
+    }
+
+-}
+focus__bg_yellow_darker : TailwindClass
+focus__bg_yellow_darker =
+    TailwindClass "focus:bg-yellow-darker"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:bg-yellow-darkest:focus {
+      background-color: #453411;
+    }
+
+-}
+focus__bg_yellow_darkest : TailwindClass
+focus__bg_yellow_darkest =
+    TailwindClass "focus:bg-yellow-darkest"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:bg-yellow-light:focus {
+      background-color: #fff382;
+    }
+
+-}
+focus__bg_yellow_light : TailwindClass
+focus__bg_yellow_light =
+    TailwindClass "focus:bg-yellow-light"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:bg-yellow-lighter:focus {
+      background-color: #fff9c2;
+    }
+
+-}
+focus__bg_yellow_lighter : TailwindClass
+focus__bg_yellow_lighter =
+    TailwindClass "focus:bg-yellow-lighter"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:bg-yellow-lightest:focus {
+      background-color: #fcfbeb;
+    }
+
+-}
+focus__bg_yellow_lightest : TailwindClass
+focus__bg_yellow_lightest =
+    TailwindClass "focus:bg-yellow-lightest"
 
 
 
@@ -5589,85 +5589,7 @@ focus__bg_yellow =
 -}
 focus__border_black : TailwindClass
 focus__border_black =
-    TailwindClass "focus\\:border-black:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:border-blue-dark:focus {
-      border-color: #2779bd;
-    }
-
--}
-focus__border_blue_dark : TailwindClass
-focus__border_blue_dark =
-    TailwindClass "focus\\:border-blue-dark:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:border-blue-darker:focus {
-      border-color: #1c3d5a;
-    }
-
--}
-focus__border_blue_darker : TailwindClass
-focus__border_blue_darker =
-    TailwindClass "focus\\:border-blue-darker:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:border-blue-darkest:focus {
-      border-color: #12283a;
-    }
-
--}
-focus__border_blue_darkest : TailwindClass
-focus__border_blue_darkest =
-    TailwindClass "focus\\:border-blue-darkest:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:border-blue-light:focus {
-      border-color: #6cb2eb;
-    }
-
--}
-focus__border_blue_light : TailwindClass
-focus__border_blue_light =
-    TailwindClass "focus\\:border-blue-light:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:border-blue-lighter:focus {
-      border-color: #bcdefa;
-    }
-
--}
-focus__border_blue_lighter : TailwindClass
-focus__border_blue_lighter =
-    TailwindClass "focus\\:border-blue-lighter:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:border-blue-lightest:focus {
-      border-color: #eff8ff;
-    }
-
--}
-focus__border_blue_lightest : TailwindClass
-focus__border_blue_lightest =
-    TailwindClass "focus\\:border-blue-lightest:focus"
+    TailwindClass "focus:border-black"
 
 
 
@@ -5680,85 +5602,85 @@ focus__border_blue_lightest =
 -}
 focus__border_blue : TailwindClass
 focus__border_blue =
-    TailwindClass "focus\\:border-blue:focus"
+    TailwindClass "focus:border-blue"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-green-dark:focus {
-      border-color: #1f9d55;
+    .focus\:border-blue-dark:focus {
+      border-color: #2779bd;
     }
 
 -}
-focus__border_green_dark : TailwindClass
-focus__border_green_dark =
-    TailwindClass "focus\\:border-green-dark:focus"
+focus__border_blue_dark : TailwindClass
+focus__border_blue_dark =
+    TailwindClass "focus:border-blue-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-green-darker:focus {
-      border-color: #1a4731;
+    .focus\:border-blue-darker:focus {
+      border-color: #1c3d5a;
     }
 
 -}
-focus__border_green_darker : TailwindClass
-focus__border_green_darker =
-    TailwindClass "focus\\:border-green-darker:focus"
+focus__border_blue_darker : TailwindClass
+focus__border_blue_darker =
+    TailwindClass "focus:border-blue-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-green-darkest:focus {
-      border-color: #0f2f21;
+    .focus\:border-blue-darkest:focus {
+      border-color: #12283a;
     }
 
 -}
-focus__border_green_darkest : TailwindClass
-focus__border_green_darkest =
-    TailwindClass "focus\\:border-green-darkest:focus"
+focus__border_blue_darkest : TailwindClass
+focus__border_blue_darkest =
+    TailwindClass "focus:border-blue-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-green-light:focus {
-      border-color: #51d88a;
+    .focus\:border-blue-light:focus {
+      border-color: #6cb2eb;
     }
 
 -}
-focus__border_green_light : TailwindClass
-focus__border_green_light =
-    TailwindClass "focus\\:border-green-light:focus"
+focus__border_blue_light : TailwindClass
+focus__border_blue_light =
+    TailwindClass "focus:border-blue-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-green-lighter:focus {
-      border-color: #a2f5bf;
+    .focus\:border-blue-lighter:focus {
+      border-color: #bcdefa;
     }
 
 -}
-focus__border_green_lighter : TailwindClass
-focus__border_green_lighter =
-    TailwindClass "focus\\:border-green-lighter:focus"
+focus__border_blue_lighter : TailwindClass
+focus__border_blue_lighter =
+    TailwindClass "focus:border-blue-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-green-lightest:focus {
-      border-color: #e3fcec;
+    .focus\:border-blue-lightest:focus {
+      border-color: #eff8ff;
     }
 
 -}
-focus__border_green_lightest : TailwindClass
-focus__border_green_lightest =
-    TailwindClass "focus\\:border-green-lightest:focus"
+focus__border_blue_lightest : TailwindClass
+focus__border_blue_lightest =
+    TailwindClass "focus:border-blue-lightest"
 
 
 
@@ -5771,85 +5693,85 @@ focus__border_green_lightest =
 -}
 focus__border_green : TailwindClass
 focus__border_green =
-    TailwindClass "focus\\:border-green:focus"
+    TailwindClass "focus:border-green"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-grey-dark:focus {
-      border-color: #8795a1;
+    .focus\:border-green-dark:focus {
+      border-color: #1f9d55;
     }
 
 -}
-focus__border_grey_dark : TailwindClass
-focus__border_grey_dark =
-    TailwindClass "focus\\:border-grey-dark:focus"
+focus__border_green_dark : TailwindClass
+focus__border_green_dark =
+    TailwindClass "focus:border-green-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-grey-darker:focus {
-      border-color: #606f7b;
+    .focus\:border-green-darker:focus {
+      border-color: #1a4731;
     }
 
 -}
-focus__border_grey_darker : TailwindClass
-focus__border_grey_darker =
-    TailwindClass "focus\\:border-grey-darker:focus"
+focus__border_green_darker : TailwindClass
+focus__border_green_darker =
+    TailwindClass "focus:border-green-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-grey-darkest:focus {
-      border-color: #3d4852;
+    .focus\:border-green-darkest:focus {
+      border-color: #0f2f21;
     }
 
 -}
-focus__border_grey_darkest : TailwindClass
-focus__border_grey_darkest =
-    TailwindClass "focus\\:border-grey-darkest:focus"
+focus__border_green_darkest : TailwindClass
+focus__border_green_darkest =
+    TailwindClass "focus:border-green-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-grey-light:focus {
-      border-color: #dae1e7;
+    .focus\:border-green-light:focus {
+      border-color: #51d88a;
     }
 
 -}
-focus__border_grey_light : TailwindClass
-focus__border_grey_light =
-    TailwindClass "focus\\:border-grey-light:focus"
+focus__border_green_light : TailwindClass
+focus__border_green_light =
+    TailwindClass "focus:border-green-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-grey-lighter:focus {
-      border-color: #f1f5f8;
+    .focus\:border-green-lighter:focus {
+      border-color: #a2f5bf;
     }
 
 -}
-focus__border_grey_lighter : TailwindClass
-focus__border_grey_lighter =
-    TailwindClass "focus\\:border-grey-lighter:focus"
+focus__border_green_lighter : TailwindClass
+focus__border_green_lighter =
+    TailwindClass "focus:border-green-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-grey-lightest:focus {
-      border-color: #f8fafc;
+    .focus\:border-green-lightest:focus {
+      border-color: #e3fcec;
     }
 
 -}
-focus__border_grey_lightest : TailwindClass
-focus__border_grey_lightest =
-    TailwindClass "focus\\:border-grey-lightest:focus"
+focus__border_green_lightest : TailwindClass
+focus__border_green_lightest =
+    TailwindClass "focus:border-green-lightest"
 
 
 
@@ -5862,85 +5784,85 @@ focus__border_grey_lightest =
 -}
 focus__border_grey : TailwindClass
 focus__border_grey =
-    TailwindClass "focus\\:border-grey:focus"
+    TailwindClass "focus:border-grey"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-indigo-dark:focus {
-      border-color: #5661b3;
+    .focus\:border-grey-dark:focus {
+      border-color: #8795a1;
     }
 
 -}
-focus__border_indigo_dark : TailwindClass
-focus__border_indigo_dark =
-    TailwindClass "focus\\:border-indigo-dark:focus"
+focus__border_grey_dark : TailwindClass
+focus__border_grey_dark =
+    TailwindClass "focus:border-grey-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-indigo-darker:focus {
-      border-color: #2f365f;
+    .focus\:border-grey-darker:focus {
+      border-color: #606f7b;
     }
 
 -}
-focus__border_indigo_darker : TailwindClass
-focus__border_indigo_darker =
-    TailwindClass "focus\\:border-indigo-darker:focus"
+focus__border_grey_darker : TailwindClass
+focus__border_grey_darker =
+    TailwindClass "focus:border-grey-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-indigo-darkest:focus {
-      border-color: #191e38;
+    .focus\:border-grey-darkest:focus {
+      border-color: #3d4852;
     }
 
 -}
-focus__border_indigo_darkest : TailwindClass
-focus__border_indigo_darkest =
-    TailwindClass "focus\\:border-indigo-darkest:focus"
+focus__border_grey_darkest : TailwindClass
+focus__border_grey_darkest =
+    TailwindClass "focus:border-grey-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-indigo-light:focus {
-      border-color: #7886d7;
+    .focus\:border-grey-light:focus {
+      border-color: #dae1e7;
     }
 
 -}
-focus__border_indigo_light : TailwindClass
-focus__border_indigo_light =
-    TailwindClass "focus\\:border-indigo-light:focus"
+focus__border_grey_light : TailwindClass
+focus__border_grey_light =
+    TailwindClass "focus:border-grey-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-indigo-lighter:focus {
-      border-color: #b2b7ff;
+    .focus\:border-grey-lighter:focus {
+      border-color: #f1f5f8;
     }
 
 -}
-focus__border_indigo_lighter : TailwindClass
-focus__border_indigo_lighter =
-    TailwindClass "focus\\:border-indigo-lighter:focus"
+focus__border_grey_lighter : TailwindClass
+focus__border_grey_lighter =
+    TailwindClass "focus:border-grey-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-indigo-lightest:focus {
-      border-color: #e6e8ff;
+    .focus\:border-grey-lightest:focus {
+      border-color: #f8fafc;
     }
 
 -}
-focus__border_indigo_lightest : TailwindClass
-focus__border_indigo_lightest =
-    TailwindClass "focus\\:border-indigo-lightest:focus"
+focus__border_grey_lightest : TailwindClass
+focus__border_grey_lightest =
+    TailwindClass "focus:border-grey-lightest"
 
 
 
@@ -5953,85 +5875,85 @@ focus__border_indigo_lightest =
 -}
 focus__border_indigo : TailwindClass
 focus__border_indigo =
-    TailwindClass "focus\\:border-indigo:focus"
+    TailwindClass "focus:border-indigo"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-orange-dark:focus {
-      border-color: #de751f;
+    .focus\:border-indigo-dark:focus {
+      border-color: #5661b3;
     }
 
 -}
-focus__border_orange_dark : TailwindClass
-focus__border_orange_dark =
-    TailwindClass "focus\\:border-orange-dark:focus"
+focus__border_indigo_dark : TailwindClass
+focus__border_indigo_dark =
+    TailwindClass "focus:border-indigo-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-orange-darker:focus {
-      border-color: #613b1f;
+    .focus\:border-indigo-darker:focus {
+      border-color: #2f365f;
     }
 
 -}
-focus__border_orange_darker : TailwindClass
-focus__border_orange_darker =
-    TailwindClass "focus\\:border-orange-darker:focus"
+focus__border_indigo_darker : TailwindClass
+focus__border_indigo_darker =
+    TailwindClass "focus:border-indigo-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-orange-darkest:focus {
-      border-color: #462a16;
+    .focus\:border-indigo-darkest:focus {
+      border-color: #191e38;
     }
 
 -}
-focus__border_orange_darkest : TailwindClass
-focus__border_orange_darkest =
-    TailwindClass "focus\\:border-orange-darkest:focus"
+focus__border_indigo_darkest : TailwindClass
+focus__border_indigo_darkest =
+    TailwindClass "focus:border-indigo-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-orange-light:focus {
-      border-color: #faad63;
+    .focus\:border-indigo-light:focus {
+      border-color: #7886d7;
     }
 
 -}
-focus__border_orange_light : TailwindClass
-focus__border_orange_light =
-    TailwindClass "focus\\:border-orange-light:focus"
+focus__border_indigo_light : TailwindClass
+focus__border_indigo_light =
+    TailwindClass "focus:border-indigo-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-orange-lighter:focus {
-      border-color: #fcd9b6;
+    .focus\:border-indigo-lighter:focus {
+      border-color: #b2b7ff;
     }
 
 -}
-focus__border_orange_lighter : TailwindClass
-focus__border_orange_lighter =
-    TailwindClass "focus\\:border-orange-lighter:focus"
+focus__border_indigo_lighter : TailwindClass
+focus__border_indigo_lighter =
+    TailwindClass "focus:border-indigo-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-orange-lightest:focus {
-      border-color: #fff5eb;
+    .focus\:border-indigo-lightest:focus {
+      border-color: #e6e8ff;
     }
 
 -}
-focus__border_orange_lightest : TailwindClass
-focus__border_orange_lightest =
-    TailwindClass "focus\\:border-orange-lightest:focus"
+focus__border_indigo_lightest : TailwindClass
+focus__border_indigo_lightest =
+    TailwindClass "focus:border-indigo-lightest"
 
 
 
@@ -6044,85 +5966,85 @@ focus__border_orange_lightest =
 -}
 focus__border_orange : TailwindClass
 focus__border_orange =
-    TailwindClass "focus\\:border-orange:focus"
+    TailwindClass "focus:border-orange"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-pink-dark:focus {
-      border-color: #eb5286;
+    .focus\:border-orange-dark:focus {
+      border-color: #de751f;
     }
 
 -}
-focus__border_pink_dark : TailwindClass
-focus__border_pink_dark =
-    TailwindClass "focus\\:border-pink-dark:focus"
+focus__border_orange_dark : TailwindClass
+focus__border_orange_dark =
+    TailwindClass "focus:border-orange-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-pink-darker:focus {
-      border-color: #6f213f;
+    .focus\:border-orange-darker:focus {
+      border-color: #613b1f;
     }
 
 -}
-focus__border_pink_darker : TailwindClass
-focus__border_pink_darker =
-    TailwindClass "focus\\:border-pink-darker:focus"
+focus__border_orange_darker : TailwindClass
+focus__border_orange_darker =
+    TailwindClass "focus:border-orange-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-pink-darkest:focus {
-      border-color: #451225;
+    .focus\:border-orange-darkest:focus {
+      border-color: #462a16;
     }
 
 -}
-focus__border_pink_darkest : TailwindClass
-focus__border_pink_darkest =
-    TailwindClass "focus\\:border-pink-darkest:focus"
+focus__border_orange_darkest : TailwindClass
+focus__border_orange_darkest =
+    TailwindClass "focus:border-orange-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-pink-light:focus {
-      border-color: #fa7ea8;
+    .focus\:border-orange-light:focus {
+      border-color: #faad63;
     }
 
 -}
-focus__border_pink_light : TailwindClass
-focus__border_pink_light =
-    TailwindClass "focus\\:border-pink-light:focus"
+focus__border_orange_light : TailwindClass
+focus__border_orange_light =
+    TailwindClass "focus:border-orange-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-pink-lighter:focus {
-      border-color: #ffbbca;
+    .focus\:border-orange-lighter:focus {
+      border-color: #fcd9b6;
     }
 
 -}
-focus__border_pink_lighter : TailwindClass
-focus__border_pink_lighter =
-    TailwindClass "focus\\:border-pink-lighter:focus"
+focus__border_orange_lighter : TailwindClass
+focus__border_orange_lighter =
+    TailwindClass "focus:border-orange-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-pink-lightest:focus {
-      border-color: #ffebef;
+    .focus\:border-orange-lightest:focus {
+      border-color: #fff5eb;
     }
 
 -}
-focus__border_pink_lightest : TailwindClass
-focus__border_pink_lightest =
-    TailwindClass "focus\\:border-pink-lightest:focus"
+focus__border_orange_lightest : TailwindClass
+focus__border_orange_lightest =
+    TailwindClass "focus:border-orange-lightest"
 
 
 
@@ -6135,85 +6057,85 @@ focus__border_pink_lightest =
 -}
 focus__border_pink : TailwindClass
 focus__border_pink =
-    TailwindClass "focus\\:border-pink:focus"
+    TailwindClass "focus:border-pink"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-purple-dark:focus {
-      border-color: #794acf;
+    .focus\:border-pink-dark:focus {
+      border-color: #eb5286;
     }
 
 -}
-focus__border_purple_dark : TailwindClass
-focus__border_purple_dark =
-    TailwindClass "focus\\:border-purple-dark:focus"
+focus__border_pink_dark : TailwindClass
+focus__border_pink_dark =
+    TailwindClass "focus:border-pink-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-purple-darker:focus {
-      border-color: #382b5f;
+    .focus\:border-pink-darker:focus {
+      border-color: #6f213f;
     }
 
 -}
-focus__border_purple_darker : TailwindClass
-focus__border_purple_darker =
-    TailwindClass "focus\\:border-purple-darker:focus"
+focus__border_pink_darker : TailwindClass
+focus__border_pink_darker =
+    TailwindClass "focus:border-pink-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-purple-darkest:focus {
-      border-color: #21183c;
+    .focus\:border-pink-darkest:focus {
+      border-color: #451225;
     }
 
 -}
-focus__border_purple_darkest : TailwindClass
-focus__border_purple_darkest =
-    TailwindClass "focus\\:border-purple-darkest:focus"
+focus__border_pink_darkest : TailwindClass
+focus__border_pink_darkest =
+    TailwindClass "focus:border-pink-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-purple-light:focus {
-      border-color: #a779e9;
+    .focus\:border-pink-light:focus {
+      border-color: #fa7ea8;
     }
 
 -}
-focus__border_purple_light : TailwindClass
-focus__border_purple_light =
-    TailwindClass "focus\\:border-purple-light:focus"
+focus__border_pink_light : TailwindClass
+focus__border_pink_light =
+    TailwindClass "focus:border-pink-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-purple-lighter:focus {
-      border-color: #d6bbfc;
+    .focus\:border-pink-lighter:focus {
+      border-color: #ffbbca;
     }
 
 -}
-focus__border_purple_lighter : TailwindClass
-focus__border_purple_lighter =
-    TailwindClass "focus\\:border-purple-lighter:focus"
+focus__border_pink_lighter : TailwindClass
+focus__border_pink_lighter =
+    TailwindClass "focus:border-pink-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-purple-lightest:focus {
-      border-color: #f3ebff;
+    .focus\:border-pink-lightest:focus {
+      border-color: #ffebef;
     }
 
 -}
-focus__border_purple_lightest : TailwindClass
-focus__border_purple_lightest =
-    TailwindClass "focus\\:border-purple-lightest:focus"
+focus__border_pink_lightest : TailwindClass
+focus__border_pink_lightest =
+    TailwindClass "focus:border-pink-lightest"
 
 
 
@@ -6226,85 +6148,85 @@ focus__border_purple_lightest =
 -}
 focus__border_purple : TailwindClass
 focus__border_purple =
-    TailwindClass "focus\\:border-purple:focus"
+    TailwindClass "focus:border-purple"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-red-dark:focus {
-      border-color: #cc1f1a;
+    .focus\:border-purple-dark:focus {
+      border-color: #794acf;
     }
 
 -}
-focus__border_red_dark : TailwindClass
-focus__border_red_dark =
-    TailwindClass "focus\\:border-red-dark:focus"
+focus__border_purple_dark : TailwindClass
+focus__border_purple_dark =
+    TailwindClass "focus:border-purple-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-red-darker:focus {
-      border-color: #621b18;
+    .focus\:border-purple-darker:focus {
+      border-color: #382b5f;
     }
 
 -}
-focus__border_red_darker : TailwindClass
-focus__border_red_darker =
-    TailwindClass "focus\\:border-red-darker:focus"
+focus__border_purple_darker : TailwindClass
+focus__border_purple_darker =
+    TailwindClass "focus:border-purple-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-red-darkest:focus {
-      border-color: #3b0d0c;
+    .focus\:border-purple-darkest:focus {
+      border-color: #21183c;
     }
 
 -}
-focus__border_red_darkest : TailwindClass
-focus__border_red_darkest =
-    TailwindClass "focus\\:border-red-darkest:focus"
+focus__border_purple_darkest : TailwindClass
+focus__border_purple_darkest =
+    TailwindClass "focus:border-purple-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-red-light:focus {
-      border-color: #ef5753;
+    .focus\:border-purple-light:focus {
+      border-color: #a779e9;
     }
 
 -}
-focus__border_red_light : TailwindClass
-focus__border_red_light =
-    TailwindClass "focus\\:border-red-light:focus"
+focus__border_purple_light : TailwindClass
+focus__border_purple_light =
+    TailwindClass "focus:border-purple-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-red-lighter:focus {
-      border-color: #f9acaa;
+    .focus\:border-purple-lighter:focus {
+      border-color: #d6bbfc;
     }
 
 -}
-focus__border_red_lighter : TailwindClass
-focus__border_red_lighter =
-    TailwindClass "focus\\:border-red-lighter:focus"
+focus__border_purple_lighter : TailwindClass
+focus__border_purple_lighter =
+    TailwindClass "focus:border-purple-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-red-lightest:focus {
-      border-color: #fcebea;
+    .focus\:border-purple-lightest:focus {
+      border-color: #f3ebff;
     }
 
 -}
-focus__border_red_lightest : TailwindClass
-focus__border_red_lightest =
-    TailwindClass "focus\\:border-red-lightest:focus"
+focus__border_purple_lightest : TailwindClass
+focus__border_purple_lightest =
+    TailwindClass "focus:border-purple-lightest"
 
 
 
@@ -6317,85 +6239,85 @@ focus__border_red_lightest =
 -}
 focus__border_red : TailwindClass
 focus__border_red =
-    TailwindClass "focus\\:border-red:focus"
+    TailwindClass "focus:border-red"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-teal-dark:focus {
-      border-color: #38a89d;
+    .focus\:border-red-dark:focus {
+      border-color: #cc1f1a;
     }
 
 -}
-focus__border_teal_dark : TailwindClass
-focus__border_teal_dark =
-    TailwindClass "focus\\:border-teal-dark:focus"
+focus__border_red_dark : TailwindClass
+focus__border_red_dark =
+    TailwindClass "focus:border-red-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-teal-darker:focus {
-      border-color: #20504f;
+    .focus\:border-red-darker:focus {
+      border-color: #621b18;
     }
 
 -}
-focus__border_teal_darker : TailwindClass
-focus__border_teal_darker =
-    TailwindClass "focus\\:border-teal-darker:focus"
+focus__border_red_darker : TailwindClass
+focus__border_red_darker =
+    TailwindClass "focus:border-red-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-teal-darkest:focus {
-      border-color: #0d3331;
+    .focus\:border-red-darkest:focus {
+      border-color: #3b0d0c;
     }
 
 -}
-focus__border_teal_darkest : TailwindClass
-focus__border_teal_darkest =
-    TailwindClass "focus\\:border-teal-darkest:focus"
+focus__border_red_darkest : TailwindClass
+focus__border_red_darkest =
+    TailwindClass "focus:border-red-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-teal-light:focus {
-      border-color: #64d5ca;
+    .focus\:border-red-light:focus {
+      border-color: #ef5753;
     }
 
 -}
-focus__border_teal_light : TailwindClass
-focus__border_teal_light =
-    TailwindClass "focus\\:border-teal-light:focus"
+focus__border_red_light : TailwindClass
+focus__border_red_light =
+    TailwindClass "focus:border-red-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-teal-lighter:focus {
-      border-color: #a0f0ed;
+    .focus\:border-red-lighter:focus {
+      border-color: #f9acaa;
     }
 
 -}
-focus__border_teal_lighter : TailwindClass
-focus__border_teal_lighter =
-    TailwindClass "focus\\:border-teal-lighter:focus"
+focus__border_red_lighter : TailwindClass
+focus__border_red_lighter =
+    TailwindClass "focus:border-red-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:border-teal-lightest:focus {
-      border-color: #e8fffe;
+    .focus\:border-red-lightest:focus {
+      border-color: #fcebea;
     }
 
 -}
-focus__border_teal_lightest : TailwindClass
-focus__border_teal_lightest =
-    TailwindClass "focus\\:border-teal-lightest:focus"
+focus__border_red_lightest : TailwindClass
+focus__border_red_lightest =
+    TailwindClass "focus:border-red-lightest"
 
 
 
@@ -6408,7 +6330,85 @@ focus__border_teal_lightest =
 -}
 focus__border_teal : TailwindClass
 focus__border_teal =
-    TailwindClass "focus\\:border-teal:focus"
+    TailwindClass "focus:border-teal"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:border-teal-dark:focus {
+      border-color: #38a89d;
+    }
+
+-}
+focus__border_teal_dark : TailwindClass
+focus__border_teal_dark =
+    TailwindClass "focus:border-teal-dark"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:border-teal-darker:focus {
+      border-color: #20504f;
+    }
+
+-}
+focus__border_teal_darker : TailwindClass
+focus__border_teal_darker =
+    TailwindClass "focus:border-teal-darker"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:border-teal-darkest:focus {
+      border-color: #0d3331;
+    }
+
+-}
+focus__border_teal_darkest : TailwindClass
+focus__border_teal_darkest =
+    TailwindClass "focus:border-teal-darkest"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:border-teal-light:focus {
+      border-color: #64d5ca;
+    }
+
+-}
+focus__border_teal_light : TailwindClass
+focus__border_teal_light =
+    TailwindClass "focus:border-teal-light"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:border-teal-lighter:focus {
+      border-color: #a0f0ed;
+    }
+
+-}
+focus__border_teal_lighter : TailwindClass
+focus__border_teal_lighter =
+    TailwindClass "focus:border-teal-lighter"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:border-teal-lightest:focus {
+      border-color: #e8fffe;
+    }
+
+-}
+focus__border_teal_lightest : TailwindClass
+focus__border_teal_lightest =
+    TailwindClass "focus:border-teal-lightest"
 
 
 
@@ -6421,7 +6421,7 @@ focus__border_teal =
 -}
 focus__border_transparent : TailwindClass
 focus__border_transparent =
-    TailwindClass "focus\\:border-transparent:focus"
+    TailwindClass "focus:border-transparent"
 
 
 
@@ -6434,85 +6434,7 @@ focus__border_transparent =
 -}
 focus__border_white : TailwindClass
 focus__border_white =
-    TailwindClass "focus\\:border-white:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:border-yellow-dark:focus {
-      border-color: #f2d024;
-    }
-
--}
-focus__border_yellow_dark : TailwindClass
-focus__border_yellow_dark =
-    TailwindClass "focus\\:border-yellow-dark:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:border-yellow-darker:focus {
-      border-color: #684f1d;
-    }
-
--}
-focus__border_yellow_darker : TailwindClass
-focus__border_yellow_darker =
-    TailwindClass "focus\\:border-yellow-darker:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:border-yellow-darkest:focus {
-      border-color: #453411;
-    }
-
--}
-focus__border_yellow_darkest : TailwindClass
-focus__border_yellow_darkest =
-    TailwindClass "focus\\:border-yellow-darkest:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:border-yellow-light:focus {
-      border-color: #fff382;
-    }
-
--}
-focus__border_yellow_light : TailwindClass
-focus__border_yellow_light =
-    TailwindClass "focus\\:border-yellow-light:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:border-yellow-lighter:focus {
-      border-color: #fff9c2;
-    }
-
--}
-focus__border_yellow_lighter : TailwindClass
-focus__border_yellow_lighter =
-    TailwindClass "focus\\:border-yellow-lighter:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:border-yellow-lightest:focus {
-      border-color: #fcfbeb;
-    }
-
--}
-focus__border_yellow_lightest : TailwindClass
-focus__border_yellow_lightest =
-    TailwindClass "focus\\:border-yellow-lightest:focus"
+    TailwindClass "focus:border-white"
 
 
 
@@ -6525,7 +6447,85 @@ focus__border_yellow_lightest =
 -}
 focus__border_yellow : TailwindClass
 focus__border_yellow =
-    TailwindClass "focus\\:border-yellow:focus"
+    TailwindClass "focus:border-yellow"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:border-yellow-dark:focus {
+      border-color: #f2d024;
+    }
+
+-}
+focus__border_yellow_dark : TailwindClass
+focus__border_yellow_dark =
+    TailwindClass "focus:border-yellow-dark"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:border-yellow-darker:focus {
+      border-color: #684f1d;
+    }
+
+-}
+focus__border_yellow_darker : TailwindClass
+focus__border_yellow_darker =
+    TailwindClass "focus:border-yellow-darker"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:border-yellow-darkest:focus {
+      border-color: #453411;
+    }
+
+-}
+focus__border_yellow_darkest : TailwindClass
+focus__border_yellow_darkest =
+    TailwindClass "focus:border-yellow-darkest"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:border-yellow-light:focus {
+      border-color: #fff382;
+    }
+
+-}
+focus__border_yellow_light : TailwindClass
+focus__border_yellow_light =
+    TailwindClass "focus:border-yellow-light"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:border-yellow-lighter:focus {
+      border-color: #fff9c2;
+    }
+
+-}
+focus__border_yellow_lighter : TailwindClass
+focus__border_yellow_lighter =
+    TailwindClass "focus:border-yellow-lighter"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:border-yellow-lightest:focus {
+      border-color: #fcfbeb;
+    }
+
+-}
+focus__border_yellow_lightest : TailwindClass
+focus__border_yellow_lightest =
+    TailwindClass "focus:border-yellow-lightest"
 
 
 
@@ -6538,7 +6538,7 @@ focus__border_yellow =
 -}
 focus__capitalize : TailwindClass
 focus__capitalize =
-    TailwindClass "focus\\:capitalize:focus"
+    TailwindClass "focus:capitalize"
 
 
 
@@ -6551,7 +6551,7 @@ focus__capitalize =
 -}
 focus__font_black : TailwindClass
 focus__font_black =
-    TailwindClass "focus\\:font-black:focus"
+    TailwindClass "focus:font-black"
 
 
 
@@ -6564,7 +6564,7 @@ focus__font_black =
 -}
 focus__font_bold : TailwindClass
 focus__font_bold =
-    TailwindClass "focus\\:font-bold:focus"
+    TailwindClass "focus:font-bold"
 
 
 
@@ -6577,7 +6577,7 @@ focus__font_bold =
 -}
 focus__font_extrabold : TailwindClass
 focus__font_extrabold =
-    TailwindClass "focus\\:font-extrabold:focus"
+    TailwindClass "focus:font-extrabold"
 
 
 
@@ -6590,7 +6590,7 @@ focus__font_extrabold =
 -}
 focus__font_hairline : TailwindClass
 focus__font_hairline =
-    TailwindClass "focus\\:font-hairline:focus"
+    TailwindClass "focus:font-hairline"
 
 
 
@@ -6603,7 +6603,7 @@ focus__font_hairline =
 -}
 focus__font_light : TailwindClass
 focus__font_light =
-    TailwindClass "focus\\:font-light:focus"
+    TailwindClass "focus:font-light"
 
 
 
@@ -6616,7 +6616,7 @@ focus__font_light =
 -}
 focus__font_medium : TailwindClass
 focus__font_medium =
-    TailwindClass "focus\\:font-medium:focus"
+    TailwindClass "focus:font-medium"
 
 
 
@@ -6629,7 +6629,7 @@ focus__font_medium =
 -}
 focus__font_normal : TailwindClass
 focus__font_normal =
-    TailwindClass "focus\\:font-normal:focus"
+    TailwindClass "focus:font-normal"
 
 
 
@@ -6642,7 +6642,7 @@ focus__font_normal =
 -}
 focus__font_semibold : TailwindClass
 focus__font_semibold =
-    TailwindClass "focus\\:font-semibold:focus"
+    TailwindClass "focus:font-semibold"
 
 
 
@@ -6655,7 +6655,7 @@ focus__font_semibold =
 -}
 focus__font_thin : TailwindClass
 focus__font_thin =
-    TailwindClass "focus\\:font-thin:focus"
+    TailwindClass "focus:font-thin"
 
 
 
@@ -6668,7 +6668,7 @@ focus__font_thin =
 -}
 focus__italic : TailwindClass
 focus__italic =
-    TailwindClass "focus\\:italic:focus"
+    TailwindClass "focus:italic"
 
 
 
@@ -6681,7 +6681,7 @@ focus__italic =
 -}
 focus__line_through : TailwindClass
 focus__line_through =
-    TailwindClass "focus\\:line-through:focus"
+    TailwindClass "focus:line-through"
 
 
 
@@ -6694,7 +6694,7 @@ focus__line_through =
 -}
 focus__lowercase : TailwindClass
 focus__lowercase =
-    TailwindClass "focus\\:lowercase:focus"
+    TailwindClass "focus:lowercase"
 
 
 
@@ -6707,7 +6707,7 @@ focus__lowercase =
 -}
 focus__no_underline : TailwindClass
 focus__no_underline =
-    TailwindClass "focus\\:no-underline:focus"
+    TailwindClass "focus:no-underline"
 
 
 
@@ -6720,7 +6720,7 @@ focus__no_underline =
 -}
 focus__normal_case : TailwindClass
 focus__normal_case =
-    TailwindClass "focus\\:normal-case:focus"
+    TailwindClass "focus:normal-case"
 
 
 
@@ -6733,7 +6733,7 @@ focus__normal_case =
 -}
 focus__outline_none : TailwindClass
 focus__outline_none =
-    TailwindClass "focus\\:outline-none:focus"
+    TailwindClass "focus:outline-none"
 
 
 
@@ -6746,72 +6746,7 @@ focus__outline_none =
 -}
 focus__roman : TailwindClass
 focus__roman =
-    TailwindClass "focus\\:roman:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:shadow-inner:focus {
-      box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);
-    }
-
--}
-focus__shadow_inner : TailwindClass
-focus__shadow_inner =
-    TailwindClass "focus\\:shadow-inner:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:shadow-lg:focus {
-      box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);
-    }
-
--}
-focus__shadow_lg : TailwindClass
-focus__shadow_lg =
-    TailwindClass "focus\\:shadow-lg:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:shadow-md:focus {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);
-    }
-
--}
-focus__shadow_md : TailwindClass
-focus__shadow_md =
-    TailwindClass "focus\\:shadow-md:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:shadow-none:focus {
-      box-shadow: none;
-    }
-
--}
-focus__shadow_none : TailwindClass
-focus__shadow_none =
-    TailwindClass "focus\\:shadow-none:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:shadow-outline:focus {
-      box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);
-    }
-
--}
-focus__shadow_outline : TailwindClass
-focus__shadow_outline =
-    TailwindClass "focus\\:shadow-outline:focus"
+    TailwindClass "focus:roman"
 
 
 
@@ -6824,7 +6759,72 @@ focus__shadow_outline =
 -}
 focus__shadow : TailwindClass
 focus__shadow =
-    TailwindClass "focus\\:shadow:focus"
+    TailwindClass "focus:shadow"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:shadow-inner:focus {
+      box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);
+    }
+
+-}
+focus__shadow_inner : TailwindClass
+focus__shadow_inner =
+    TailwindClass "focus:shadow-inner"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:shadow-lg:focus {
+      box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);
+    }
+
+-}
+focus__shadow_lg : TailwindClass
+focus__shadow_lg =
+    TailwindClass "focus:shadow-lg"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:shadow-md:focus {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);
+    }
+
+-}
+focus__shadow_md : TailwindClass
+focus__shadow_md =
+    TailwindClass "focus:shadow-md"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:shadow-none:focus {
+      box-shadow: none;
+    }
+
+-}
+focus__shadow_none : TailwindClass
+focus__shadow_none =
+    TailwindClass "focus:shadow-none"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:shadow-outline:focus {
+      box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);
+    }
+
+-}
+focus__shadow_outline : TailwindClass
+focus__shadow_outline =
+    TailwindClass "focus:shadow-outline"
 
 
 
@@ -6838,7 +6838,7 @@ focus__shadow =
 -}
 focus__subpixel_antialiased : TailwindClass
 focus__subpixel_antialiased =
-    TailwindClass "focus\\:subpixel-antialiased:focus"
+    TailwindClass "focus:subpixel-antialiased"
 
 
 
@@ -6851,85 +6851,7 @@ focus__subpixel_antialiased =
 -}
 focus__text_black : TailwindClass
 focus__text_black =
-    TailwindClass "focus\\:text-black:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:text-blue-dark:focus {
-      color: #2779bd;
-    }
-
--}
-focus__text_blue_dark : TailwindClass
-focus__text_blue_dark =
-    TailwindClass "focus\\:text-blue-dark:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:text-blue-darker:focus {
-      color: #1c3d5a;
-    }
-
--}
-focus__text_blue_darker : TailwindClass
-focus__text_blue_darker =
-    TailwindClass "focus\\:text-blue-darker:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:text-blue-darkest:focus {
-      color: #12283a;
-    }
-
--}
-focus__text_blue_darkest : TailwindClass
-focus__text_blue_darkest =
-    TailwindClass "focus\\:text-blue-darkest:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:text-blue-light:focus {
-      color: #6cb2eb;
-    }
-
--}
-focus__text_blue_light : TailwindClass
-focus__text_blue_light =
-    TailwindClass "focus\\:text-blue-light:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:text-blue-lighter:focus {
-      color: #bcdefa;
-    }
-
--}
-focus__text_blue_lighter : TailwindClass
-focus__text_blue_lighter =
-    TailwindClass "focus\\:text-blue-lighter:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:text-blue-lightest:focus {
-      color: #eff8ff;
-    }
-
--}
-focus__text_blue_lightest : TailwindClass
-focus__text_blue_lightest =
-    TailwindClass "focus\\:text-blue-lightest:focus"
+    TailwindClass "focus:text-black"
 
 
 
@@ -6942,85 +6864,85 @@ focus__text_blue_lightest =
 -}
 focus__text_blue : TailwindClass
 focus__text_blue =
-    TailwindClass "focus\\:text-blue:focus"
+    TailwindClass "focus:text-blue"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-green-dark:focus {
-      color: #1f9d55;
+    .focus\:text-blue-dark:focus {
+      color: #2779bd;
     }
 
 -}
-focus__text_green_dark : TailwindClass
-focus__text_green_dark =
-    TailwindClass "focus\\:text-green-dark:focus"
+focus__text_blue_dark : TailwindClass
+focus__text_blue_dark =
+    TailwindClass "focus:text-blue-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-green-darker:focus {
-      color: #1a4731;
+    .focus\:text-blue-darker:focus {
+      color: #1c3d5a;
     }
 
 -}
-focus__text_green_darker : TailwindClass
-focus__text_green_darker =
-    TailwindClass "focus\\:text-green-darker:focus"
+focus__text_blue_darker : TailwindClass
+focus__text_blue_darker =
+    TailwindClass "focus:text-blue-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-green-darkest:focus {
-      color: #0f2f21;
+    .focus\:text-blue-darkest:focus {
+      color: #12283a;
     }
 
 -}
-focus__text_green_darkest : TailwindClass
-focus__text_green_darkest =
-    TailwindClass "focus\\:text-green-darkest:focus"
+focus__text_blue_darkest : TailwindClass
+focus__text_blue_darkest =
+    TailwindClass "focus:text-blue-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-green-light:focus {
-      color: #51d88a;
+    .focus\:text-blue-light:focus {
+      color: #6cb2eb;
     }
 
 -}
-focus__text_green_light : TailwindClass
-focus__text_green_light =
-    TailwindClass "focus\\:text-green-light:focus"
+focus__text_blue_light : TailwindClass
+focus__text_blue_light =
+    TailwindClass "focus:text-blue-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-green-lighter:focus {
-      color: #a2f5bf;
+    .focus\:text-blue-lighter:focus {
+      color: #bcdefa;
     }
 
 -}
-focus__text_green_lighter : TailwindClass
-focus__text_green_lighter =
-    TailwindClass "focus\\:text-green-lighter:focus"
+focus__text_blue_lighter : TailwindClass
+focus__text_blue_lighter =
+    TailwindClass "focus:text-blue-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-green-lightest:focus {
-      color: #e3fcec;
+    .focus\:text-blue-lightest:focus {
+      color: #eff8ff;
     }
 
 -}
-focus__text_green_lightest : TailwindClass
-focus__text_green_lightest =
-    TailwindClass "focus\\:text-green-lightest:focus"
+focus__text_blue_lightest : TailwindClass
+focus__text_blue_lightest =
+    TailwindClass "focus:text-blue-lightest"
 
 
 
@@ -7033,85 +6955,85 @@ focus__text_green_lightest =
 -}
 focus__text_green : TailwindClass
 focus__text_green =
-    TailwindClass "focus\\:text-green:focus"
+    TailwindClass "focus:text-green"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-grey-dark:focus {
-      color: #8795a1;
+    .focus\:text-green-dark:focus {
+      color: #1f9d55;
     }
 
 -}
-focus__text_grey_dark : TailwindClass
-focus__text_grey_dark =
-    TailwindClass "focus\\:text-grey-dark:focus"
+focus__text_green_dark : TailwindClass
+focus__text_green_dark =
+    TailwindClass "focus:text-green-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-grey-darker:focus {
-      color: #606f7b;
+    .focus\:text-green-darker:focus {
+      color: #1a4731;
     }
 
 -}
-focus__text_grey_darker : TailwindClass
-focus__text_grey_darker =
-    TailwindClass "focus\\:text-grey-darker:focus"
+focus__text_green_darker : TailwindClass
+focus__text_green_darker =
+    TailwindClass "focus:text-green-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-grey-darkest:focus {
-      color: #3d4852;
+    .focus\:text-green-darkest:focus {
+      color: #0f2f21;
     }
 
 -}
-focus__text_grey_darkest : TailwindClass
-focus__text_grey_darkest =
-    TailwindClass "focus\\:text-grey-darkest:focus"
+focus__text_green_darkest : TailwindClass
+focus__text_green_darkest =
+    TailwindClass "focus:text-green-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-grey-light:focus {
-      color: #dae1e7;
+    .focus\:text-green-light:focus {
+      color: #51d88a;
     }
 
 -}
-focus__text_grey_light : TailwindClass
-focus__text_grey_light =
-    TailwindClass "focus\\:text-grey-light:focus"
+focus__text_green_light : TailwindClass
+focus__text_green_light =
+    TailwindClass "focus:text-green-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-grey-lighter:focus {
-      color: #f1f5f8;
+    .focus\:text-green-lighter:focus {
+      color: #a2f5bf;
     }
 
 -}
-focus__text_grey_lighter : TailwindClass
-focus__text_grey_lighter =
-    TailwindClass "focus\\:text-grey-lighter:focus"
+focus__text_green_lighter : TailwindClass
+focus__text_green_lighter =
+    TailwindClass "focus:text-green-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-grey-lightest:focus {
-      color: #f8fafc;
+    .focus\:text-green-lightest:focus {
+      color: #e3fcec;
     }
 
 -}
-focus__text_grey_lightest : TailwindClass
-focus__text_grey_lightest =
-    TailwindClass "focus\\:text-grey-lightest:focus"
+focus__text_green_lightest : TailwindClass
+focus__text_green_lightest =
+    TailwindClass "focus:text-green-lightest"
 
 
 
@@ -7124,85 +7046,85 @@ focus__text_grey_lightest =
 -}
 focus__text_grey : TailwindClass
 focus__text_grey =
-    TailwindClass "focus\\:text-grey:focus"
+    TailwindClass "focus:text-grey"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-indigo-dark:focus {
-      color: #5661b3;
+    .focus\:text-grey-dark:focus {
+      color: #8795a1;
     }
 
 -}
-focus__text_indigo_dark : TailwindClass
-focus__text_indigo_dark =
-    TailwindClass "focus\\:text-indigo-dark:focus"
+focus__text_grey_dark : TailwindClass
+focus__text_grey_dark =
+    TailwindClass "focus:text-grey-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-indigo-darker:focus {
-      color: #2f365f;
+    .focus\:text-grey-darker:focus {
+      color: #606f7b;
     }
 
 -}
-focus__text_indigo_darker : TailwindClass
-focus__text_indigo_darker =
-    TailwindClass "focus\\:text-indigo-darker:focus"
+focus__text_grey_darker : TailwindClass
+focus__text_grey_darker =
+    TailwindClass "focus:text-grey-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-indigo-darkest:focus {
-      color: #191e38;
+    .focus\:text-grey-darkest:focus {
+      color: #3d4852;
     }
 
 -}
-focus__text_indigo_darkest : TailwindClass
-focus__text_indigo_darkest =
-    TailwindClass "focus\\:text-indigo-darkest:focus"
+focus__text_grey_darkest : TailwindClass
+focus__text_grey_darkest =
+    TailwindClass "focus:text-grey-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-indigo-light:focus {
-      color: #7886d7;
+    .focus\:text-grey-light:focus {
+      color: #dae1e7;
     }
 
 -}
-focus__text_indigo_light : TailwindClass
-focus__text_indigo_light =
-    TailwindClass "focus\\:text-indigo-light:focus"
+focus__text_grey_light : TailwindClass
+focus__text_grey_light =
+    TailwindClass "focus:text-grey-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-indigo-lighter:focus {
-      color: #b2b7ff;
+    .focus\:text-grey-lighter:focus {
+      color: #f1f5f8;
     }
 
 -}
-focus__text_indigo_lighter : TailwindClass
-focus__text_indigo_lighter =
-    TailwindClass "focus\\:text-indigo-lighter:focus"
+focus__text_grey_lighter : TailwindClass
+focus__text_grey_lighter =
+    TailwindClass "focus:text-grey-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-indigo-lightest:focus {
-      color: #e6e8ff;
+    .focus\:text-grey-lightest:focus {
+      color: #f8fafc;
     }
 
 -}
-focus__text_indigo_lightest : TailwindClass
-focus__text_indigo_lightest =
-    TailwindClass "focus\\:text-indigo-lightest:focus"
+focus__text_grey_lightest : TailwindClass
+focus__text_grey_lightest =
+    TailwindClass "focus:text-grey-lightest"
 
 
 
@@ -7215,85 +7137,85 @@ focus__text_indigo_lightest =
 -}
 focus__text_indigo : TailwindClass
 focus__text_indigo =
-    TailwindClass "focus\\:text-indigo:focus"
+    TailwindClass "focus:text-indigo"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-orange-dark:focus {
-      color: #de751f;
+    .focus\:text-indigo-dark:focus {
+      color: #5661b3;
     }
 
 -}
-focus__text_orange_dark : TailwindClass
-focus__text_orange_dark =
-    TailwindClass "focus\\:text-orange-dark:focus"
+focus__text_indigo_dark : TailwindClass
+focus__text_indigo_dark =
+    TailwindClass "focus:text-indigo-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-orange-darker:focus {
-      color: #613b1f;
+    .focus\:text-indigo-darker:focus {
+      color: #2f365f;
     }
 
 -}
-focus__text_orange_darker : TailwindClass
-focus__text_orange_darker =
-    TailwindClass "focus\\:text-orange-darker:focus"
+focus__text_indigo_darker : TailwindClass
+focus__text_indigo_darker =
+    TailwindClass "focus:text-indigo-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-orange-darkest:focus {
-      color: #462a16;
+    .focus\:text-indigo-darkest:focus {
+      color: #191e38;
     }
 
 -}
-focus__text_orange_darkest : TailwindClass
-focus__text_orange_darkest =
-    TailwindClass "focus\\:text-orange-darkest:focus"
+focus__text_indigo_darkest : TailwindClass
+focus__text_indigo_darkest =
+    TailwindClass "focus:text-indigo-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-orange-light:focus {
-      color: #faad63;
+    .focus\:text-indigo-light:focus {
+      color: #7886d7;
     }
 
 -}
-focus__text_orange_light : TailwindClass
-focus__text_orange_light =
-    TailwindClass "focus\\:text-orange-light:focus"
+focus__text_indigo_light : TailwindClass
+focus__text_indigo_light =
+    TailwindClass "focus:text-indigo-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-orange-lighter:focus {
-      color: #fcd9b6;
+    .focus\:text-indigo-lighter:focus {
+      color: #b2b7ff;
     }
 
 -}
-focus__text_orange_lighter : TailwindClass
-focus__text_orange_lighter =
-    TailwindClass "focus\\:text-orange-lighter:focus"
+focus__text_indigo_lighter : TailwindClass
+focus__text_indigo_lighter =
+    TailwindClass "focus:text-indigo-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-orange-lightest:focus {
-      color: #fff5eb;
+    .focus\:text-indigo-lightest:focus {
+      color: #e6e8ff;
     }
 
 -}
-focus__text_orange_lightest : TailwindClass
-focus__text_orange_lightest =
-    TailwindClass "focus\\:text-orange-lightest:focus"
+focus__text_indigo_lightest : TailwindClass
+focus__text_indigo_lightest =
+    TailwindClass "focus:text-indigo-lightest"
 
 
 
@@ -7306,85 +7228,85 @@ focus__text_orange_lightest =
 -}
 focus__text_orange : TailwindClass
 focus__text_orange =
-    TailwindClass "focus\\:text-orange:focus"
+    TailwindClass "focus:text-orange"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-pink-dark:focus {
-      color: #eb5286;
+    .focus\:text-orange-dark:focus {
+      color: #de751f;
     }
 
 -}
-focus__text_pink_dark : TailwindClass
-focus__text_pink_dark =
-    TailwindClass "focus\\:text-pink-dark:focus"
+focus__text_orange_dark : TailwindClass
+focus__text_orange_dark =
+    TailwindClass "focus:text-orange-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-pink-darker:focus {
-      color: #6f213f;
+    .focus\:text-orange-darker:focus {
+      color: #613b1f;
     }
 
 -}
-focus__text_pink_darker : TailwindClass
-focus__text_pink_darker =
-    TailwindClass "focus\\:text-pink-darker:focus"
+focus__text_orange_darker : TailwindClass
+focus__text_orange_darker =
+    TailwindClass "focus:text-orange-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-pink-darkest:focus {
-      color: #451225;
+    .focus\:text-orange-darkest:focus {
+      color: #462a16;
     }
 
 -}
-focus__text_pink_darkest : TailwindClass
-focus__text_pink_darkest =
-    TailwindClass "focus\\:text-pink-darkest:focus"
+focus__text_orange_darkest : TailwindClass
+focus__text_orange_darkest =
+    TailwindClass "focus:text-orange-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-pink-light:focus {
-      color: #fa7ea8;
+    .focus\:text-orange-light:focus {
+      color: #faad63;
     }
 
 -}
-focus__text_pink_light : TailwindClass
-focus__text_pink_light =
-    TailwindClass "focus\\:text-pink-light:focus"
+focus__text_orange_light : TailwindClass
+focus__text_orange_light =
+    TailwindClass "focus:text-orange-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-pink-lighter:focus {
-      color: #ffbbca;
+    .focus\:text-orange-lighter:focus {
+      color: #fcd9b6;
     }
 
 -}
-focus__text_pink_lighter : TailwindClass
-focus__text_pink_lighter =
-    TailwindClass "focus\\:text-pink-lighter:focus"
+focus__text_orange_lighter : TailwindClass
+focus__text_orange_lighter =
+    TailwindClass "focus:text-orange-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-pink-lightest:focus {
-      color: #ffebef;
+    .focus\:text-orange-lightest:focus {
+      color: #fff5eb;
     }
 
 -}
-focus__text_pink_lightest : TailwindClass
-focus__text_pink_lightest =
-    TailwindClass "focus\\:text-pink-lightest:focus"
+focus__text_orange_lightest : TailwindClass
+focus__text_orange_lightest =
+    TailwindClass "focus:text-orange-lightest"
 
 
 
@@ -7397,85 +7319,85 @@ focus__text_pink_lightest =
 -}
 focus__text_pink : TailwindClass
 focus__text_pink =
-    TailwindClass "focus\\:text-pink:focus"
+    TailwindClass "focus:text-pink"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-purple-dark:focus {
-      color: #794acf;
+    .focus\:text-pink-dark:focus {
+      color: #eb5286;
     }
 
 -}
-focus__text_purple_dark : TailwindClass
-focus__text_purple_dark =
-    TailwindClass "focus\\:text-purple-dark:focus"
+focus__text_pink_dark : TailwindClass
+focus__text_pink_dark =
+    TailwindClass "focus:text-pink-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-purple-darker:focus {
-      color: #382b5f;
+    .focus\:text-pink-darker:focus {
+      color: #6f213f;
     }
 
 -}
-focus__text_purple_darker : TailwindClass
-focus__text_purple_darker =
-    TailwindClass "focus\\:text-purple-darker:focus"
+focus__text_pink_darker : TailwindClass
+focus__text_pink_darker =
+    TailwindClass "focus:text-pink-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-purple-darkest:focus {
-      color: #21183c;
+    .focus\:text-pink-darkest:focus {
+      color: #451225;
     }
 
 -}
-focus__text_purple_darkest : TailwindClass
-focus__text_purple_darkest =
-    TailwindClass "focus\\:text-purple-darkest:focus"
+focus__text_pink_darkest : TailwindClass
+focus__text_pink_darkest =
+    TailwindClass "focus:text-pink-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-purple-light:focus {
-      color: #a779e9;
+    .focus\:text-pink-light:focus {
+      color: #fa7ea8;
     }
 
 -}
-focus__text_purple_light : TailwindClass
-focus__text_purple_light =
-    TailwindClass "focus\\:text-purple-light:focus"
+focus__text_pink_light : TailwindClass
+focus__text_pink_light =
+    TailwindClass "focus:text-pink-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-purple-lighter:focus {
-      color: #d6bbfc;
+    .focus\:text-pink-lighter:focus {
+      color: #ffbbca;
     }
 
 -}
-focus__text_purple_lighter : TailwindClass
-focus__text_purple_lighter =
-    TailwindClass "focus\\:text-purple-lighter:focus"
+focus__text_pink_lighter : TailwindClass
+focus__text_pink_lighter =
+    TailwindClass "focus:text-pink-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-purple-lightest:focus {
-      color: #f3ebff;
+    .focus\:text-pink-lightest:focus {
+      color: #ffebef;
     }
 
 -}
-focus__text_purple_lightest : TailwindClass
-focus__text_purple_lightest =
-    TailwindClass "focus\\:text-purple-lightest:focus"
+focus__text_pink_lightest : TailwindClass
+focus__text_pink_lightest =
+    TailwindClass "focus:text-pink-lightest"
 
 
 
@@ -7488,85 +7410,85 @@ focus__text_purple_lightest =
 -}
 focus__text_purple : TailwindClass
 focus__text_purple =
-    TailwindClass "focus\\:text-purple:focus"
+    TailwindClass "focus:text-purple"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-red-dark:focus {
-      color: #cc1f1a;
+    .focus\:text-purple-dark:focus {
+      color: #794acf;
     }
 
 -}
-focus__text_red_dark : TailwindClass
-focus__text_red_dark =
-    TailwindClass "focus\\:text-red-dark:focus"
+focus__text_purple_dark : TailwindClass
+focus__text_purple_dark =
+    TailwindClass "focus:text-purple-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-red-darker:focus {
-      color: #621b18;
+    .focus\:text-purple-darker:focus {
+      color: #382b5f;
     }
 
 -}
-focus__text_red_darker : TailwindClass
-focus__text_red_darker =
-    TailwindClass "focus\\:text-red-darker:focus"
+focus__text_purple_darker : TailwindClass
+focus__text_purple_darker =
+    TailwindClass "focus:text-purple-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-red-darkest:focus {
-      color: #3b0d0c;
+    .focus\:text-purple-darkest:focus {
+      color: #21183c;
     }
 
 -}
-focus__text_red_darkest : TailwindClass
-focus__text_red_darkest =
-    TailwindClass "focus\\:text-red-darkest:focus"
+focus__text_purple_darkest : TailwindClass
+focus__text_purple_darkest =
+    TailwindClass "focus:text-purple-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-red-light:focus {
-      color: #ef5753;
+    .focus\:text-purple-light:focus {
+      color: #a779e9;
     }
 
 -}
-focus__text_red_light : TailwindClass
-focus__text_red_light =
-    TailwindClass "focus\\:text-red-light:focus"
+focus__text_purple_light : TailwindClass
+focus__text_purple_light =
+    TailwindClass "focus:text-purple-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-red-lighter:focus {
-      color: #f9acaa;
+    .focus\:text-purple-lighter:focus {
+      color: #d6bbfc;
     }
 
 -}
-focus__text_red_lighter : TailwindClass
-focus__text_red_lighter =
-    TailwindClass "focus\\:text-red-lighter:focus"
+focus__text_purple_lighter : TailwindClass
+focus__text_purple_lighter =
+    TailwindClass "focus:text-purple-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-red-lightest:focus {
-      color: #fcebea;
+    .focus\:text-purple-lightest:focus {
+      color: #f3ebff;
     }
 
 -}
-focus__text_red_lightest : TailwindClass
-focus__text_red_lightest =
-    TailwindClass "focus\\:text-red-lightest:focus"
+focus__text_purple_lightest : TailwindClass
+focus__text_purple_lightest =
+    TailwindClass "focus:text-purple-lightest"
 
 
 
@@ -7579,85 +7501,85 @@ focus__text_red_lightest =
 -}
 focus__text_red : TailwindClass
 focus__text_red =
-    TailwindClass "focus\\:text-red:focus"
+    TailwindClass "focus:text-red"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-teal-dark:focus {
-      color: #38a89d;
+    .focus\:text-red-dark:focus {
+      color: #cc1f1a;
     }
 
 -}
-focus__text_teal_dark : TailwindClass
-focus__text_teal_dark =
-    TailwindClass "focus\\:text-teal-dark:focus"
+focus__text_red_dark : TailwindClass
+focus__text_red_dark =
+    TailwindClass "focus:text-red-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-teal-darker:focus {
-      color: #20504f;
+    .focus\:text-red-darker:focus {
+      color: #621b18;
     }
 
 -}
-focus__text_teal_darker : TailwindClass
-focus__text_teal_darker =
-    TailwindClass "focus\\:text-teal-darker:focus"
+focus__text_red_darker : TailwindClass
+focus__text_red_darker =
+    TailwindClass "focus:text-red-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-teal-darkest:focus {
-      color: #0d3331;
+    .focus\:text-red-darkest:focus {
+      color: #3b0d0c;
     }
 
 -}
-focus__text_teal_darkest : TailwindClass
-focus__text_teal_darkest =
-    TailwindClass "focus\\:text-teal-darkest:focus"
+focus__text_red_darkest : TailwindClass
+focus__text_red_darkest =
+    TailwindClass "focus:text-red-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-teal-light:focus {
-      color: #64d5ca;
+    .focus\:text-red-light:focus {
+      color: #ef5753;
     }
 
 -}
-focus__text_teal_light : TailwindClass
-focus__text_teal_light =
-    TailwindClass "focus\\:text-teal-light:focus"
+focus__text_red_light : TailwindClass
+focus__text_red_light =
+    TailwindClass "focus:text-red-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-teal-lighter:focus {
-      color: #a0f0ed;
+    .focus\:text-red-lighter:focus {
+      color: #f9acaa;
     }
 
 -}
-focus__text_teal_lighter : TailwindClass
-focus__text_teal_lighter =
-    TailwindClass "focus\\:text-teal-lighter:focus"
+focus__text_red_lighter : TailwindClass
+focus__text_red_lighter =
+    TailwindClass "focus:text-red-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .focus\:text-teal-lightest:focus {
-      color: #e8fffe;
+    .focus\:text-red-lightest:focus {
+      color: #fcebea;
     }
 
 -}
-focus__text_teal_lightest : TailwindClass
-focus__text_teal_lightest =
-    TailwindClass "focus\\:text-teal-lightest:focus"
+focus__text_red_lightest : TailwindClass
+focus__text_red_lightest =
+    TailwindClass "focus:text-red-lightest"
 
 
 
@@ -7670,7 +7592,85 @@ focus__text_teal_lightest =
 -}
 focus__text_teal : TailwindClass
 focus__text_teal =
-    TailwindClass "focus\\:text-teal:focus"
+    TailwindClass "focus:text-teal"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:text-teal-dark:focus {
+      color: #38a89d;
+    }
+
+-}
+focus__text_teal_dark : TailwindClass
+focus__text_teal_dark =
+    TailwindClass "focus:text-teal-dark"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:text-teal-darker:focus {
+      color: #20504f;
+    }
+
+-}
+focus__text_teal_darker : TailwindClass
+focus__text_teal_darker =
+    TailwindClass "focus:text-teal-darker"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:text-teal-darkest:focus {
+      color: #0d3331;
+    }
+
+-}
+focus__text_teal_darkest : TailwindClass
+focus__text_teal_darkest =
+    TailwindClass "focus:text-teal-darkest"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:text-teal-light:focus {
+      color: #64d5ca;
+    }
+
+-}
+focus__text_teal_light : TailwindClass
+focus__text_teal_light =
+    TailwindClass "focus:text-teal-light"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:text-teal-lighter:focus {
+      color: #a0f0ed;
+    }
+
+-}
+focus__text_teal_lighter : TailwindClass
+focus__text_teal_lighter =
+    TailwindClass "focus:text-teal-lighter"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:text-teal-lightest:focus {
+      color: #e8fffe;
+    }
+
+-}
+focus__text_teal_lightest : TailwindClass
+focus__text_teal_lightest =
+    TailwindClass "focus:text-teal-lightest"
 
 
 
@@ -7683,7 +7683,7 @@ focus__text_teal =
 -}
 focus__text_transparent : TailwindClass
 focus__text_transparent =
-    TailwindClass "focus\\:text-transparent:focus"
+    TailwindClass "focus:text-transparent"
 
 
 
@@ -7696,85 +7696,7 @@ focus__text_transparent =
 -}
 focus__text_white : TailwindClass
 focus__text_white =
-    TailwindClass "focus\\:text-white:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:text-yellow-dark:focus {
-      color: #f2d024;
-    }
-
--}
-focus__text_yellow_dark : TailwindClass
-focus__text_yellow_dark =
-    TailwindClass "focus\\:text-yellow-dark:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:text-yellow-darker:focus {
-      color: #684f1d;
-    }
-
--}
-focus__text_yellow_darker : TailwindClass
-focus__text_yellow_darker =
-    TailwindClass "focus\\:text-yellow-darker:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:text-yellow-darkest:focus {
-      color: #453411;
-    }
-
--}
-focus__text_yellow_darkest : TailwindClass
-focus__text_yellow_darkest =
-    TailwindClass "focus\\:text-yellow-darkest:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:text-yellow-light:focus {
-      color: #fff382;
-    }
-
--}
-focus__text_yellow_light : TailwindClass
-focus__text_yellow_light =
-    TailwindClass "focus\\:text-yellow-light:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:text-yellow-lighter:focus {
-      color: #fff9c2;
-    }
-
--}
-focus__text_yellow_lighter : TailwindClass
-focus__text_yellow_lighter =
-    TailwindClass "focus\\:text-yellow-lighter:focus"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .focus\:text-yellow-lightest:focus {
-      color: #fcfbeb;
-    }
-
--}
-focus__text_yellow_lightest : TailwindClass
-focus__text_yellow_lightest =
-    TailwindClass "focus\\:text-yellow-lightest:focus"
+    TailwindClass "focus:text-white"
 
 
 
@@ -7787,7 +7709,85 @@ focus__text_yellow_lightest =
 -}
 focus__text_yellow : TailwindClass
 focus__text_yellow =
-    TailwindClass "focus\\:text-yellow:focus"
+    TailwindClass "focus:text-yellow"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:text-yellow-dark:focus {
+      color: #f2d024;
+    }
+
+-}
+focus__text_yellow_dark : TailwindClass
+focus__text_yellow_dark =
+    TailwindClass "focus:text-yellow-dark"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:text-yellow-darker:focus {
+      color: #684f1d;
+    }
+
+-}
+focus__text_yellow_darker : TailwindClass
+focus__text_yellow_darker =
+    TailwindClass "focus:text-yellow-darker"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:text-yellow-darkest:focus {
+      color: #453411;
+    }
+
+-}
+focus__text_yellow_darkest : TailwindClass
+focus__text_yellow_darkest =
+    TailwindClass "focus:text-yellow-darkest"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:text-yellow-light:focus {
+      color: #fff382;
+    }
+
+-}
+focus__text_yellow_light : TailwindClass
+focus__text_yellow_light =
+    TailwindClass "focus:text-yellow-light"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:text-yellow-lighter:focus {
+      color: #fff9c2;
+    }
+
+-}
+focus__text_yellow_lighter : TailwindClass
+focus__text_yellow_lighter =
+    TailwindClass "focus:text-yellow-lighter"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .focus\:text-yellow-lightest:focus {
+      color: #fcfbeb;
+    }
+
+-}
+focus__text_yellow_lightest : TailwindClass
+focus__text_yellow_lightest =
+    TailwindClass "focus:text-yellow-lightest"
 
 
 
@@ -7800,7 +7800,7 @@ focus__text_yellow =
 -}
 focus__underline : TailwindClass
 focus__underline =
-    TailwindClass "focus\\:underline:focus"
+    TailwindClass "focus:underline"
 
 
 
@@ -7813,7 +7813,7 @@ focus__underline =
 -}
 focus__uppercase : TailwindClass
 focus__uppercase =
-    TailwindClass "focus\\:uppercase:focus"
+    TailwindClass "focus:uppercase"
 
 
 
@@ -8230,7 +8230,7 @@ hidden =
 -}
 hover__antialiased : TailwindClass
 hover__antialiased =
-    TailwindClass "hover\\:antialiased:hover"
+    TailwindClass "hover:antialiased"
 
 
 
@@ -8243,85 +8243,7 @@ hover__antialiased =
 -}
 hover__bg_black : TailwindClass
 hover__bg_black =
-    TailwindClass "hover\\:bg-black:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:bg-blue-dark:hover {
-      background-color: #2779bd;
-    }
-
--}
-hover__bg_blue_dark : TailwindClass
-hover__bg_blue_dark =
-    TailwindClass "hover\\:bg-blue-dark:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:bg-blue-darker:hover {
-      background-color: #1c3d5a;
-    }
-
--}
-hover__bg_blue_darker : TailwindClass
-hover__bg_blue_darker =
-    TailwindClass "hover\\:bg-blue-darker:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:bg-blue-darkest:hover {
-      background-color: #12283a;
-    }
-
--}
-hover__bg_blue_darkest : TailwindClass
-hover__bg_blue_darkest =
-    TailwindClass "hover\\:bg-blue-darkest:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:bg-blue-light:hover {
-      background-color: #6cb2eb;
-    }
-
--}
-hover__bg_blue_light : TailwindClass
-hover__bg_blue_light =
-    TailwindClass "hover\\:bg-blue-light:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:bg-blue-lighter:hover {
-      background-color: #bcdefa;
-    }
-
--}
-hover__bg_blue_lighter : TailwindClass
-hover__bg_blue_lighter =
-    TailwindClass "hover\\:bg-blue-lighter:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:bg-blue-lightest:hover {
-      background-color: #eff8ff;
-    }
-
--}
-hover__bg_blue_lightest : TailwindClass
-hover__bg_blue_lightest =
-    TailwindClass "hover\\:bg-blue-lightest:hover"
+    TailwindClass "hover:bg-black"
 
 
 
@@ -8334,85 +8256,85 @@ hover__bg_blue_lightest =
 -}
 hover__bg_blue : TailwindClass
 hover__bg_blue =
-    TailwindClass "hover\\:bg-blue:hover"
+    TailwindClass "hover:bg-blue"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-green-dark:hover {
-      background-color: #1f9d55;
+    .hover\:bg-blue-dark:hover {
+      background-color: #2779bd;
     }
 
 -}
-hover__bg_green_dark : TailwindClass
-hover__bg_green_dark =
-    TailwindClass "hover\\:bg-green-dark:hover"
+hover__bg_blue_dark : TailwindClass
+hover__bg_blue_dark =
+    TailwindClass "hover:bg-blue-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-green-darker:hover {
-      background-color: #1a4731;
+    .hover\:bg-blue-darker:hover {
+      background-color: #1c3d5a;
     }
 
 -}
-hover__bg_green_darker : TailwindClass
-hover__bg_green_darker =
-    TailwindClass "hover\\:bg-green-darker:hover"
+hover__bg_blue_darker : TailwindClass
+hover__bg_blue_darker =
+    TailwindClass "hover:bg-blue-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-green-darkest:hover {
-      background-color: #0f2f21;
+    .hover\:bg-blue-darkest:hover {
+      background-color: #12283a;
     }
 
 -}
-hover__bg_green_darkest : TailwindClass
-hover__bg_green_darkest =
-    TailwindClass "hover\\:bg-green-darkest:hover"
+hover__bg_blue_darkest : TailwindClass
+hover__bg_blue_darkest =
+    TailwindClass "hover:bg-blue-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-green-light:hover {
-      background-color: #51d88a;
+    .hover\:bg-blue-light:hover {
+      background-color: #6cb2eb;
     }
 
 -}
-hover__bg_green_light : TailwindClass
-hover__bg_green_light =
-    TailwindClass "hover\\:bg-green-light:hover"
+hover__bg_blue_light : TailwindClass
+hover__bg_blue_light =
+    TailwindClass "hover:bg-blue-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-green-lighter:hover {
-      background-color: #a2f5bf;
+    .hover\:bg-blue-lighter:hover {
+      background-color: #bcdefa;
     }
 
 -}
-hover__bg_green_lighter : TailwindClass
-hover__bg_green_lighter =
-    TailwindClass "hover\\:bg-green-lighter:hover"
+hover__bg_blue_lighter : TailwindClass
+hover__bg_blue_lighter =
+    TailwindClass "hover:bg-blue-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-green-lightest:hover {
-      background-color: #e3fcec;
+    .hover\:bg-blue-lightest:hover {
+      background-color: #eff8ff;
     }
 
 -}
-hover__bg_green_lightest : TailwindClass
-hover__bg_green_lightest =
-    TailwindClass "hover\\:bg-green-lightest:hover"
+hover__bg_blue_lightest : TailwindClass
+hover__bg_blue_lightest =
+    TailwindClass "hover:bg-blue-lightest"
 
 
 
@@ -8425,85 +8347,85 @@ hover__bg_green_lightest =
 -}
 hover__bg_green : TailwindClass
 hover__bg_green =
-    TailwindClass "hover\\:bg-green:hover"
+    TailwindClass "hover:bg-green"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-grey-dark:hover {
-      background-color: #8795a1;
+    .hover\:bg-green-dark:hover {
+      background-color: #1f9d55;
     }
 
 -}
-hover__bg_grey_dark : TailwindClass
-hover__bg_grey_dark =
-    TailwindClass "hover\\:bg-grey-dark:hover"
+hover__bg_green_dark : TailwindClass
+hover__bg_green_dark =
+    TailwindClass "hover:bg-green-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-grey-darker:hover {
-      background-color: #606f7b;
+    .hover\:bg-green-darker:hover {
+      background-color: #1a4731;
     }
 
 -}
-hover__bg_grey_darker : TailwindClass
-hover__bg_grey_darker =
-    TailwindClass "hover\\:bg-grey-darker:hover"
+hover__bg_green_darker : TailwindClass
+hover__bg_green_darker =
+    TailwindClass "hover:bg-green-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-grey-darkest:hover {
-      background-color: #3d4852;
+    .hover\:bg-green-darkest:hover {
+      background-color: #0f2f21;
     }
 
 -}
-hover__bg_grey_darkest : TailwindClass
-hover__bg_grey_darkest =
-    TailwindClass "hover\\:bg-grey-darkest:hover"
+hover__bg_green_darkest : TailwindClass
+hover__bg_green_darkest =
+    TailwindClass "hover:bg-green-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-grey-light:hover {
-      background-color: #dae1e7;
+    .hover\:bg-green-light:hover {
+      background-color: #51d88a;
     }
 
 -}
-hover__bg_grey_light : TailwindClass
-hover__bg_grey_light =
-    TailwindClass "hover\\:bg-grey-light:hover"
+hover__bg_green_light : TailwindClass
+hover__bg_green_light =
+    TailwindClass "hover:bg-green-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-grey-lighter:hover {
-      background-color: #f1f5f8;
+    .hover\:bg-green-lighter:hover {
+      background-color: #a2f5bf;
     }
 
 -}
-hover__bg_grey_lighter : TailwindClass
-hover__bg_grey_lighter =
-    TailwindClass "hover\\:bg-grey-lighter:hover"
+hover__bg_green_lighter : TailwindClass
+hover__bg_green_lighter =
+    TailwindClass "hover:bg-green-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-grey-lightest:hover {
-      background-color: #f8fafc;
+    .hover\:bg-green-lightest:hover {
+      background-color: #e3fcec;
     }
 
 -}
-hover__bg_grey_lightest : TailwindClass
-hover__bg_grey_lightest =
-    TailwindClass "hover\\:bg-grey-lightest:hover"
+hover__bg_green_lightest : TailwindClass
+hover__bg_green_lightest =
+    TailwindClass "hover:bg-green-lightest"
 
 
 
@@ -8516,85 +8438,85 @@ hover__bg_grey_lightest =
 -}
 hover__bg_grey : TailwindClass
 hover__bg_grey =
-    TailwindClass "hover\\:bg-grey:hover"
+    TailwindClass "hover:bg-grey"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-indigo-dark:hover {
-      background-color: #5661b3;
+    .hover\:bg-grey-dark:hover {
+      background-color: #8795a1;
     }
 
 -}
-hover__bg_indigo_dark : TailwindClass
-hover__bg_indigo_dark =
-    TailwindClass "hover\\:bg-indigo-dark:hover"
+hover__bg_grey_dark : TailwindClass
+hover__bg_grey_dark =
+    TailwindClass "hover:bg-grey-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-indigo-darker:hover {
-      background-color: #2f365f;
+    .hover\:bg-grey-darker:hover {
+      background-color: #606f7b;
     }
 
 -}
-hover__bg_indigo_darker : TailwindClass
-hover__bg_indigo_darker =
-    TailwindClass "hover\\:bg-indigo-darker:hover"
+hover__bg_grey_darker : TailwindClass
+hover__bg_grey_darker =
+    TailwindClass "hover:bg-grey-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-indigo-darkest:hover {
-      background-color: #191e38;
+    .hover\:bg-grey-darkest:hover {
+      background-color: #3d4852;
     }
 
 -}
-hover__bg_indigo_darkest : TailwindClass
-hover__bg_indigo_darkest =
-    TailwindClass "hover\\:bg-indigo-darkest:hover"
+hover__bg_grey_darkest : TailwindClass
+hover__bg_grey_darkest =
+    TailwindClass "hover:bg-grey-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-indigo-light:hover {
-      background-color: #7886d7;
+    .hover\:bg-grey-light:hover {
+      background-color: #dae1e7;
     }
 
 -}
-hover__bg_indigo_light : TailwindClass
-hover__bg_indigo_light =
-    TailwindClass "hover\\:bg-indigo-light:hover"
+hover__bg_grey_light : TailwindClass
+hover__bg_grey_light =
+    TailwindClass "hover:bg-grey-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-indigo-lighter:hover {
-      background-color: #b2b7ff;
+    .hover\:bg-grey-lighter:hover {
+      background-color: #f1f5f8;
     }
 
 -}
-hover__bg_indigo_lighter : TailwindClass
-hover__bg_indigo_lighter =
-    TailwindClass "hover\\:bg-indigo-lighter:hover"
+hover__bg_grey_lighter : TailwindClass
+hover__bg_grey_lighter =
+    TailwindClass "hover:bg-grey-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-indigo-lightest:hover {
-      background-color: #e6e8ff;
+    .hover\:bg-grey-lightest:hover {
+      background-color: #f8fafc;
     }
 
 -}
-hover__bg_indigo_lightest : TailwindClass
-hover__bg_indigo_lightest =
-    TailwindClass "hover\\:bg-indigo-lightest:hover"
+hover__bg_grey_lightest : TailwindClass
+hover__bg_grey_lightest =
+    TailwindClass "hover:bg-grey-lightest"
 
 
 
@@ -8607,85 +8529,85 @@ hover__bg_indigo_lightest =
 -}
 hover__bg_indigo : TailwindClass
 hover__bg_indigo =
-    TailwindClass "hover\\:bg-indigo:hover"
+    TailwindClass "hover:bg-indigo"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-orange-dark:hover {
-      background-color: #de751f;
+    .hover\:bg-indigo-dark:hover {
+      background-color: #5661b3;
     }
 
 -}
-hover__bg_orange_dark : TailwindClass
-hover__bg_orange_dark =
-    TailwindClass "hover\\:bg-orange-dark:hover"
+hover__bg_indigo_dark : TailwindClass
+hover__bg_indigo_dark =
+    TailwindClass "hover:bg-indigo-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-orange-darker:hover {
-      background-color: #613b1f;
+    .hover\:bg-indigo-darker:hover {
+      background-color: #2f365f;
     }
 
 -}
-hover__bg_orange_darker : TailwindClass
-hover__bg_orange_darker =
-    TailwindClass "hover\\:bg-orange-darker:hover"
+hover__bg_indigo_darker : TailwindClass
+hover__bg_indigo_darker =
+    TailwindClass "hover:bg-indigo-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-orange-darkest:hover {
-      background-color: #462a16;
+    .hover\:bg-indigo-darkest:hover {
+      background-color: #191e38;
     }
 
 -}
-hover__bg_orange_darkest : TailwindClass
-hover__bg_orange_darkest =
-    TailwindClass "hover\\:bg-orange-darkest:hover"
+hover__bg_indigo_darkest : TailwindClass
+hover__bg_indigo_darkest =
+    TailwindClass "hover:bg-indigo-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-orange-light:hover {
-      background-color: #faad63;
+    .hover\:bg-indigo-light:hover {
+      background-color: #7886d7;
     }
 
 -}
-hover__bg_orange_light : TailwindClass
-hover__bg_orange_light =
-    TailwindClass "hover\\:bg-orange-light:hover"
+hover__bg_indigo_light : TailwindClass
+hover__bg_indigo_light =
+    TailwindClass "hover:bg-indigo-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-orange-lighter:hover {
-      background-color: #fcd9b6;
+    .hover\:bg-indigo-lighter:hover {
+      background-color: #b2b7ff;
     }
 
 -}
-hover__bg_orange_lighter : TailwindClass
-hover__bg_orange_lighter =
-    TailwindClass "hover\\:bg-orange-lighter:hover"
+hover__bg_indigo_lighter : TailwindClass
+hover__bg_indigo_lighter =
+    TailwindClass "hover:bg-indigo-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-orange-lightest:hover {
-      background-color: #fff5eb;
+    .hover\:bg-indigo-lightest:hover {
+      background-color: #e6e8ff;
     }
 
 -}
-hover__bg_orange_lightest : TailwindClass
-hover__bg_orange_lightest =
-    TailwindClass "hover\\:bg-orange-lightest:hover"
+hover__bg_indigo_lightest : TailwindClass
+hover__bg_indigo_lightest =
+    TailwindClass "hover:bg-indigo-lightest"
 
 
 
@@ -8698,85 +8620,85 @@ hover__bg_orange_lightest =
 -}
 hover__bg_orange : TailwindClass
 hover__bg_orange =
-    TailwindClass "hover\\:bg-orange:hover"
+    TailwindClass "hover:bg-orange"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-pink-dark:hover {
-      background-color: #eb5286;
+    .hover\:bg-orange-dark:hover {
+      background-color: #de751f;
     }
 
 -}
-hover__bg_pink_dark : TailwindClass
-hover__bg_pink_dark =
-    TailwindClass "hover\\:bg-pink-dark:hover"
+hover__bg_orange_dark : TailwindClass
+hover__bg_orange_dark =
+    TailwindClass "hover:bg-orange-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-pink-darker:hover {
-      background-color: #6f213f;
+    .hover\:bg-orange-darker:hover {
+      background-color: #613b1f;
     }
 
 -}
-hover__bg_pink_darker : TailwindClass
-hover__bg_pink_darker =
-    TailwindClass "hover\\:bg-pink-darker:hover"
+hover__bg_orange_darker : TailwindClass
+hover__bg_orange_darker =
+    TailwindClass "hover:bg-orange-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-pink-darkest:hover {
-      background-color: #451225;
+    .hover\:bg-orange-darkest:hover {
+      background-color: #462a16;
     }
 
 -}
-hover__bg_pink_darkest : TailwindClass
-hover__bg_pink_darkest =
-    TailwindClass "hover\\:bg-pink-darkest:hover"
+hover__bg_orange_darkest : TailwindClass
+hover__bg_orange_darkest =
+    TailwindClass "hover:bg-orange-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-pink-light:hover {
-      background-color: #fa7ea8;
+    .hover\:bg-orange-light:hover {
+      background-color: #faad63;
     }
 
 -}
-hover__bg_pink_light : TailwindClass
-hover__bg_pink_light =
-    TailwindClass "hover\\:bg-pink-light:hover"
+hover__bg_orange_light : TailwindClass
+hover__bg_orange_light =
+    TailwindClass "hover:bg-orange-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-pink-lighter:hover {
-      background-color: #ffbbca;
+    .hover\:bg-orange-lighter:hover {
+      background-color: #fcd9b6;
     }
 
 -}
-hover__bg_pink_lighter : TailwindClass
-hover__bg_pink_lighter =
-    TailwindClass "hover\\:bg-pink-lighter:hover"
+hover__bg_orange_lighter : TailwindClass
+hover__bg_orange_lighter =
+    TailwindClass "hover:bg-orange-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-pink-lightest:hover {
-      background-color: #ffebef;
+    .hover\:bg-orange-lightest:hover {
+      background-color: #fff5eb;
     }
 
 -}
-hover__bg_pink_lightest : TailwindClass
-hover__bg_pink_lightest =
-    TailwindClass "hover\\:bg-pink-lightest:hover"
+hover__bg_orange_lightest : TailwindClass
+hover__bg_orange_lightest =
+    TailwindClass "hover:bg-orange-lightest"
 
 
 
@@ -8789,85 +8711,85 @@ hover__bg_pink_lightest =
 -}
 hover__bg_pink : TailwindClass
 hover__bg_pink =
-    TailwindClass "hover\\:bg-pink:hover"
+    TailwindClass "hover:bg-pink"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-purple-dark:hover {
-      background-color: #794acf;
+    .hover\:bg-pink-dark:hover {
+      background-color: #eb5286;
     }
 
 -}
-hover__bg_purple_dark : TailwindClass
-hover__bg_purple_dark =
-    TailwindClass "hover\\:bg-purple-dark:hover"
+hover__bg_pink_dark : TailwindClass
+hover__bg_pink_dark =
+    TailwindClass "hover:bg-pink-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-purple-darker:hover {
-      background-color: #382b5f;
+    .hover\:bg-pink-darker:hover {
+      background-color: #6f213f;
     }
 
 -}
-hover__bg_purple_darker : TailwindClass
-hover__bg_purple_darker =
-    TailwindClass "hover\\:bg-purple-darker:hover"
+hover__bg_pink_darker : TailwindClass
+hover__bg_pink_darker =
+    TailwindClass "hover:bg-pink-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-purple-darkest:hover {
-      background-color: #21183c;
+    .hover\:bg-pink-darkest:hover {
+      background-color: #451225;
     }
 
 -}
-hover__bg_purple_darkest : TailwindClass
-hover__bg_purple_darkest =
-    TailwindClass "hover\\:bg-purple-darkest:hover"
+hover__bg_pink_darkest : TailwindClass
+hover__bg_pink_darkest =
+    TailwindClass "hover:bg-pink-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-purple-light:hover {
-      background-color: #a779e9;
+    .hover\:bg-pink-light:hover {
+      background-color: #fa7ea8;
     }
 
 -}
-hover__bg_purple_light : TailwindClass
-hover__bg_purple_light =
-    TailwindClass "hover\\:bg-purple-light:hover"
+hover__bg_pink_light : TailwindClass
+hover__bg_pink_light =
+    TailwindClass "hover:bg-pink-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-purple-lighter:hover {
-      background-color: #d6bbfc;
+    .hover\:bg-pink-lighter:hover {
+      background-color: #ffbbca;
     }
 
 -}
-hover__bg_purple_lighter : TailwindClass
-hover__bg_purple_lighter =
-    TailwindClass "hover\\:bg-purple-lighter:hover"
+hover__bg_pink_lighter : TailwindClass
+hover__bg_pink_lighter =
+    TailwindClass "hover:bg-pink-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-purple-lightest:hover {
-      background-color: #f3ebff;
+    .hover\:bg-pink-lightest:hover {
+      background-color: #ffebef;
     }
 
 -}
-hover__bg_purple_lightest : TailwindClass
-hover__bg_purple_lightest =
-    TailwindClass "hover\\:bg-purple-lightest:hover"
+hover__bg_pink_lightest : TailwindClass
+hover__bg_pink_lightest =
+    TailwindClass "hover:bg-pink-lightest"
 
 
 
@@ -8880,85 +8802,85 @@ hover__bg_purple_lightest =
 -}
 hover__bg_purple : TailwindClass
 hover__bg_purple =
-    TailwindClass "hover\\:bg-purple:hover"
+    TailwindClass "hover:bg-purple"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-red-dark:hover {
-      background-color: #cc1f1a;
+    .hover\:bg-purple-dark:hover {
+      background-color: #794acf;
     }
 
 -}
-hover__bg_red_dark : TailwindClass
-hover__bg_red_dark =
-    TailwindClass "hover\\:bg-red-dark:hover"
+hover__bg_purple_dark : TailwindClass
+hover__bg_purple_dark =
+    TailwindClass "hover:bg-purple-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-red-darker:hover {
-      background-color: #621b18;
+    .hover\:bg-purple-darker:hover {
+      background-color: #382b5f;
     }
 
 -}
-hover__bg_red_darker : TailwindClass
-hover__bg_red_darker =
-    TailwindClass "hover\\:bg-red-darker:hover"
+hover__bg_purple_darker : TailwindClass
+hover__bg_purple_darker =
+    TailwindClass "hover:bg-purple-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-red-darkest:hover {
-      background-color: #3b0d0c;
+    .hover\:bg-purple-darkest:hover {
+      background-color: #21183c;
     }
 
 -}
-hover__bg_red_darkest : TailwindClass
-hover__bg_red_darkest =
-    TailwindClass "hover\\:bg-red-darkest:hover"
+hover__bg_purple_darkest : TailwindClass
+hover__bg_purple_darkest =
+    TailwindClass "hover:bg-purple-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-red-light:hover {
-      background-color: #ef5753;
+    .hover\:bg-purple-light:hover {
+      background-color: #a779e9;
     }
 
 -}
-hover__bg_red_light : TailwindClass
-hover__bg_red_light =
-    TailwindClass "hover\\:bg-red-light:hover"
+hover__bg_purple_light : TailwindClass
+hover__bg_purple_light =
+    TailwindClass "hover:bg-purple-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-red-lighter:hover {
-      background-color: #f9acaa;
+    .hover\:bg-purple-lighter:hover {
+      background-color: #d6bbfc;
     }
 
 -}
-hover__bg_red_lighter : TailwindClass
-hover__bg_red_lighter =
-    TailwindClass "hover\\:bg-red-lighter:hover"
+hover__bg_purple_lighter : TailwindClass
+hover__bg_purple_lighter =
+    TailwindClass "hover:bg-purple-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-red-lightest:hover {
-      background-color: #fcebea;
+    .hover\:bg-purple-lightest:hover {
+      background-color: #f3ebff;
     }
 
 -}
-hover__bg_red_lightest : TailwindClass
-hover__bg_red_lightest =
-    TailwindClass "hover\\:bg-red-lightest:hover"
+hover__bg_purple_lightest : TailwindClass
+hover__bg_purple_lightest =
+    TailwindClass "hover:bg-purple-lightest"
 
 
 
@@ -8971,85 +8893,85 @@ hover__bg_red_lightest =
 -}
 hover__bg_red : TailwindClass
 hover__bg_red =
-    TailwindClass "hover\\:bg-red:hover"
+    TailwindClass "hover:bg-red"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-teal-dark:hover {
-      background-color: #38a89d;
+    .hover\:bg-red-dark:hover {
+      background-color: #cc1f1a;
     }
 
 -}
-hover__bg_teal_dark : TailwindClass
-hover__bg_teal_dark =
-    TailwindClass "hover\\:bg-teal-dark:hover"
+hover__bg_red_dark : TailwindClass
+hover__bg_red_dark =
+    TailwindClass "hover:bg-red-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-teal-darker:hover {
-      background-color: #20504f;
+    .hover\:bg-red-darker:hover {
+      background-color: #621b18;
     }
 
 -}
-hover__bg_teal_darker : TailwindClass
-hover__bg_teal_darker =
-    TailwindClass "hover\\:bg-teal-darker:hover"
+hover__bg_red_darker : TailwindClass
+hover__bg_red_darker =
+    TailwindClass "hover:bg-red-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-teal-darkest:hover {
-      background-color: #0d3331;
+    .hover\:bg-red-darkest:hover {
+      background-color: #3b0d0c;
     }
 
 -}
-hover__bg_teal_darkest : TailwindClass
-hover__bg_teal_darkest =
-    TailwindClass "hover\\:bg-teal-darkest:hover"
+hover__bg_red_darkest : TailwindClass
+hover__bg_red_darkest =
+    TailwindClass "hover:bg-red-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-teal-light:hover {
-      background-color: #64d5ca;
+    .hover\:bg-red-light:hover {
+      background-color: #ef5753;
     }
 
 -}
-hover__bg_teal_light : TailwindClass
-hover__bg_teal_light =
-    TailwindClass "hover\\:bg-teal-light:hover"
+hover__bg_red_light : TailwindClass
+hover__bg_red_light =
+    TailwindClass "hover:bg-red-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-teal-lighter:hover {
-      background-color: #a0f0ed;
+    .hover\:bg-red-lighter:hover {
+      background-color: #f9acaa;
     }
 
 -}
-hover__bg_teal_lighter : TailwindClass
-hover__bg_teal_lighter =
-    TailwindClass "hover\\:bg-teal-lighter:hover"
+hover__bg_red_lighter : TailwindClass
+hover__bg_red_lighter =
+    TailwindClass "hover:bg-red-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:bg-teal-lightest:hover {
-      background-color: #e8fffe;
+    .hover\:bg-red-lightest:hover {
+      background-color: #fcebea;
     }
 
 -}
-hover__bg_teal_lightest : TailwindClass
-hover__bg_teal_lightest =
-    TailwindClass "hover\\:bg-teal-lightest:hover"
+hover__bg_red_lightest : TailwindClass
+hover__bg_red_lightest =
+    TailwindClass "hover:bg-red-lightest"
 
 
 
@@ -9062,7 +8984,85 @@ hover__bg_teal_lightest =
 -}
 hover__bg_teal : TailwindClass
 hover__bg_teal =
-    TailwindClass "hover\\:bg-teal:hover"
+    TailwindClass "hover:bg-teal"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:bg-teal-dark:hover {
+      background-color: #38a89d;
+    }
+
+-}
+hover__bg_teal_dark : TailwindClass
+hover__bg_teal_dark =
+    TailwindClass "hover:bg-teal-dark"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:bg-teal-darker:hover {
+      background-color: #20504f;
+    }
+
+-}
+hover__bg_teal_darker : TailwindClass
+hover__bg_teal_darker =
+    TailwindClass "hover:bg-teal-darker"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:bg-teal-darkest:hover {
+      background-color: #0d3331;
+    }
+
+-}
+hover__bg_teal_darkest : TailwindClass
+hover__bg_teal_darkest =
+    TailwindClass "hover:bg-teal-darkest"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:bg-teal-light:hover {
+      background-color: #64d5ca;
+    }
+
+-}
+hover__bg_teal_light : TailwindClass
+hover__bg_teal_light =
+    TailwindClass "hover:bg-teal-light"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:bg-teal-lighter:hover {
+      background-color: #a0f0ed;
+    }
+
+-}
+hover__bg_teal_lighter : TailwindClass
+hover__bg_teal_lighter =
+    TailwindClass "hover:bg-teal-lighter"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:bg-teal-lightest:hover {
+      background-color: #e8fffe;
+    }
+
+-}
+hover__bg_teal_lightest : TailwindClass
+hover__bg_teal_lightest =
+    TailwindClass "hover:bg-teal-lightest"
 
 
 
@@ -9075,7 +9075,7 @@ hover__bg_teal =
 -}
 hover__bg_transparent : TailwindClass
 hover__bg_transparent =
-    TailwindClass "hover\\:bg-transparent:hover"
+    TailwindClass "hover:bg-transparent"
 
 
 
@@ -9088,85 +9088,7 @@ hover__bg_transparent =
 -}
 hover__bg_white : TailwindClass
 hover__bg_white =
-    TailwindClass "hover\\:bg-white:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:bg-yellow-dark:hover {
-      background-color: #f2d024;
-    }
-
--}
-hover__bg_yellow_dark : TailwindClass
-hover__bg_yellow_dark =
-    TailwindClass "hover\\:bg-yellow-dark:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:bg-yellow-darker:hover {
-      background-color: #684f1d;
-    }
-
--}
-hover__bg_yellow_darker : TailwindClass
-hover__bg_yellow_darker =
-    TailwindClass "hover\\:bg-yellow-darker:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:bg-yellow-darkest:hover {
-      background-color: #453411;
-    }
-
--}
-hover__bg_yellow_darkest : TailwindClass
-hover__bg_yellow_darkest =
-    TailwindClass "hover\\:bg-yellow-darkest:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:bg-yellow-light:hover {
-      background-color: #fff382;
-    }
-
--}
-hover__bg_yellow_light : TailwindClass
-hover__bg_yellow_light =
-    TailwindClass "hover\\:bg-yellow-light:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:bg-yellow-lighter:hover {
-      background-color: #fff9c2;
-    }
-
--}
-hover__bg_yellow_lighter : TailwindClass
-hover__bg_yellow_lighter =
-    TailwindClass "hover\\:bg-yellow-lighter:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:bg-yellow-lightest:hover {
-      background-color: #fcfbeb;
-    }
-
--}
-hover__bg_yellow_lightest : TailwindClass
-hover__bg_yellow_lightest =
-    TailwindClass "hover\\:bg-yellow-lightest:hover"
+    TailwindClass "hover:bg-white"
 
 
 
@@ -9179,7 +9101,85 @@ hover__bg_yellow_lightest =
 -}
 hover__bg_yellow : TailwindClass
 hover__bg_yellow =
-    TailwindClass "hover\\:bg-yellow:hover"
+    TailwindClass "hover:bg-yellow"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:bg-yellow-dark:hover {
+      background-color: #f2d024;
+    }
+
+-}
+hover__bg_yellow_dark : TailwindClass
+hover__bg_yellow_dark =
+    TailwindClass "hover:bg-yellow-dark"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:bg-yellow-darker:hover {
+      background-color: #684f1d;
+    }
+
+-}
+hover__bg_yellow_darker : TailwindClass
+hover__bg_yellow_darker =
+    TailwindClass "hover:bg-yellow-darker"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:bg-yellow-darkest:hover {
+      background-color: #453411;
+    }
+
+-}
+hover__bg_yellow_darkest : TailwindClass
+hover__bg_yellow_darkest =
+    TailwindClass "hover:bg-yellow-darkest"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:bg-yellow-light:hover {
+      background-color: #fff382;
+    }
+
+-}
+hover__bg_yellow_light : TailwindClass
+hover__bg_yellow_light =
+    TailwindClass "hover:bg-yellow-light"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:bg-yellow-lighter:hover {
+      background-color: #fff9c2;
+    }
+
+-}
+hover__bg_yellow_lighter : TailwindClass
+hover__bg_yellow_lighter =
+    TailwindClass "hover:bg-yellow-lighter"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:bg-yellow-lightest:hover {
+      background-color: #fcfbeb;
+    }
+
+-}
+hover__bg_yellow_lightest : TailwindClass
+hover__bg_yellow_lightest =
+    TailwindClass "hover:bg-yellow-lightest"
 
 
 
@@ -9192,85 +9192,7 @@ hover__bg_yellow =
 -}
 hover__border_black : TailwindClass
 hover__border_black =
-    TailwindClass "hover\\:border-black:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:border-blue-dark:hover {
-      border-color: #2779bd;
-    }
-
--}
-hover__border_blue_dark : TailwindClass
-hover__border_blue_dark =
-    TailwindClass "hover\\:border-blue-dark:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:border-blue-darker:hover {
-      border-color: #1c3d5a;
-    }
-
--}
-hover__border_blue_darker : TailwindClass
-hover__border_blue_darker =
-    TailwindClass "hover\\:border-blue-darker:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:border-blue-darkest:hover {
-      border-color: #12283a;
-    }
-
--}
-hover__border_blue_darkest : TailwindClass
-hover__border_blue_darkest =
-    TailwindClass "hover\\:border-blue-darkest:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:border-blue-light:hover {
-      border-color: #6cb2eb;
-    }
-
--}
-hover__border_blue_light : TailwindClass
-hover__border_blue_light =
-    TailwindClass "hover\\:border-blue-light:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:border-blue-lighter:hover {
-      border-color: #bcdefa;
-    }
-
--}
-hover__border_blue_lighter : TailwindClass
-hover__border_blue_lighter =
-    TailwindClass "hover\\:border-blue-lighter:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:border-blue-lightest:hover {
-      border-color: #eff8ff;
-    }
-
--}
-hover__border_blue_lightest : TailwindClass
-hover__border_blue_lightest =
-    TailwindClass "hover\\:border-blue-lightest:hover"
+    TailwindClass "hover:border-black"
 
 
 
@@ -9283,85 +9205,85 @@ hover__border_blue_lightest =
 -}
 hover__border_blue : TailwindClass
 hover__border_blue =
-    TailwindClass "hover\\:border-blue:hover"
+    TailwindClass "hover:border-blue"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-green-dark:hover {
-      border-color: #1f9d55;
+    .hover\:border-blue-dark:hover {
+      border-color: #2779bd;
     }
 
 -}
-hover__border_green_dark : TailwindClass
-hover__border_green_dark =
-    TailwindClass "hover\\:border-green-dark:hover"
+hover__border_blue_dark : TailwindClass
+hover__border_blue_dark =
+    TailwindClass "hover:border-blue-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-green-darker:hover {
-      border-color: #1a4731;
+    .hover\:border-blue-darker:hover {
+      border-color: #1c3d5a;
     }
 
 -}
-hover__border_green_darker : TailwindClass
-hover__border_green_darker =
-    TailwindClass "hover\\:border-green-darker:hover"
+hover__border_blue_darker : TailwindClass
+hover__border_blue_darker =
+    TailwindClass "hover:border-blue-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-green-darkest:hover {
-      border-color: #0f2f21;
+    .hover\:border-blue-darkest:hover {
+      border-color: #12283a;
     }
 
 -}
-hover__border_green_darkest : TailwindClass
-hover__border_green_darkest =
-    TailwindClass "hover\\:border-green-darkest:hover"
+hover__border_blue_darkest : TailwindClass
+hover__border_blue_darkest =
+    TailwindClass "hover:border-blue-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-green-light:hover {
-      border-color: #51d88a;
+    .hover\:border-blue-light:hover {
+      border-color: #6cb2eb;
     }
 
 -}
-hover__border_green_light : TailwindClass
-hover__border_green_light =
-    TailwindClass "hover\\:border-green-light:hover"
+hover__border_blue_light : TailwindClass
+hover__border_blue_light =
+    TailwindClass "hover:border-blue-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-green-lighter:hover {
-      border-color: #a2f5bf;
+    .hover\:border-blue-lighter:hover {
+      border-color: #bcdefa;
     }
 
 -}
-hover__border_green_lighter : TailwindClass
-hover__border_green_lighter =
-    TailwindClass "hover\\:border-green-lighter:hover"
+hover__border_blue_lighter : TailwindClass
+hover__border_blue_lighter =
+    TailwindClass "hover:border-blue-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-green-lightest:hover {
-      border-color: #e3fcec;
+    .hover\:border-blue-lightest:hover {
+      border-color: #eff8ff;
     }
 
 -}
-hover__border_green_lightest : TailwindClass
-hover__border_green_lightest =
-    TailwindClass "hover\\:border-green-lightest:hover"
+hover__border_blue_lightest : TailwindClass
+hover__border_blue_lightest =
+    TailwindClass "hover:border-blue-lightest"
 
 
 
@@ -9374,85 +9296,85 @@ hover__border_green_lightest =
 -}
 hover__border_green : TailwindClass
 hover__border_green =
-    TailwindClass "hover\\:border-green:hover"
+    TailwindClass "hover:border-green"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-grey-dark:hover {
-      border-color: #8795a1;
+    .hover\:border-green-dark:hover {
+      border-color: #1f9d55;
     }
 
 -}
-hover__border_grey_dark : TailwindClass
-hover__border_grey_dark =
-    TailwindClass "hover\\:border-grey-dark:hover"
+hover__border_green_dark : TailwindClass
+hover__border_green_dark =
+    TailwindClass "hover:border-green-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-grey-darker:hover {
-      border-color: #606f7b;
+    .hover\:border-green-darker:hover {
+      border-color: #1a4731;
     }
 
 -}
-hover__border_grey_darker : TailwindClass
-hover__border_grey_darker =
-    TailwindClass "hover\\:border-grey-darker:hover"
+hover__border_green_darker : TailwindClass
+hover__border_green_darker =
+    TailwindClass "hover:border-green-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-grey-darkest:hover {
-      border-color: #3d4852;
+    .hover\:border-green-darkest:hover {
+      border-color: #0f2f21;
     }
 
 -}
-hover__border_grey_darkest : TailwindClass
-hover__border_grey_darkest =
-    TailwindClass "hover\\:border-grey-darkest:hover"
+hover__border_green_darkest : TailwindClass
+hover__border_green_darkest =
+    TailwindClass "hover:border-green-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-grey-light:hover {
-      border-color: #dae1e7;
+    .hover\:border-green-light:hover {
+      border-color: #51d88a;
     }
 
 -}
-hover__border_grey_light : TailwindClass
-hover__border_grey_light =
-    TailwindClass "hover\\:border-grey-light:hover"
+hover__border_green_light : TailwindClass
+hover__border_green_light =
+    TailwindClass "hover:border-green-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-grey-lighter:hover {
-      border-color: #f1f5f8;
+    .hover\:border-green-lighter:hover {
+      border-color: #a2f5bf;
     }
 
 -}
-hover__border_grey_lighter : TailwindClass
-hover__border_grey_lighter =
-    TailwindClass "hover\\:border-grey-lighter:hover"
+hover__border_green_lighter : TailwindClass
+hover__border_green_lighter =
+    TailwindClass "hover:border-green-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-grey-lightest:hover {
-      border-color: #f8fafc;
+    .hover\:border-green-lightest:hover {
+      border-color: #e3fcec;
     }
 
 -}
-hover__border_grey_lightest : TailwindClass
-hover__border_grey_lightest =
-    TailwindClass "hover\\:border-grey-lightest:hover"
+hover__border_green_lightest : TailwindClass
+hover__border_green_lightest =
+    TailwindClass "hover:border-green-lightest"
 
 
 
@@ -9465,85 +9387,85 @@ hover__border_grey_lightest =
 -}
 hover__border_grey : TailwindClass
 hover__border_grey =
-    TailwindClass "hover\\:border-grey:hover"
+    TailwindClass "hover:border-grey"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-indigo-dark:hover {
-      border-color: #5661b3;
+    .hover\:border-grey-dark:hover {
+      border-color: #8795a1;
     }
 
 -}
-hover__border_indigo_dark : TailwindClass
-hover__border_indigo_dark =
-    TailwindClass "hover\\:border-indigo-dark:hover"
+hover__border_grey_dark : TailwindClass
+hover__border_grey_dark =
+    TailwindClass "hover:border-grey-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-indigo-darker:hover {
-      border-color: #2f365f;
+    .hover\:border-grey-darker:hover {
+      border-color: #606f7b;
     }
 
 -}
-hover__border_indigo_darker : TailwindClass
-hover__border_indigo_darker =
-    TailwindClass "hover\\:border-indigo-darker:hover"
+hover__border_grey_darker : TailwindClass
+hover__border_grey_darker =
+    TailwindClass "hover:border-grey-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-indigo-darkest:hover {
-      border-color: #191e38;
+    .hover\:border-grey-darkest:hover {
+      border-color: #3d4852;
     }
 
 -}
-hover__border_indigo_darkest : TailwindClass
-hover__border_indigo_darkest =
-    TailwindClass "hover\\:border-indigo-darkest:hover"
+hover__border_grey_darkest : TailwindClass
+hover__border_grey_darkest =
+    TailwindClass "hover:border-grey-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-indigo-light:hover {
-      border-color: #7886d7;
+    .hover\:border-grey-light:hover {
+      border-color: #dae1e7;
     }
 
 -}
-hover__border_indigo_light : TailwindClass
-hover__border_indigo_light =
-    TailwindClass "hover\\:border-indigo-light:hover"
+hover__border_grey_light : TailwindClass
+hover__border_grey_light =
+    TailwindClass "hover:border-grey-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-indigo-lighter:hover {
-      border-color: #b2b7ff;
+    .hover\:border-grey-lighter:hover {
+      border-color: #f1f5f8;
     }
 
 -}
-hover__border_indigo_lighter : TailwindClass
-hover__border_indigo_lighter =
-    TailwindClass "hover\\:border-indigo-lighter:hover"
+hover__border_grey_lighter : TailwindClass
+hover__border_grey_lighter =
+    TailwindClass "hover:border-grey-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-indigo-lightest:hover {
-      border-color: #e6e8ff;
+    .hover\:border-grey-lightest:hover {
+      border-color: #f8fafc;
     }
 
 -}
-hover__border_indigo_lightest : TailwindClass
-hover__border_indigo_lightest =
-    TailwindClass "hover\\:border-indigo-lightest:hover"
+hover__border_grey_lightest : TailwindClass
+hover__border_grey_lightest =
+    TailwindClass "hover:border-grey-lightest"
 
 
 
@@ -9556,85 +9478,85 @@ hover__border_indigo_lightest =
 -}
 hover__border_indigo : TailwindClass
 hover__border_indigo =
-    TailwindClass "hover\\:border-indigo:hover"
+    TailwindClass "hover:border-indigo"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-orange-dark:hover {
-      border-color: #de751f;
+    .hover\:border-indigo-dark:hover {
+      border-color: #5661b3;
     }
 
 -}
-hover__border_orange_dark : TailwindClass
-hover__border_orange_dark =
-    TailwindClass "hover\\:border-orange-dark:hover"
+hover__border_indigo_dark : TailwindClass
+hover__border_indigo_dark =
+    TailwindClass "hover:border-indigo-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-orange-darker:hover {
-      border-color: #613b1f;
+    .hover\:border-indigo-darker:hover {
+      border-color: #2f365f;
     }
 
 -}
-hover__border_orange_darker : TailwindClass
-hover__border_orange_darker =
-    TailwindClass "hover\\:border-orange-darker:hover"
+hover__border_indigo_darker : TailwindClass
+hover__border_indigo_darker =
+    TailwindClass "hover:border-indigo-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-orange-darkest:hover {
-      border-color: #462a16;
+    .hover\:border-indigo-darkest:hover {
+      border-color: #191e38;
     }
 
 -}
-hover__border_orange_darkest : TailwindClass
-hover__border_orange_darkest =
-    TailwindClass "hover\\:border-orange-darkest:hover"
+hover__border_indigo_darkest : TailwindClass
+hover__border_indigo_darkest =
+    TailwindClass "hover:border-indigo-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-orange-light:hover {
-      border-color: #faad63;
+    .hover\:border-indigo-light:hover {
+      border-color: #7886d7;
     }
 
 -}
-hover__border_orange_light : TailwindClass
-hover__border_orange_light =
-    TailwindClass "hover\\:border-orange-light:hover"
+hover__border_indigo_light : TailwindClass
+hover__border_indigo_light =
+    TailwindClass "hover:border-indigo-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-orange-lighter:hover {
-      border-color: #fcd9b6;
+    .hover\:border-indigo-lighter:hover {
+      border-color: #b2b7ff;
     }
 
 -}
-hover__border_orange_lighter : TailwindClass
-hover__border_orange_lighter =
-    TailwindClass "hover\\:border-orange-lighter:hover"
+hover__border_indigo_lighter : TailwindClass
+hover__border_indigo_lighter =
+    TailwindClass "hover:border-indigo-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-orange-lightest:hover {
-      border-color: #fff5eb;
+    .hover\:border-indigo-lightest:hover {
+      border-color: #e6e8ff;
     }
 
 -}
-hover__border_orange_lightest : TailwindClass
-hover__border_orange_lightest =
-    TailwindClass "hover\\:border-orange-lightest:hover"
+hover__border_indigo_lightest : TailwindClass
+hover__border_indigo_lightest =
+    TailwindClass "hover:border-indigo-lightest"
 
 
 
@@ -9647,85 +9569,85 @@ hover__border_orange_lightest =
 -}
 hover__border_orange : TailwindClass
 hover__border_orange =
-    TailwindClass "hover\\:border-orange:hover"
+    TailwindClass "hover:border-orange"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-pink-dark:hover {
-      border-color: #eb5286;
+    .hover\:border-orange-dark:hover {
+      border-color: #de751f;
     }
 
 -}
-hover__border_pink_dark : TailwindClass
-hover__border_pink_dark =
-    TailwindClass "hover\\:border-pink-dark:hover"
+hover__border_orange_dark : TailwindClass
+hover__border_orange_dark =
+    TailwindClass "hover:border-orange-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-pink-darker:hover {
-      border-color: #6f213f;
+    .hover\:border-orange-darker:hover {
+      border-color: #613b1f;
     }
 
 -}
-hover__border_pink_darker : TailwindClass
-hover__border_pink_darker =
-    TailwindClass "hover\\:border-pink-darker:hover"
+hover__border_orange_darker : TailwindClass
+hover__border_orange_darker =
+    TailwindClass "hover:border-orange-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-pink-darkest:hover {
-      border-color: #451225;
+    .hover\:border-orange-darkest:hover {
+      border-color: #462a16;
     }
 
 -}
-hover__border_pink_darkest : TailwindClass
-hover__border_pink_darkest =
-    TailwindClass "hover\\:border-pink-darkest:hover"
+hover__border_orange_darkest : TailwindClass
+hover__border_orange_darkest =
+    TailwindClass "hover:border-orange-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-pink-light:hover {
-      border-color: #fa7ea8;
+    .hover\:border-orange-light:hover {
+      border-color: #faad63;
     }
 
 -}
-hover__border_pink_light : TailwindClass
-hover__border_pink_light =
-    TailwindClass "hover\\:border-pink-light:hover"
+hover__border_orange_light : TailwindClass
+hover__border_orange_light =
+    TailwindClass "hover:border-orange-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-pink-lighter:hover {
-      border-color: #ffbbca;
+    .hover\:border-orange-lighter:hover {
+      border-color: #fcd9b6;
     }
 
 -}
-hover__border_pink_lighter : TailwindClass
-hover__border_pink_lighter =
-    TailwindClass "hover\\:border-pink-lighter:hover"
+hover__border_orange_lighter : TailwindClass
+hover__border_orange_lighter =
+    TailwindClass "hover:border-orange-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-pink-lightest:hover {
-      border-color: #ffebef;
+    .hover\:border-orange-lightest:hover {
+      border-color: #fff5eb;
     }
 
 -}
-hover__border_pink_lightest : TailwindClass
-hover__border_pink_lightest =
-    TailwindClass "hover\\:border-pink-lightest:hover"
+hover__border_orange_lightest : TailwindClass
+hover__border_orange_lightest =
+    TailwindClass "hover:border-orange-lightest"
 
 
 
@@ -9738,85 +9660,85 @@ hover__border_pink_lightest =
 -}
 hover__border_pink : TailwindClass
 hover__border_pink =
-    TailwindClass "hover\\:border-pink:hover"
+    TailwindClass "hover:border-pink"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-purple-dark:hover {
-      border-color: #794acf;
+    .hover\:border-pink-dark:hover {
+      border-color: #eb5286;
     }
 
 -}
-hover__border_purple_dark : TailwindClass
-hover__border_purple_dark =
-    TailwindClass "hover\\:border-purple-dark:hover"
+hover__border_pink_dark : TailwindClass
+hover__border_pink_dark =
+    TailwindClass "hover:border-pink-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-purple-darker:hover {
-      border-color: #382b5f;
+    .hover\:border-pink-darker:hover {
+      border-color: #6f213f;
     }
 
 -}
-hover__border_purple_darker : TailwindClass
-hover__border_purple_darker =
-    TailwindClass "hover\\:border-purple-darker:hover"
+hover__border_pink_darker : TailwindClass
+hover__border_pink_darker =
+    TailwindClass "hover:border-pink-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-purple-darkest:hover {
-      border-color: #21183c;
+    .hover\:border-pink-darkest:hover {
+      border-color: #451225;
     }
 
 -}
-hover__border_purple_darkest : TailwindClass
-hover__border_purple_darkest =
-    TailwindClass "hover\\:border-purple-darkest:hover"
+hover__border_pink_darkest : TailwindClass
+hover__border_pink_darkest =
+    TailwindClass "hover:border-pink-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-purple-light:hover {
-      border-color: #a779e9;
+    .hover\:border-pink-light:hover {
+      border-color: #fa7ea8;
     }
 
 -}
-hover__border_purple_light : TailwindClass
-hover__border_purple_light =
-    TailwindClass "hover\\:border-purple-light:hover"
+hover__border_pink_light : TailwindClass
+hover__border_pink_light =
+    TailwindClass "hover:border-pink-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-purple-lighter:hover {
-      border-color: #d6bbfc;
+    .hover\:border-pink-lighter:hover {
+      border-color: #ffbbca;
     }
 
 -}
-hover__border_purple_lighter : TailwindClass
-hover__border_purple_lighter =
-    TailwindClass "hover\\:border-purple-lighter:hover"
+hover__border_pink_lighter : TailwindClass
+hover__border_pink_lighter =
+    TailwindClass "hover:border-pink-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-purple-lightest:hover {
-      border-color: #f3ebff;
+    .hover\:border-pink-lightest:hover {
+      border-color: #ffebef;
     }
 
 -}
-hover__border_purple_lightest : TailwindClass
-hover__border_purple_lightest =
-    TailwindClass "hover\\:border-purple-lightest:hover"
+hover__border_pink_lightest : TailwindClass
+hover__border_pink_lightest =
+    TailwindClass "hover:border-pink-lightest"
 
 
 
@@ -9829,85 +9751,85 @@ hover__border_purple_lightest =
 -}
 hover__border_purple : TailwindClass
 hover__border_purple =
-    TailwindClass "hover\\:border-purple:hover"
+    TailwindClass "hover:border-purple"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-red-dark:hover {
-      border-color: #cc1f1a;
+    .hover\:border-purple-dark:hover {
+      border-color: #794acf;
     }
 
 -}
-hover__border_red_dark : TailwindClass
-hover__border_red_dark =
-    TailwindClass "hover\\:border-red-dark:hover"
+hover__border_purple_dark : TailwindClass
+hover__border_purple_dark =
+    TailwindClass "hover:border-purple-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-red-darker:hover {
-      border-color: #621b18;
+    .hover\:border-purple-darker:hover {
+      border-color: #382b5f;
     }
 
 -}
-hover__border_red_darker : TailwindClass
-hover__border_red_darker =
-    TailwindClass "hover\\:border-red-darker:hover"
+hover__border_purple_darker : TailwindClass
+hover__border_purple_darker =
+    TailwindClass "hover:border-purple-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-red-darkest:hover {
-      border-color: #3b0d0c;
+    .hover\:border-purple-darkest:hover {
+      border-color: #21183c;
     }
 
 -}
-hover__border_red_darkest : TailwindClass
-hover__border_red_darkest =
-    TailwindClass "hover\\:border-red-darkest:hover"
+hover__border_purple_darkest : TailwindClass
+hover__border_purple_darkest =
+    TailwindClass "hover:border-purple-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-red-light:hover {
-      border-color: #ef5753;
+    .hover\:border-purple-light:hover {
+      border-color: #a779e9;
     }
 
 -}
-hover__border_red_light : TailwindClass
-hover__border_red_light =
-    TailwindClass "hover\\:border-red-light:hover"
+hover__border_purple_light : TailwindClass
+hover__border_purple_light =
+    TailwindClass "hover:border-purple-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-red-lighter:hover {
-      border-color: #f9acaa;
+    .hover\:border-purple-lighter:hover {
+      border-color: #d6bbfc;
     }
 
 -}
-hover__border_red_lighter : TailwindClass
-hover__border_red_lighter =
-    TailwindClass "hover\\:border-red-lighter:hover"
+hover__border_purple_lighter : TailwindClass
+hover__border_purple_lighter =
+    TailwindClass "hover:border-purple-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-red-lightest:hover {
-      border-color: #fcebea;
+    .hover\:border-purple-lightest:hover {
+      border-color: #f3ebff;
     }
 
 -}
-hover__border_red_lightest : TailwindClass
-hover__border_red_lightest =
-    TailwindClass "hover\\:border-red-lightest:hover"
+hover__border_purple_lightest : TailwindClass
+hover__border_purple_lightest =
+    TailwindClass "hover:border-purple-lightest"
 
 
 
@@ -9920,85 +9842,85 @@ hover__border_red_lightest =
 -}
 hover__border_red : TailwindClass
 hover__border_red =
-    TailwindClass "hover\\:border-red:hover"
+    TailwindClass "hover:border-red"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-teal-dark:hover {
-      border-color: #38a89d;
+    .hover\:border-red-dark:hover {
+      border-color: #cc1f1a;
     }
 
 -}
-hover__border_teal_dark : TailwindClass
-hover__border_teal_dark =
-    TailwindClass "hover\\:border-teal-dark:hover"
+hover__border_red_dark : TailwindClass
+hover__border_red_dark =
+    TailwindClass "hover:border-red-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-teal-darker:hover {
-      border-color: #20504f;
+    .hover\:border-red-darker:hover {
+      border-color: #621b18;
     }
 
 -}
-hover__border_teal_darker : TailwindClass
-hover__border_teal_darker =
-    TailwindClass "hover\\:border-teal-darker:hover"
+hover__border_red_darker : TailwindClass
+hover__border_red_darker =
+    TailwindClass "hover:border-red-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-teal-darkest:hover {
-      border-color: #0d3331;
+    .hover\:border-red-darkest:hover {
+      border-color: #3b0d0c;
     }
 
 -}
-hover__border_teal_darkest : TailwindClass
-hover__border_teal_darkest =
-    TailwindClass "hover\\:border-teal-darkest:hover"
+hover__border_red_darkest : TailwindClass
+hover__border_red_darkest =
+    TailwindClass "hover:border-red-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-teal-light:hover {
-      border-color: #64d5ca;
+    .hover\:border-red-light:hover {
+      border-color: #ef5753;
     }
 
 -}
-hover__border_teal_light : TailwindClass
-hover__border_teal_light =
-    TailwindClass "hover\\:border-teal-light:hover"
+hover__border_red_light : TailwindClass
+hover__border_red_light =
+    TailwindClass "hover:border-red-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-teal-lighter:hover {
-      border-color: #a0f0ed;
+    .hover\:border-red-lighter:hover {
+      border-color: #f9acaa;
     }
 
 -}
-hover__border_teal_lighter : TailwindClass
-hover__border_teal_lighter =
-    TailwindClass "hover\\:border-teal-lighter:hover"
+hover__border_red_lighter : TailwindClass
+hover__border_red_lighter =
+    TailwindClass "hover:border-red-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:border-teal-lightest:hover {
-      border-color: #e8fffe;
+    .hover\:border-red-lightest:hover {
+      border-color: #fcebea;
     }
 
 -}
-hover__border_teal_lightest : TailwindClass
-hover__border_teal_lightest =
-    TailwindClass "hover\\:border-teal-lightest:hover"
+hover__border_red_lightest : TailwindClass
+hover__border_red_lightest =
+    TailwindClass "hover:border-red-lightest"
 
 
 
@@ -10011,7 +9933,85 @@ hover__border_teal_lightest =
 -}
 hover__border_teal : TailwindClass
 hover__border_teal =
-    TailwindClass "hover\\:border-teal:hover"
+    TailwindClass "hover:border-teal"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:border-teal-dark:hover {
+      border-color: #38a89d;
+    }
+
+-}
+hover__border_teal_dark : TailwindClass
+hover__border_teal_dark =
+    TailwindClass "hover:border-teal-dark"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:border-teal-darker:hover {
+      border-color: #20504f;
+    }
+
+-}
+hover__border_teal_darker : TailwindClass
+hover__border_teal_darker =
+    TailwindClass "hover:border-teal-darker"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:border-teal-darkest:hover {
+      border-color: #0d3331;
+    }
+
+-}
+hover__border_teal_darkest : TailwindClass
+hover__border_teal_darkest =
+    TailwindClass "hover:border-teal-darkest"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:border-teal-light:hover {
+      border-color: #64d5ca;
+    }
+
+-}
+hover__border_teal_light : TailwindClass
+hover__border_teal_light =
+    TailwindClass "hover:border-teal-light"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:border-teal-lighter:hover {
+      border-color: #a0f0ed;
+    }
+
+-}
+hover__border_teal_lighter : TailwindClass
+hover__border_teal_lighter =
+    TailwindClass "hover:border-teal-lighter"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:border-teal-lightest:hover {
+      border-color: #e8fffe;
+    }
+
+-}
+hover__border_teal_lightest : TailwindClass
+hover__border_teal_lightest =
+    TailwindClass "hover:border-teal-lightest"
 
 
 
@@ -10024,7 +10024,7 @@ hover__border_teal =
 -}
 hover__border_transparent : TailwindClass
 hover__border_transparent =
-    TailwindClass "hover\\:border-transparent:hover"
+    TailwindClass "hover:border-transparent"
 
 
 
@@ -10037,85 +10037,7 @@ hover__border_transparent =
 -}
 hover__border_white : TailwindClass
 hover__border_white =
-    TailwindClass "hover\\:border-white:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:border-yellow-dark:hover {
-      border-color: #f2d024;
-    }
-
--}
-hover__border_yellow_dark : TailwindClass
-hover__border_yellow_dark =
-    TailwindClass "hover\\:border-yellow-dark:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:border-yellow-darker:hover {
-      border-color: #684f1d;
-    }
-
--}
-hover__border_yellow_darker : TailwindClass
-hover__border_yellow_darker =
-    TailwindClass "hover\\:border-yellow-darker:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:border-yellow-darkest:hover {
-      border-color: #453411;
-    }
-
--}
-hover__border_yellow_darkest : TailwindClass
-hover__border_yellow_darkest =
-    TailwindClass "hover\\:border-yellow-darkest:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:border-yellow-light:hover {
-      border-color: #fff382;
-    }
-
--}
-hover__border_yellow_light : TailwindClass
-hover__border_yellow_light =
-    TailwindClass "hover\\:border-yellow-light:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:border-yellow-lighter:hover {
-      border-color: #fff9c2;
-    }
-
--}
-hover__border_yellow_lighter : TailwindClass
-hover__border_yellow_lighter =
-    TailwindClass "hover\\:border-yellow-lighter:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:border-yellow-lightest:hover {
-      border-color: #fcfbeb;
-    }
-
--}
-hover__border_yellow_lightest : TailwindClass
-hover__border_yellow_lightest =
-    TailwindClass "hover\\:border-yellow-lightest:hover"
+    TailwindClass "hover:border-white"
 
 
 
@@ -10128,7 +10050,85 @@ hover__border_yellow_lightest =
 -}
 hover__border_yellow : TailwindClass
 hover__border_yellow =
-    TailwindClass "hover\\:border-yellow:hover"
+    TailwindClass "hover:border-yellow"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:border-yellow-dark:hover {
+      border-color: #f2d024;
+    }
+
+-}
+hover__border_yellow_dark : TailwindClass
+hover__border_yellow_dark =
+    TailwindClass "hover:border-yellow-dark"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:border-yellow-darker:hover {
+      border-color: #684f1d;
+    }
+
+-}
+hover__border_yellow_darker : TailwindClass
+hover__border_yellow_darker =
+    TailwindClass "hover:border-yellow-darker"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:border-yellow-darkest:hover {
+      border-color: #453411;
+    }
+
+-}
+hover__border_yellow_darkest : TailwindClass
+hover__border_yellow_darkest =
+    TailwindClass "hover:border-yellow-darkest"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:border-yellow-light:hover {
+      border-color: #fff382;
+    }
+
+-}
+hover__border_yellow_light : TailwindClass
+hover__border_yellow_light =
+    TailwindClass "hover:border-yellow-light"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:border-yellow-lighter:hover {
+      border-color: #fff9c2;
+    }
+
+-}
+hover__border_yellow_lighter : TailwindClass
+hover__border_yellow_lighter =
+    TailwindClass "hover:border-yellow-lighter"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:border-yellow-lightest:hover {
+      border-color: #fcfbeb;
+    }
+
+-}
+hover__border_yellow_lightest : TailwindClass
+hover__border_yellow_lightest =
+    TailwindClass "hover:border-yellow-lightest"
 
 
 
@@ -10141,7 +10141,7 @@ hover__border_yellow =
 -}
 hover__capitalize : TailwindClass
 hover__capitalize =
-    TailwindClass "hover\\:capitalize:hover"
+    TailwindClass "hover:capitalize"
 
 
 
@@ -10154,7 +10154,7 @@ hover__capitalize =
 -}
 hover__font_black : TailwindClass
 hover__font_black =
-    TailwindClass "hover\\:font-black:hover"
+    TailwindClass "hover:font-black"
 
 
 
@@ -10167,7 +10167,7 @@ hover__font_black =
 -}
 hover__font_bold : TailwindClass
 hover__font_bold =
-    TailwindClass "hover\\:font-bold:hover"
+    TailwindClass "hover:font-bold"
 
 
 
@@ -10180,7 +10180,7 @@ hover__font_bold =
 -}
 hover__font_extrabold : TailwindClass
 hover__font_extrabold =
-    TailwindClass "hover\\:font-extrabold:hover"
+    TailwindClass "hover:font-extrabold"
 
 
 
@@ -10193,7 +10193,7 @@ hover__font_extrabold =
 -}
 hover__font_hairline : TailwindClass
 hover__font_hairline =
-    TailwindClass "hover\\:font-hairline:hover"
+    TailwindClass "hover:font-hairline"
 
 
 
@@ -10206,7 +10206,7 @@ hover__font_hairline =
 -}
 hover__font_light : TailwindClass
 hover__font_light =
-    TailwindClass "hover\\:font-light:hover"
+    TailwindClass "hover:font-light"
 
 
 
@@ -10219,7 +10219,7 @@ hover__font_light =
 -}
 hover__font_medium : TailwindClass
 hover__font_medium =
-    TailwindClass "hover\\:font-medium:hover"
+    TailwindClass "hover:font-medium"
 
 
 
@@ -10232,7 +10232,7 @@ hover__font_medium =
 -}
 hover__font_normal : TailwindClass
 hover__font_normal =
-    TailwindClass "hover\\:font-normal:hover"
+    TailwindClass "hover:font-normal"
 
 
 
@@ -10245,7 +10245,7 @@ hover__font_normal =
 -}
 hover__font_semibold : TailwindClass
 hover__font_semibold =
-    TailwindClass "hover\\:font-semibold:hover"
+    TailwindClass "hover:font-semibold"
 
 
 
@@ -10258,7 +10258,7 @@ hover__font_semibold =
 -}
 hover__font_thin : TailwindClass
 hover__font_thin =
-    TailwindClass "hover\\:font-thin:hover"
+    TailwindClass "hover:font-thin"
 
 
 
@@ -10271,7 +10271,7 @@ hover__font_thin =
 -}
 hover__italic : TailwindClass
 hover__italic =
-    TailwindClass "hover\\:italic:hover"
+    TailwindClass "hover:italic"
 
 
 
@@ -10284,7 +10284,7 @@ hover__italic =
 -}
 hover__line_through : TailwindClass
 hover__line_through =
-    TailwindClass "hover\\:line-through:hover"
+    TailwindClass "hover:line-through"
 
 
 
@@ -10297,7 +10297,7 @@ hover__line_through =
 -}
 hover__lowercase : TailwindClass
 hover__lowercase =
-    TailwindClass "hover\\:lowercase:hover"
+    TailwindClass "hover:lowercase"
 
 
 
@@ -10310,7 +10310,7 @@ hover__lowercase =
 -}
 hover__no_underline : TailwindClass
 hover__no_underline =
-    TailwindClass "hover\\:no-underline:hover"
+    TailwindClass "hover:no-underline"
 
 
 
@@ -10323,7 +10323,7 @@ hover__no_underline =
 -}
 hover__normal_case : TailwindClass
 hover__normal_case =
-    TailwindClass "hover\\:normal-case:hover"
+    TailwindClass "hover:normal-case"
 
 
 
@@ -10336,72 +10336,7 @@ hover__normal_case =
 -}
 hover__roman : TailwindClass
 hover__roman =
-    TailwindClass "hover\\:roman:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:shadow-inner:hover {
-      box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);
-    }
-
--}
-hover__shadow_inner : TailwindClass
-hover__shadow_inner =
-    TailwindClass "hover\\:shadow-inner:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:shadow-lg:hover {
-      box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);
-    }
-
--}
-hover__shadow_lg : TailwindClass
-hover__shadow_lg =
-    TailwindClass "hover\\:shadow-lg:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:shadow-md:hover {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);
-    }
-
--}
-hover__shadow_md : TailwindClass
-hover__shadow_md =
-    TailwindClass "hover\\:shadow-md:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:shadow-none:hover {
-      box-shadow: none;
-    }
-
--}
-hover__shadow_none : TailwindClass
-hover__shadow_none =
-    TailwindClass "hover\\:shadow-none:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:shadow-outline:hover {
-      box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);
-    }
-
--}
-hover__shadow_outline : TailwindClass
-hover__shadow_outline =
-    TailwindClass "hover\\:shadow-outline:hover"
+    TailwindClass "hover:roman"
 
 
 
@@ -10414,7 +10349,72 @@ hover__shadow_outline =
 -}
 hover__shadow : TailwindClass
 hover__shadow =
-    TailwindClass "hover\\:shadow:hover"
+    TailwindClass "hover:shadow"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:shadow-inner:hover {
+      box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, .06);
+    }
+
+-}
+hover__shadow_inner : TailwindClass
+hover__shadow_inner =
+    TailwindClass "hover:shadow-inner"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:shadow-lg:hover {
+      box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);
+    }
+
+-}
+hover__shadow_lg : TailwindClass
+hover__shadow_lg =
+    TailwindClass "hover:shadow-lg"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:shadow-md:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);
+    }
+
+-}
+hover__shadow_md : TailwindClass
+hover__shadow_md =
+    TailwindClass "hover:shadow-md"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:shadow-none:hover {
+      box-shadow: none;
+    }
+
+-}
+hover__shadow_none : TailwindClass
+hover__shadow_none =
+    TailwindClass "hover:shadow-none"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:shadow-outline:hover {
+      box-shadow: 0 0 0 3px rgba(52, 144, 220, .5);
+    }
+
+-}
+hover__shadow_outline : TailwindClass
+hover__shadow_outline =
+    TailwindClass "hover:shadow-outline"
 
 
 
@@ -10428,7 +10428,7 @@ hover__shadow =
 -}
 hover__subpixel_antialiased : TailwindClass
 hover__subpixel_antialiased =
-    TailwindClass "hover\\:subpixel-antialiased:hover"
+    TailwindClass "hover:subpixel-antialiased"
 
 
 
@@ -10441,85 +10441,7 @@ hover__subpixel_antialiased =
 -}
 hover__text_black : TailwindClass
 hover__text_black =
-    TailwindClass "hover\\:text-black:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:text-blue-dark:hover {
-      color: #2779bd;
-    }
-
--}
-hover__text_blue_dark : TailwindClass
-hover__text_blue_dark =
-    TailwindClass "hover\\:text-blue-dark:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:text-blue-darker:hover {
-      color: #1c3d5a;
-    }
-
--}
-hover__text_blue_darker : TailwindClass
-hover__text_blue_darker =
-    TailwindClass "hover\\:text-blue-darker:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:text-blue-darkest:hover {
-      color: #12283a;
-    }
-
--}
-hover__text_blue_darkest : TailwindClass
-hover__text_blue_darkest =
-    TailwindClass "hover\\:text-blue-darkest:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:text-blue-light:hover {
-      color: #6cb2eb;
-    }
-
--}
-hover__text_blue_light : TailwindClass
-hover__text_blue_light =
-    TailwindClass "hover\\:text-blue-light:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:text-blue-lighter:hover {
-      color: #bcdefa;
-    }
-
--}
-hover__text_blue_lighter : TailwindClass
-hover__text_blue_lighter =
-    TailwindClass "hover\\:text-blue-lighter:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:text-blue-lightest:hover {
-      color: #eff8ff;
-    }
-
--}
-hover__text_blue_lightest : TailwindClass
-hover__text_blue_lightest =
-    TailwindClass "hover\\:text-blue-lightest:hover"
+    TailwindClass "hover:text-black"
 
 
 
@@ -10532,85 +10454,85 @@ hover__text_blue_lightest =
 -}
 hover__text_blue : TailwindClass
 hover__text_blue =
-    TailwindClass "hover\\:text-blue:hover"
+    TailwindClass "hover:text-blue"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-green-dark:hover {
-      color: #1f9d55;
+    .hover\:text-blue-dark:hover {
+      color: #2779bd;
     }
 
 -}
-hover__text_green_dark : TailwindClass
-hover__text_green_dark =
-    TailwindClass "hover\\:text-green-dark:hover"
+hover__text_blue_dark : TailwindClass
+hover__text_blue_dark =
+    TailwindClass "hover:text-blue-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-green-darker:hover {
-      color: #1a4731;
+    .hover\:text-blue-darker:hover {
+      color: #1c3d5a;
     }
 
 -}
-hover__text_green_darker : TailwindClass
-hover__text_green_darker =
-    TailwindClass "hover\\:text-green-darker:hover"
+hover__text_blue_darker : TailwindClass
+hover__text_blue_darker =
+    TailwindClass "hover:text-blue-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-green-darkest:hover {
-      color: #0f2f21;
+    .hover\:text-blue-darkest:hover {
+      color: #12283a;
     }
 
 -}
-hover__text_green_darkest : TailwindClass
-hover__text_green_darkest =
-    TailwindClass "hover\\:text-green-darkest:hover"
+hover__text_blue_darkest : TailwindClass
+hover__text_blue_darkest =
+    TailwindClass "hover:text-blue-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-green-light:hover {
-      color: #51d88a;
+    .hover\:text-blue-light:hover {
+      color: #6cb2eb;
     }
 
 -}
-hover__text_green_light : TailwindClass
-hover__text_green_light =
-    TailwindClass "hover\\:text-green-light:hover"
+hover__text_blue_light : TailwindClass
+hover__text_blue_light =
+    TailwindClass "hover:text-blue-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-green-lighter:hover {
-      color: #a2f5bf;
+    .hover\:text-blue-lighter:hover {
+      color: #bcdefa;
     }
 
 -}
-hover__text_green_lighter : TailwindClass
-hover__text_green_lighter =
-    TailwindClass "hover\\:text-green-lighter:hover"
+hover__text_blue_lighter : TailwindClass
+hover__text_blue_lighter =
+    TailwindClass "hover:text-blue-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-green-lightest:hover {
-      color: #e3fcec;
+    .hover\:text-blue-lightest:hover {
+      color: #eff8ff;
     }
 
 -}
-hover__text_green_lightest : TailwindClass
-hover__text_green_lightest =
-    TailwindClass "hover\\:text-green-lightest:hover"
+hover__text_blue_lightest : TailwindClass
+hover__text_blue_lightest =
+    TailwindClass "hover:text-blue-lightest"
 
 
 
@@ -10623,85 +10545,85 @@ hover__text_green_lightest =
 -}
 hover__text_green : TailwindClass
 hover__text_green =
-    TailwindClass "hover\\:text-green:hover"
+    TailwindClass "hover:text-green"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-grey-dark:hover {
-      color: #8795a1;
+    .hover\:text-green-dark:hover {
+      color: #1f9d55;
     }
 
 -}
-hover__text_grey_dark : TailwindClass
-hover__text_grey_dark =
-    TailwindClass "hover\\:text-grey-dark:hover"
+hover__text_green_dark : TailwindClass
+hover__text_green_dark =
+    TailwindClass "hover:text-green-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-grey-darker:hover {
-      color: #606f7b;
+    .hover\:text-green-darker:hover {
+      color: #1a4731;
     }
 
 -}
-hover__text_grey_darker : TailwindClass
-hover__text_grey_darker =
-    TailwindClass "hover\\:text-grey-darker:hover"
+hover__text_green_darker : TailwindClass
+hover__text_green_darker =
+    TailwindClass "hover:text-green-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-grey-darkest:hover {
-      color: #3d4852;
+    .hover\:text-green-darkest:hover {
+      color: #0f2f21;
     }
 
 -}
-hover__text_grey_darkest : TailwindClass
-hover__text_grey_darkest =
-    TailwindClass "hover\\:text-grey-darkest:hover"
+hover__text_green_darkest : TailwindClass
+hover__text_green_darkest =
+    TailwindClass "hover:text-green-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-grey-light:hover {
-      color: #dae1e7;
+    .hover\:text-green-light:hover {
+      color: #51d88a;
     }
 
 -}
-hover__text_grey_light : TailwindClass
-hover__text_grey_light =
-    TailwindClass "hover\\:text-grey-light:hover"
+hover__text_green_light : TailwindClass
+hover__text_green_light =
+    TailwindClass "hover:text-green-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-grey-lighter:hover {
-      color: #f1f5f8;
+    .hover\:text-green-lighter:hover {
+      color: #a2f5bf;
     }
 
 -}
-hover__text_grey_lighter : TailwindClass
-hover__text_grey_lighter =
-    TailwindClass "hover\\:text-grey-lighter:hover"
+hover__text_green_lighter : TailwindClass
+hover__text_green_lighter =
+    TailwindClass "hover:text-green-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-grey-lightest:hover {
-      color: #f8fafc;
+    .hover\:text-green-lightest:hover {
+      color: #e3fcec;
     }
 
 -}
-hover__text_grey_lightest : TailwindClass
-hover__text_grey_lightest =
-    TailwindClass "hover\\:text-grey-lightest:hover"
+hover__text_green_lightest : TailwindClass
+hover__text_green_lightest =
+    TailwindClass "hover:text-green-lightest"
 
 
 
@@ -10714,85 +10636,85 @@ hover__text_grey_lightest =
 -}
 hover__text_grey : TailwindClass
 hover__text_grey =
-    TailwindClass "hover\\:text-grey:hover"
+    TailwindClass "hover:text-grey"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-indigo-dark:hover {
-      color: #5661b3;
+    .hover\:text-grey-dark:hover {
+      color: #8795a1;
     }
 
 -}
-hover__text_indigo_dark : TailwindClass
-hover__text_indigo_dark =
-    TailwindClass "hover\\:text-indigo-dark:hover"
+hover__text_grey_dark : TailwindClass
+hover__text_grey_dark =
+    TailwindClass "hover:text-grey-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-indigo-darker:hover {
-      color: #2f365f;
+    .hover\:text-grey-darker:hover {
+      color: #606f7b;
     }
 
 -}
-hover__text_indigo_darker : TailwindClass
-hover__text_indigo_darker =
-    TailwindClass "hover\\:text-indigo-darker:hover"
+hover__text_grey_darker : TailwindClass
+hover__text_grey_darker =
+    TailwindClass "hover:text-grey-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-indigo-darkest:hover {
-      color: #191e38;
+    .hover\:text-grey-darkest:hover {
+      color: #3d4852;
     }
 
 -}
-hover__text_indigo_darkest : TailwindClass
-hover__text_indigo_darkest =
-    TailwindClass "hover\\:text-indigo-darkest:hover"
+hover__text_grey_darkest : TailwindClass
+hover__text_grey_darkest =
+    TailwindClass "hover:text-grey-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-indigo-light:hover {
-      color: #7886d7;
+    .hover\:text-grey-light:hover {
+      color: #dae1e7;
     }
 
 -}
-hover__text_indigo_light : TailwindClass
-hover__text_indigo_light =
-    TailwindClass "hover\\:text-indigo-light:hover"
+hover__text_grey_light : TailwindClass
+hover__text_grey_light =
+    TailwindClass "hover:text-grey-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-indigo-lighter:hover {
-      color: #b2b7ff;
+    .hover\:text-grey-lighter:hover {
+      color: #f1f5f8;
     }
 
 -}
-hover__text_indigo_lighter : TailwindClass
-hover__text_indigo_lighter =
-    TailwindClass "hover\\:text-indigo-lighter:hover"
+hover__text_grey_lighter : TailwindClass
+hover__text_grey_lighter =
+    TailwindClass "hover:text-grey-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-indigo-lightest:hover {
-      color: #e6e8ff;
+    .hover\:text-grey-lightest:hover {
+      color: #f8fafc;
     }
 
 -}
-hover__text_indigo_lightest : TailwindClass
-hover__text_indigo_lightest =
-    TailwindClass "hover\\:text-indigo-lightest:hover"
+hover__text_grey_lightest : TailwindClass
+hover__text_grey_lightest =
+    TailwindClass "hover:text-grey-lightest"
 
 
 
@@ -10805,85 +10727,85 @@ hover__text_indigo_lightest =
 -}
 hover__text_indigo : TailwindClass
 hover__text_indigo =
-    TailwindClass "hover\\:text-indigo:hover"
+    TailwindClass "hover:text-indigo"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-orange-dark:hover {
-      color: #de751f;
+    .hover\:text-indigo-dark:hover {
+      color: #5661b3;
     }
 
 -}
-hover__text_orange_dark : TailwindClass
-hover__text_orange_dark =
-    TailwindClass "hover\\:text-orange-dark:hover"
+hover__text_indigo_dark : TailwindClass
+hover__text_indigo_dark =
+    TailwindClass "hover:text-indigo-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-orange-darker:hover {
-      color: #613b1f;
+    .hover\:text-indigo-darker:hover {
+      color: #2f365f;
     }
 
 -}
-hover__text_orange_darker : TailwindClass
-hover__text_orange_darker =
-    TailwindClass "hover\\:text-orange-darker:hover"
+hover__text_indigo_darker : TailwindClass
+hover__text_indigo_darker =
+    TailwindClass "hover:text-indigo-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-orange-darkest:hover {
-      color: #462a16;
+    .hover\:text-indigo-darkest:hover {
+      color: #191e38;
     }
 
 -}
-hover__text_orange_darkest : TailwindClass
-hover__text_orange_darkest =
-    TailwindClass "hover\\:text-orange-darkest:hover"
+hover__text_indigo_darkest : TailwindClass
+hover__text_indigo_darkest =
+    TailwindClass "hover:text-indigo-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-orange-light:hover {
-      color: #faad63;
+    .hover\:text-indigo-light:hover {
+      color: #7886d7;
     }
 
 -}
-hover__text_orange_light : TailwindClass
-hover__text_orange_light =
-    TailwindClass "hover\\:text-orange-light:hover"
+hover__text_indigo_light : TailwindClass
+hover__text_indigo_light =
+    TailwindClass "hover:text-indigo-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-orange-lighter:hover {
-      color: #fcd9b6;
+    .hover\:text-indigo-lighter:hover {
+      color: #b2b7ff;
     }
 
 -}
-hover__text_orange_lighter : TailwindClass
-hover__text_orange_lighter =
-    TailwindClass "hover\\:text-orange-lighter:hover"
+hover__text_indigo_lighter : TailwindClass
+hover__text_indigo_lighter =
+    TailwindClass "hover:text-indigo-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-orange-lightest:hover {
-      color: #fff5eb;
+    .hover\:text-indigo-lightest:hover {
+      color: #e6e8ff;
     }
 
 -}
-hover__text_orange_lightest : TailwindClass
-hover__text_orange_lightest =
-    TailwindClass "hover\\:text-orange-lightest:hover"
+hover__text_indigo_lightest : TailwindClass
+hover__text_indigo_lightest =
+    TailwindClass "hover:text-indigo-lightest"
 
 
 
@@ -10896,85 +10818,85 @@ hover__text_orange_lightest =
 -}
 hover__text_orange : TailwindClass
 hover__text_orange =
-    TailwindClass "hover\\:text-orange:hover"
+    TailwindClass "hover:text-orange"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-pink-dark:hover {
-      color: #eb5286;
+    .hover\:text-orange-dark:hover {
+      color: #de751f;
     }
 
 -}
-hover__text_pink_dark : TailwindClass
-hover__text_pink_dark =
-    TailwindClass "hover\\:text-pink-dark:hover"
+hover__text_orange_dark : TailwindClass
+hover__text_orange_dark =
+    TailwindClass "hover:text-orange-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-pink-darker:hover {
-      color: #6f213f;
+    .hover\:text-orange-darker:hover {
+      color: #613b1f;
     }
 
 -}
-hover__text_pink_darker : TailwindClass
-hover__text_pink_darker =
-    TailwindClass "hover\\:text-pink-darker:hover"
+hover__text_orange_darker : TailwindClass
+hover__text_orange_darker =
+    TailwindClass "hover:text-orange-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-pink-darkest:hover {
-      color: #451225;
+    .hover\:text-orange-darkest:hover {
+      color: #462a16;
     }
 
 -}
-hover__text_pink_darkest : TailwindClass
-hover__text_pink_darkest =
-    TailwindClass "hover\\:text-pink-darkest:hover"
+hover__text_orange_darkest : TailwindClass
+hover__text_orange_darkest =
+    TailwindClass "hover:text-orange-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-pink-light:hover {
-      color: #fa7ea8;
+    .hover\:text-orange-light:hover {
+      color: #faad63;
     }
 
 -}
-hover__text_pink_light : TailwindClass
-hover__text_pink_light =
-    TailwindClass "hover\\:text-pink-light:hover"
+hover__text_orange_light : TailwindClass
+hover__text_orange_light =
+    TailwindClass "hover:text-orange-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-pink-lighter:hover {
-      color: #ffbbca;
+    .hover\:text-orange-lighter:hover {
+      color: #fcd9b6;
     }
 
 -}
-hover__text_pink_lighter : TailwindClass
-hover__text_pink_lighter =
-    TailwindClass "hover\\:text-pink-lighter:hover"
+hover__text_orange_lighter : TailwindClass
+hover__text_orange_lighter =
+    TailwindClass "hover:text-orange-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-pink-lightest:hover {
-      color: #ffebef;
+    .hover\:text-orange-lightest:hover {
+      color: #fff5eb;
     }
 
 -}
-hover__text_pink_lightest : TailwindClass
-hover__text_pink_lightest =
-    TailwindClass "hover\\:text-pink-lightest:hover"
+hover__text_orange_lightest : TailwindClass
+hover__text_orange_lightest =
+    TailwindClass "hover:text-orange-lightest"
 
 
 
@@ -10987,85 +10909,85 @@ hover__text_pink_lightest =
 -}
 hover__text_pink : TailwindClass
 hover__text_pink =
-    TailwindClass "hover\\:text-pink:hover"
+    TailwindClass "hover:text-pink"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-purple-dark:hover {
-      color: #794acf;
+    .hover\:text-pink-dark:hover {
+      color: #eb5286;
     }
 
 -}
-hover__text_purple_dark : TailwindClass
-hover__text_purple_dark =
-    TailwindClass "hover\\:text-purple-dark:hover"
+hover__text_pink_dark : TailwindClass
+hover__text_pink_dark =
+    TailwindClass "hover:text-pink-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-purple-darker:hover {
-      color: #382b5f;
+    .hover\:text-pink-darker:hover {
+      color: #6f213f;
     }
 
 -}
-hover__text_purple_darker : TailwindClass
-hover__text_purple_darker =
-    TailwindClass "hover\\:text-purple-darker:hover"
+hover__text_pink_darker : TailwindClass
+hover__text_pink_darker =
+    TailwindClass "hover:text-pink-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-purple-darkest:hover {
-      color: #21183c;
+    .hover\:text-pink-darkest:hover {
+      color: #451225;
     }
 
 -}
-hover__text_purple_darkest : TailwindClass
-hover__text_purple_darkest =
-    TailwindClass "hover\\:text-purple-darkest:hover"
+hover__text_pink_darkest : TailwindClass
+hover__text_pink_darkest =
+    TailwindClass "hover:text-pink-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-purple-light:hover {
-      color: #a779e9;
+    .hover\:text-pink-light:hover {
+      color: #fa7ea8;
     }
 
 -}
-hover__text_purple_light : TailwindClass
-hover__text_purple_light =
-    TailwindClass "hover\\:text-purple-light:hover"
+hover__text_pink_light : TailwindClass
+hover__text_pink_light =
+    TailwindClass "hover:text-pink-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-purple-lighter:hover {
-      color: #d6bbfc;
+    .hover\:text-pink-lighter:hover {
+      color: #ffbbca;
     }
 
 -}
-hover__text_purple_lighter : TailwindClass
-hover__text_purple_lighter =
-    TailwindClass "hover\\:text-purple-lighter:hover"
+hover__text_pink_lighter : TailwindClass
+hover__text_pink_lighter =
+    TailwindClass "hover:text-pink-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-purple-lightest:hover {
-      color: #f3ebff;
+    .hover\:text-pink-lightest:hover {
+      color: #ffebef;
     }
 
 -}
-hover__text_purple_lightest : TailwindClass
-hover__text_purple_lightest =
-    TailwindClass "hover\\:text-purple-lightest:hover"
+hover__text_pink_lightest : TailwindClass
+hover__text_pink_lightest =
+    TailwindClass "hover:text-pink-lightest"
 
 
 
@@ -11078,85 +11000,85 @@ hover__text_purple_lightest =
 -}
 hover__text_purple : TailwindClass
 hover__text_purple =
-    TailwindClass "hover\\:text-purple:hover"
+    TailwindClass "hover:text-purple"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-red-dark:hover {
-      color: #cc1f1a;
+    .hover\:text-purple-dark:hover {
+      color: #794acf;
     }
 
 -}
-hover__text_red_dark : TailwindClass
-hover__text_red_dark =
-    TailwindClass "hover\\:text-red-dark:hover"
+hover__text_purple_dark : TailwindClass
+hover__text_purple_dark =
+    TailwindClass "hover:text-purple-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-red-darker:hover {
-      color: #621b18;
+    .hover\:text-purple-darker:hover {
+      color: #382b5f;
     }
 
 -}
-hover__text_red_darker : TailwindClass
-hover__text_red_darker =
-    TailwindClass "hover\\:text-red-darker:hover"
+hover__text_purple_darker : TailwindClass
+hover__text_purple_darker =
+    TailwindClass "hover:text-purple-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-red-darkest:hover {
-      color: #3b0d0c;
+    .hover\:text-purple-darkest:hover {
+      color: #21183c;
     }
 
 -}
-hover__text_red_darkest : TailwindClass
-hover__text_red_darkest =
-    TailwindClass "hover\\:text-red-darkest:hover"
+hover__text_purple_darkest : TailwindClass
+hover__text_purple_darkest =
+    TailwindClass "hover:text-purple-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-red-light:hover {
-      color: #ef5753;
+    .hover\:text-purple-light:hover {
+      color: #a779e9;
     }
 
 -}
-hover__text_red_light : TailwindClass
-hover__text_red_light =
-    TailwindClass "hover\\:text-red-light:hover"
+hover__text_purple_light : TailwindClass
+hover__text_purple_light =
+    TailwindClass "hover:text-purple-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-red-lighter:hover {
-      color: #f9acaa;
+    .hover\:text-purple-lighter:hover {
+      color: #d6bbfc;
     }
 
 -}
-hover__text_red_lighter : TailwindClass
-hover__text_red_lighter =
-    TailwindClass "hover\\:text-red-lighter:hover"
+hover__text_purple_lighter : TailwindClass
+hover__text_purple_lighter =
+    TailwindClass "hover:text-purple-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-red-lightest:hover {
-      color: #fcebea;
+    .hover\:text-purple-lightest:hover {
+      color: #f3ebff;
     }
 
 -}
-hover__text_red_lightest : TailwindClass
-hover__text_red_lightest =
-    TailwindClass "hover\\:text-red-lightest:hover"
+hover__text_purple_lightest : TailwindClass
+hover__text_purple_lightest =
+    TailwindClass "hover:text-purple-lightest"
 
 
 
@@ -11169,85 +11091,85 @@ hover__text_red_lightest =
 -}
 hover__text_red : TailwindClass
 hover__text_red =
-    TailwindClass "hover\\:text-red:hover"
+    TailwindClass "hover:text-red"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-teal-dark:hover {
-      color: #38a89d;
+    .hover\:text-red-dark:hover {
+      color: #cc1f1a;
     }
 
 -}
-hover__text_teal_dark : TailwindClass
-hover__text_teal_dark =
-    TailwindClass "hover\\:text-teal-dark:hover"
+hover__text_red_dark : TailwindClass
+hover__text_red_dark =
+    TailwindClass "hover:text-red-dark"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-teal-darker:hover {
-      color: #20504f;
+    .hover\:text-red-darker:hover {
+      color: #621b18;
     }
 
 -}
-hover__text_teal_darker : TailwindClass
-hover__text_teal_darker =
-    TailwindClass "hover\\:text-teal-darker:hover"
+hover__text_red_darker : TailwindClass
+hover__text_red_darker =
+    TailwindClass "hover:text-red-darker"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-teal-darkest:hover {
-      color: #0d3331;
+    .hover\:text-red-darkest:hover {
+      color: #3b0d0c;
     }
 
 -}
-hover__text_teal_darkest : TailwindClass
-hover__text_teal_darkest =
-    TailwindClass "hover\\:text-teal-darkest:hover"
+hover__text_red_darkest : TailwindClass
+hover__text_red_darkest =
+    TailwindClass "hover:text-red-darkest"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-teal-light:hover {
-      color: #64d5ca;
+    .hover\:text-red-light:hover {
+      color: #ef5753;
     }
 
 -}
-hover__text_teal_light : TailwindClass
-hover__text_teal_light =
-    TailwindClass "hover\\:text-teal-light:hover"
+hover__text_red_light : TailwindClass
+hover__text_red_light =
+    TailwindClass "hover:text-red-light"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-teal-lighter:hover {
-      color: #a0f0ed;
+    .hover\:text-red-lighter:hover {
+      color: #f9acaa;
     }
 
 -}
-hover__text_teal_lighter : TailwindClass
-hover__text_teal_lighter =
-    TailwindClass "hover\\:text-teal-lighter:hover"
+hover__text_red_lighter : TailwindClass
+hover__text_red_lighter =
+    TailwindClass "hover:text-red-lighter"
 
 
 
 {-| This class maps to this CSS definition:
 
-    .hover\:text-teal-lightest:hover {
-      color: #e8fffe;
+    .hover\:text-red-lightest:hover {
+      color: #fcebea;
     }
 
 -}
-hover__text_teal_lightest : TailwindClass
-hover__text_teal_lightest =
-    TailwindClass "hover\\:text-teal-lightest:hover"
+hover__text_red_lightest : TailwindClass
+hover__text_red_lightest =
+    TailwindClass "hover:text-red-lightest"
 
 
 
@@ -11260,7 +11182,85 @@ hover__text_teal_lightest =
 -}
 hover__text_teal : TailwindClass
 hover__text_teal =
-    TailwindClass "hover\\:text-teal:hover"
+    TailwindClass "hover:text-teal"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:text-teal-dark:hover {
+      color: #38a89d;
+    }
+
+-}
+hover__text_teal_dark : TailwindClass
+hover__text_teal_dark =
+    TailwindClass "hover:text-teal-dark"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:text-teal-darker:hover {
+      color: #20504f;
+    }
+
+-}
+hover__text_teal_darker : TailwindClass
+hover__text_teal_darker =
+    TailwindClass "hover:text-teal-darker"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:text-teal-darkest:hover {
+      color: #0d3331;
+    }
+
+-}
+hover__text_teal_darkest : TailwindClass
+hover__text_teal_darkest =
+    TailwindClass "hover:text-teal-darkest"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:text-teal-light:hover {
+      color: #64d5ca;
+    }
+
+-}
+hover__text_teal_light : TailwindClass
+hover__text_teal_light =
+    TailwindClass "hover:text-teal-light"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:text-teal-lighter:hover {
+      color: #a0f0ed;
+    }
+
+-}
+hover__text_teal_lighter : TailwindClass
+hover__text_teal_lighter =
+    TailwindClass "hover:text-teal-lighter"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:text-teal-lightest:hover {
+      color: #e8fffe;
+    }
+
+-}
+hover__text_teal_lightest : TailwindClass
+hover__text_teal_lightest =
+    TailwindClass "hover:text-teal-lightest"
 
 
 
@@ -11273,7 +11273,7 @@ hover__text_teal =
 -}
 hover__text_transparent : TailwindClass
 hover__text_transparent =
-    TailwindClass "hover\\:text-transparent:hover"
+    TailwindClass "hover:text-transparent"
 
 
 
@@ -11286,85 +11286,7 @@ hover__text_transparent =
 -}
 hover__text_white : TailwindClass
 hover__text_white =
-    TailwindClass "hover\\:text-white:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:text-yellow-dark:hover {
-      color: #f2d024;
-    }
-
--}
-hover__text_yellow_dark : TailwindClass
-hover__text_yellow_dark =
-    TailwindClass "hover\\:text-yellow-dark:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:text-yellow-darker:hover {
-      color: #684f1d;
-    }
-
--}
-hover__text_yellow_darker : TailwindClass
-hover__text_yellow_darker =
-    TailwindClass "hover\\:text-yellow-darker:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:text-yellow-darkest:hover {
-      color: #453411;
-    }
-
--}
-hover__text_yellow_darkest : TailwindClass
-hover__text_yellow_darkest =
-    TailwindClass "hover\\:text-yellow-darkest:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:text-yellow-light:hover {
-      color: #fff382;
-    }
-
--}
-hover__text_yellow_light : TailwindClass
-hover__text_yellow_light =
-    TailwindClass "hover\\:text-yellow-light:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:text-yellow-lighter:hover {
-      color: #fff9c2;
-    }
-
--}
-hover__text_yellow_lighter : TailwindClass
-hover__text_yellow_lighter =
-    TailwindClass "hover\\:text-yellow-lighter:hover"
-
-
-
-{-| This class maps to this CSS definition:
-
-    .hover\:text-yellow-lightest:hover {
-      color: #fcfbeb;
-    }
-
--}
-hover__text_yellow_lightest : TailwindClass
-hover__text_yellow_lightest =
-    TailwindClass "hover\\:text-yellow-lightest:hover"
+    TailwindClass "hover:text-white"
 
 
 
@@ -11377,7 +11299,85 @@ hover__text_yellow_lightest =
 -}
 hover__text_yellow : TailwindClass
 hover__text_yellow =
-    TailwindClass "hover\\:text-yellow:hover"
+    TailwindClass "hover:text-yellow"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:text-yellow-dark:hover {
+      color: #f2d024;
+    }
+
+-}
+hover__text_yellow_dark : TailwindClass
+hover__text_yellow_dark =
+    TailwindClass "hover:text-yellow-dark"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:text-yellow-darker:hover {
+      color: #684f1d;
+    }
+
+-}
+hover__text_yellow_darker : TailwindClass
+hover__text_yellow_darker =
+    TailwindClass "hover:text-yellow-darker"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:text-yellow-darkest:hover {
+      color: #453411;
+    }
+
+-}
+hover__text_yellow_darkest : TailwindClass
+hover__text_yellow_darkest =
+    TailwindClass "hover:text-yellow-darkest"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:text-yellow-light:hover {
+      color: #fff382;
+    }
+
+-}
+hover__text_yellow_light : TailwindClass
+hover__text_yellow_light =
+    TailwindClass "hover:text-yellow-light"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:text-yellow-lighter:hover {
+      color: #fff9c2;
+    }
+
+-}
+hover__text_yellow_lighter : TailwindClass
+hover__text_yellow_lighter =
+    TailwindClass "hover:text-yellow-lighter"
+
+
+
+{-| This class maps to this CSS definition:
+
+    .hover\:text-yellow-lightest:hover {
+      color: #fcfbeb;
+    }
+
+-}
+hover__text_yellow_lightest : TailwindClass
+hover__text_yellow_lightest =
+    TailwindClass "hover:text-yellow-lightest"
 
 
 
@@ -11390,7 +11390,7 @@ hover__text_yellow =
 -}
 hover__underline : TailwindClass
 hover__underline =
-    TailwindClass "hover\\:underline:hover"
+    TailwindClass "hover:underline"
 
 
 
@@ -11403,7 +11403,7 @@ hover__underline =
 -}
 hover__uppercase : TailwindClass
 hover__uppercase =
-    TailwindClass "hover\\:uppercase:hover"
+    TailwindClass "hover:uppercase"
 
 
 
@@ -17914,3 +17914,5 @@ z_50 =
 z_auto : TailwindClass
 z_auto =
     TailwindClass "z-auto"
+
+
