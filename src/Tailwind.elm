@@ -36,7 +36,7 @@ tailwind cs =
         folder (TailwindClass c) memo =
             memo ++ " " ++ c
     in
-    Html.Attributes.class <| List.foldl folder "" cs
+    Html.Attributes.class <| String.trimLeft <| List.foldl folder "" cs
 
 
 {-| A convenience function for adding non-tailwind classes to an element alongside other tailwind classes.
